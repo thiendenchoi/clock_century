@@ -1,0 +1,5 @@
+`verilator_config
+lint_off -rule DECLFILENAME
+lint_off -rule EOFNEWLINE
+lint_off -rule UNDRIVEN -file "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-24_02-51-56/tmp/ea5492761daf401d8df4c3d84fb4ddf6.bb.v"
+lint_off -rule UNUSEDSIGNAL -file "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-24_02-51-56/tmp/ea5492761daf401d8df4c3d84fb4ddf6.bb.v"

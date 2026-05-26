@@ -1,0 +1,22 @@
+{
+	"design__io": 113,
+	"design__die__area": 595000,
+	"design__core__area": 569406,
+	"design__instance__count": 6187,
+	"design__instance__area": 133715,
+	"design__instance__count__stdcell": 6182,
+	"design__instance__area__stdcell": 8714.61,
+	"design__instance__count__macros": 5,
+	"design__instance__area__macros": 125000,
+	"design__instance__utilization": 0.234832,
+	"design__instance__utilization__stdcell": 0.0196096,
+	"design__instance__count__class:macro": 5,
+	"design__instance__count__class:fill_cell": 36122,
+	"design__instance__count__class:tap_cell": 5752,
+	"design__instance__count__class:antenna_cell": 311,
+	"design__instance__count__class:clock_buffer": 6,
+	"design__instance__count__class:timing_repair_buffer": 112,
+	"design__instance__count__class:clock_inverter": 1,
+	"flow__warnings__count": 5,
+	"flow__errors__count": 0
+}

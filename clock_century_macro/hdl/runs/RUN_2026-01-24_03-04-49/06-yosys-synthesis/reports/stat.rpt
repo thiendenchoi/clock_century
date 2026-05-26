@@ -1,0 +1,26 @@
+107. Printing statistics.
+
+=== top_century_clock ===
+
+   Number of wires:                103
+   Number of wire bits:            193
+   Number of public wires:         103
+   Number of public wire bits:     193
+   Number of ports:                 21
+   Number of port bits:            111
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  5
+     control_unit                    1
+     hour_counter_alarm              1
+     min_counter_alarm               1
+     top_counter                     1
+     top_display                     1
+
+   Area for cell type \control_unit is unknown!
+   Area for cell type \top_counter is unknown!
+   Area for cell type \top_display is unknown!
+   Area for cell type \min_counter_alarm is unknown!
+   Area for cell type \hour_counter_alarm is unknown!
+

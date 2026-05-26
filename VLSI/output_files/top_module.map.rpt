@@ -1,0 +1,510 @@
+Analysis & Synthesis report for top_module
+Thu Mar 19 15:13:43 2026
+Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Inverted Register Statistics
+ 10. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 11. Parameter Settings for User Entity Instance: top_counter:u_cnt|clk_1hz:u_clk1hz
+ 12. Parameter Settings for User Entity Instance: top_counter:u_cnt|month_counter:u_month
+ 13. Parameter Settings for User Entity Instance: top_counter:u_cnt|year_counter:u_year
+ 14. Post-Synthesis Netlist Statistics for Top Partition
+ 15. Elapsed Time Per Partition
+ 16. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2025  Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Altera and sold by Altera or its authorized distributors.  Please
+refer to the Altera Software License Subscription Agreements 
+on the Quartus Prime software download page.
+
+
+
++--------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                         ;
++------------------------------------+-------------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Thu Mar 19 15:13:43 2026           ;
+; Quartus Prime Version              ; 25.1std.0 Build 1129 10/21/2025 SC Lite Edition ;
+; Revision Name                      ; top_module                                      ;
+; Top-level Entity Name              ; top_module                                      ;
+; Family                             ; Cyclone IV E                                    ;
+; Total logic elements               ; 680                                             ;
+;     Total combinational functions  ; 680                                             ;
+;     Dedicated logic registers      ; 66                                              ;
+; Total registers                    ; 66                                              ;
+; Total pins                         ; 75                                              ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 0                                               ;
+; Embedded Multiplier 9-bit elements ; 0                                               ;
+; Total PLLs                         ; 0                                               ;
++------------------------------------+-------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                              ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                           ; Setting            ; Default Value      ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                           ; EP4CE115F29C7      ;                    ;
+; Top-level entity name                                            ; top_module         ; top_module         ;
+; Family name                                                      ; Cyclone IV E       ; Cyclone V          ;
+; Use smart compilation                                            ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                      ; Off                ; Off                ;
+; Restructure Multiplexers                                         ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                              ; Off                ; Off                ;
+; Preserve fewer node names                                        ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                    ; Enable             ; Enable             ;
+; Verilog Version                                                  ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                     ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                         ; Auto               ; Auto               ;
+; Safe State Machine                                               ; Off                ; Off                ;
+; Extract Verilog State Machines                                   ; On                 ; On                 ;
+; Extract VHDL State Machines                                      ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                       ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                   ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                          ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                        ; On                 ; On                 ;
+; Parallel Synthesis                                               ; On                 ; On                 ;
+; DSP Block Balancing                                              ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                               ; On                 ; On                 ;
+; Power-Up Don't Care                                              ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                     ; Off                ; Off                ;
+; Remove Duplicate Registers                                       ; On                 ; On                 ;
+; Ignore CARRY Buffers                                             ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                           ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                            ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                        ; Off                ; Off                ;
+; Ignore LCELL Buffers                                             ; Off                ; Off                ;
+; Ignore SOFT Buffers                                              ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                   ; Off                ; Off                ;
+; Optimization Technique                                           ; Balanced           ; Balanced           ;
+; Carry Chain Length                                               ; 70                 ; 70                 ;
+; Auto Carry Chains                                                ; On                 ; On                 ;
+; Auto Open-Drain Pins                                             ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                            ; Off                ; Off                ;
+; Auto ROM Replacement                                             ; On                 ; On                 ;
+; Auto RAM Replacement                                             ; On                 ; On                 ;
+; Auto DSP Block Replacement                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                  ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                  ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                    ; On                 ; On                 ;
+; Strict RAM Replacement                                           ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                           ; Off                ; Off                ;
+; Auto RAM Block Balancing                                         ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                ; Off                ; Off                ;
+; Auto Resource Sharing                                            ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                    ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing              ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                ; Off                ; Off                ;
+; Timing-Driven Synthesis                                          ; On                 ; On                 ;
+; Report Parameter Settings                                        ; On                 ; On                 ;
+; Report Source Assignments                                        ; On                 ; On                 ;
+; Report Connectivity Checks                                       ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                               ; Off                ; Off                ;
+; Synchronization Register Chain Length                            ; 2                  ; 2                  ;
+; Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation ;
+; HDL message level                                                ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                  ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report         ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report               ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report        ; 100                ; 100                ;
+; Clock MUX Protection                                             ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                      ; Off                ; Off                ;
+; Block Design Naming                                              ; Auto               ; Auto               ;
+; SDC constraint protection                                        ; Off                ; Off                ;
+; Synthesis Effort                                                 ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal     ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                             ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                               ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                      ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                           ; On                 ; On                 ;
++------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 2           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   0.0%      ;
++----------------------------+-------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                          ;
++----------------------------------+-----------------+------------------------+---------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                            ; Library ;
++----------------------------------+-----------------+------------------------+---------------------------------------------------------+---------+
+; ../hdl/hdl/year_counter.v        ; yes             ; User Verilog HDL File  ; C:/Users/ADMIN/Documents/VLSI/hdl/hdl/year_counter.v    ;         ;
+; ../hdl/hdl/top_module.v          ; yes             ; User Verilog HDL File  ; C:/Users/ADMIN/Documents/VLSI/hdl/hdl/top_module.v      ;         ;
+; ../hdl/hdl/top_display.v         ; yes             ; User Verilog HDL File  ; C:/Users/ADMIN/Documents/VLSI/hdl/hdl/top_display.v     ;         ;
+; ../hdl/hdl/top_counter.v         ; yes             ; User Verilog HDL File  ; C:/Users/ADMIN/Documents/VLSI/hdl/hdl/top_counter.v     ;         ;
+; ../hdl/hdl/seg7_dec.v            ; yes             ; User Verilog HDL File  ; C:/Users/ADMIN/Documents/VLSI/hdl/hdl/seg7_dec.v        ;         ;
+; ../hdl/hdl/sec_counter.v         ; yes             ; User Verilog HDL File  ; C:/Users/ADMIN/Documents/VLSI/hdl/hdl/sec_counter.v     ;         ;
+; ../hdl/hdl/month_counter.v       ; yes             ; User Verilog HDL File  ; C:/Users/ADMIN/Documents/VLSI/hdl/hdl/month_counter.v   ;         ;
+; ../hdl/hdl/min_counter.v         ; yes             ; User Verilog HDL File  ; C:/Users/ADMIN/Documents/VLSI/hdl/hdl/min_counter.v     ;         ;
+; ../hdl/hdl/leap_year_check.v     ; yes             ; User Verilog HDL File  ; C:/Users/ADMIN/Documents/VLSI/hdl/hdl/leap_year_check.v ;         ;
+; ../hdl/hdl/hour_counter.v        ; yes             ; User Verilog HDL File  ; C:/Users/ADMIN/Documents/VLSI/hdl/hdl/hour_counter.v    ;         ;
+; ../hdl/hdl/day_counter.v         ; yes             ; User Verilog HDL File  ; C:/Users/ADMIN/Documents/VLSI/hdl/hdl/day_counter.v     ;         ;
+; ../hdl/hdl/clk_1hz.v             ; yes             ; User Verilog HDL File  ; C:/Users/ADMIN/Documents/VLSI/hdl/hdl/clk_1hz.v         ;         ;
+; ../hdl/hdl/bin_to_bcd_year.v     ; yes             ; User Verilog HDL File  ; C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_year.v ;         ;
+; ../hdl/hdl/bin_to_bcd_1_31.v     ; yes             ; User Verilog HDL File  ; C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_1_31.v ;         ;
+; ../hdl/hdl/bin_to_bcd_1_12.v     ; yes             ; User Verilog HDL File  ; C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_1_12.v ;         ;
+; ../hdl/hdl/bin_to_bcd_0_59.v     ; yes             ; User Verilog HDL File  ; C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_0_59.v ;         ;
+; ../hdl/hdl/bin_to_bcd_0_23.v     ; yes             ; User Verilog HDL File  ; C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_0_23.v ;         ;
++----------------------------------+-----------------+------------------------+---------------------------------------------------------+---------+
+
+
++------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                ;
++---------------------------------------------+--------------+
+; Resource                                    ; Usage        ;
++---------------------------------------------+--------------+
+; Estimated Total logic elements              ; 680          ;
+;                                             ;              ;
+; Total combinational functions               ; 680          ;
+; Logic element usage by number of LUT inputs ;              ;
+;     -- 4 input functions                    ; 351          ;
+;     -- 3 input functions                    ; 107          ;
+;     -- <=2 input functions                  ; 222          ;
+;                                             ;              ;
+; Logic elements by mode                      ;              ;
+;     -- normal mode                          ; 503          ;
+;     -- arithmetic mode                      ; 177          ;
+;                                             ;              ;
+; Total registers                             ; 66           ;
+;     -- Dedicated logic registers            ; 66           ;
+;     -- I/O registers                        ; 0            ;
+;                                             ;              ;
+; I/O pins                                    ; 75           ;
+;                                             ;              ;
+; Embedded Multiplier 9-bit elements          ; 0            ;
+;                                             ;              ;
+; Maximum fan-out node                        ; SW[17]~input ;
+; Maximum fan-out                             ; 66           ;
+; Total fan-out                               ; 2518         ;
+; Average fan-out                             ; 2.81         ;
++---------------------------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                             ;
++-------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------+-----------------+--------------+
+; Compilation Hierarchy Node    ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                 ; Entity Name     ; Library Name ;
++-------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------+-----------------+--------------+
+; |top_module                   ; 680 (1)             ; 66 (0)                    ; 0           ; 0            ; 0       ; 0         ; 75   ; 0            ; |top_module                                         ; top_module      ; work         ;
+;    |top_counter:u_cnt|        ; 235 (0)             ; 66 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_module|top_counter:u_cnt                       ; top_counter     ; work         ;
+;       |clk_1hz:u_clk1hz|      ; 47 (47)             ; 27 (27)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_module|top_counter:u_cnt|clk_1hz:u_clk1hz      ; clk_1hz         ; work         ;
+;       |day_counter:u_day|     ; 50 (50)             ; 6 (6)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_module|top_counter:u_cnt|day_counter:u_day     ; day_counter     ; work         ;
+;       |hour_counter:u_hour|   ; 21 (21)             ; 5 (5)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_module|top_counter:u_cnt|hour_counter:u_hour   ; hour_counter    ; work         ;
+;       |min_counter:u_min|     ; 24 (24)             ; 6 (6)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_module|top_counter:u_cnt|min_counter:u_min     ; min_counter     ; work         ;
+;       |month_counter:u_month| ; 17 (17)             ; 4 (4)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_module|top_counter:u_cnt|month_counter:u_month ; month_counter   ; work         ;
+;       |sec_counter:u_sec|     ; 26 (26)             ; 6 (6)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_module|top_counter:u_cnt|sec_counter:u_sec     ; sec_counter     ; work         ;
+;       |year_counter:u_year|   ; 50 (50)             ; 12 (12)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_module|top_counter:u_cnt|year_counter:u_year   ; year_counter    ; work         ;
+;    |top_display:u_disp|       ; 444 (98)            ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_module|top_display:u_disp                      ; top_display     ; work         ;
+;       |bin_to_bcd_0_23:u_h|   ; 3 (3)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_module|top_display:u_disp|bin_to_bcd_0_23:u_h  ; bin_to_bcd_0_23 ; work         ;
+;       |bin_to_bcd_0_59:u_m|   ; 6 (6)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_module|top_display:u_disp|bin_to_bcd_0_59:u_m  ; bin_to_bcd_0_59 ; work         ;
+;       |bin_to_bcd_0_59:u_s|   ; 3 (3)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_module|top_display:u_disp|bin_to_bcd_0_59:u_s  ; bin_to_bcd_0_59 ; work         ;
+;       |bin_to_bcd_1_12:u_mo|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_module|top_display:u_disp|bin_to_bcd_1_12:u_mo ; bin_to_bcd_1_12 ; work         ;
+;       |bin_to_bcd_1_31:u_d|   ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_module|top_display:u_disp|bin_to_bcd_1_31:u_d  ; bin_to_bcd_1_31 ; work         ;
+;       |bin_to_bcd_year:u_y|   ; 277 (277)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_module|top_display:u_disp|bin_to_bcd_year:u_y  ; bin_to_bcd_year ; work         ;
+;       |seg7_dec:u0|           ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_module|top_display:u_disp|seg7_dec:u0          ; seg7_dec        ; work         ;
+;       |seg7_dec:u1|           ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_module|top_display:u_disp|seg7_dec:u1          ; seg7_dec        ; work         ;
+;       |seg7_dec:u2|           ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_module|top_display:u_disp|seg7_dec:u2          ; seg7_dec        ; work         ;
+;       |seg7_dec:u3|           ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_module|top_display:u_disp|seg7_dec:u3          ; seg7_dec        ; work         ;
+;       |seg7_dec:u4|           ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_module|top_display:u_disp|seg7_dec:u4          ; seg7_dec        ; work         ;
+;       |seg7_dec:u5|           ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_module|top_display:u_disp|seg7_dec:u5          ; seg7_dec        ; work         ;
+;       |seg7_dec:u6|           ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_module|top_display:u_disp|seg7_dec:u6          ; seg7_dec        ; work         ;
+;       |seg7_dec:u7|           ; 6 (6)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_module|top_display:u_disp|seg7_dec:u7          ; seg7_dec        ; work         ;
++-------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------+-----------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 66    ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 3     ;
+; Number of registers using Asynchronous Clear ; 66    ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 38    ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++------------------------------------------------------------------+
+; Inverted Register Statistics                                     ;
++--------------------------------------------------------+---------+
+; Inverted Register                                      ; Fan out ;
++--------------------------------------------------------+---------+
+; top_counter:u_cnt|day_counter:u_day|day_count[0]       ; 10      ;
+; top_counter:u_cnt|month_counter:u_month|month_count[0] ; 7       ;
+; top_counter:u_cnt|year_counter:u_year|year_count[5]    ; 12      ;
+; top_counter:u_cnt|year_counter:u_year|year_count[3]    ; 12      ;
+; top_counter:u_cnt|year_counter:u_year|year_count[6]    ; 11      ;
+; top_counter:u_cnt|year_counter:u_year|year_count[7]    ; 9       ;
+; top_counter:u_cnt|year_counter:u_year|year_count[9]    ; 11      ;
+; top_counter:u_cnt|year_counter:u_year|year_count[8]    ; 12      ;
+; top_counter:u_cnt|year_counter:u_year|year_count[10]   ; 8       ;
+; top_counter:u_cnt|year_counter:u_year|year_count[0]    ; 5       ;
+; Total number of inverted registers = 10                ;         ;
++--------------------------------------------------------+---------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                   ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                         ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------+
+; 5:1                ; 3 bits    ; 9 LEs         ; 6 LEs                ; 3 LEs                  ; Yes        ; |top_module|top_counter:u_cnt|month_counter:u_month|month_count[1] ;
+; 5:1                ; 6 bits    ; 18 LEs        ; 12 LEs               ; 6 LEs                  ; Yes        ; |top_module|top_counter:u_cnt|sec_counter:u_sec|sec_count[5]       ;
+; 6:1                ; 4 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |top_module|top_counter:u_cnt|day_counter:u_day|day_count[2]       ;
+; 6:1                ; 6 bits    ; 24 LEs        ; 12 LEs               ; 12 LEs                 ; Yes        ; |top_module|top_counter:u_cnt|min_counter:u_min|min_count[5]       ;
+; 6:1                ; 5 bits    ; 20 LEs        ; 10 LEs               ; 10 LEs                 ; Yes        ; |top_module|top_counter:u_cnt|hour_counter:u_hour|hour_count[4]    ;
+; 6:1                ; 4 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |top_module|top_counter:u_cnt|year_counter:u_year|year_count[2]    ;
+; 6:1                ; 8 bits    ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |top_module|top_counter:u_cnt|year_counter:u_year|year_count[6]    ;
+; 9:1                ; 2 bits    ; 12 LEs        ; 10 LEs               ; 2 LEs                  ; No         ; |top_module|top_display:u_disp|dig6[2]                             ;
+; 10:1               ; 7 bits    ; 42 LEs        ; 42 LEs               ; 0 LEs                  ; No         ; |top_module|top_display:u_disp|bin_to_bcd_year:u_y|n2[5]           ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: top_counter:u_cnt|clk_1hz:u_clk1hz ;
++----------------+----------+-----------------------------------------------------+
+; Parameter Name ; Value    ; Type                                                ;
++----------------+----------+-----------------------------------------------------+
+; HALF_CYCLE     ; 24999999 ; Signed Integer                                      ;
++----------------+----------+-----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: top_counter:u_cnt|month_counter:u_month ;
++----------------+-------+-------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                        ;
++----------------+-------+-------------------------------------------------------------+
+; NUMS_OF_MONTH  ; 12    ; Signed Integer                                              ;
++----------------+-------+-------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: top_counter:u_cnt|year_counter:u_year ;
++----------------+-------+-----------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                      ;
++----------------+-------+-----------------------------------------------------------+
+; BASE_YEAR      ; 2025  ; Signed Integer                                            ;
+; MAX_YEAR       ; 3025  ; Signed Integer                                            ;
++----------------+-------+-----------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 75                          ;
+; cycloneiii_ff         ; 66                          ;
+;     CLR               ; 28                          ;
+;     ENA CLR           ; 35                          ;
+;     ENA CLR SLD       ; 3                           ;
+; cycloneiii_lcell_comb ; 689                         ;
+;     arith             ; 177                         ;
+;         2 data inputs ; 175                         ;
+;         3 data inputs ; 2                           ;
+;     normal            ; 512                         ;
+;         0 data inputs ; 1                           ;
+;         1 data inputs ; 31                          ;
+;         2 data inputs ; 24                          ;
+;         3 data inputs ; 105                         ;
+;         4 data inputs ; 351                         ;
+;                       ;                             ;
+; Max LUT depth         ; 20.00                       ;
+; Average LUT depth     ; 10.46                       ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:02     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
+    Info: Processing started: Thu Mar 19 15:13:30 2026
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off top_module -c top_module
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file hdl/hdl/year_counter.v
+    Info (12023): Found entity 1: year_counter File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/year_counter.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file hdl/hdl/top_module.v
+    Info (12023): Found entity 1: top_module File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/top_module.v Line: 5
+Info (12021): Found 1 design units, including 1 entities, in source file hdl/hdl/top_display.v
+    Info (12023): Found entity 1: top_display File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/top_display.v Line: 5
+Info (12021): Found 1 design units, including 1 entities, in source file hdl/hdl/top_counter.v
+    Info (12023): Found entity 1: top_counter File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/top_counter.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file hdl/hdl/seg7_dec.v
+    Info (12023): Found entity 1: seg7_dec File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/seg7_dec.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file hdl/hdl/sec_counter.v
+    Info (12023): Found entity 1: sec_counter File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/sec_counter.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file hdl/hdl/month_counter.v
+    Info (12023): Found entity 1: month_counter File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/month_counter.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file hdl/hdl/min_counter.v
+    Info (12023): Found entity 1: min_counter File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/min_counter.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file hdl/hdl/leap_year_check.v
+    Info (12023): Found entity 1: leap_year_check File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/leap_year_check.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file hdl/hdl/hour_counter.v
+    Info (12023): Found entity 1: hour_counter File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/hour_counter.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file hdl/hdl/day_counter.v
+    Info (12023): Found entity 1: day_counter File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/day_counter.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file hdl/hdl/clk_1hz.v
+    Info (12023): Found entity 1: clk_1hz File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/clk_1hz.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file hdl/hdl/bin_to_bcd_year.v
+    Info (12023): Found entity 1: bin_to_bcd_year File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_year.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file hdl/hdl/bin_to_bcd_1_31.v
+    Info (12023): Found entity 1: bin_to_bcd_1_31 File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_1_31.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file hdl/hdl/bin_to_bcd_1_12.v
+    Info (12023): Found entity 1: bin_to_bcd_1_12 File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_1_12.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file hdl/hdl/bin_to_bcd_0_59.v
+    Info (12023): Found entity 1: bin_to_bcd_0_59 File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_0_59.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file hdl/hdl/bin_to_bcd_0_23.v
+    Info (12023): Found entity 1: bin_to_bcd_0_23 File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_0_23.v Line: 1
+Info (12127): Elaborating entity "top_module" for the top level hierarchy
+Info (12128): Elaborating entity "top_counter" for hierarchy "top_counter:u_cnt" File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/top_module.v Line: 44
+Info (12128): Elaborating entity "clk_1hz" for hierarchy "top_counter:u_cnt|clk_1hz:u_clk1hz" File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/top_counter.v Line: 48
+Info (12128): Elaborating entity "sec_counter" for hierarchy "top_counter:u_cnt|sec_counter:u_sec" File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/top_counter.v Line: 59
+Info (12128): Elaborating entity "min_counter" for hierarchy "top_counter:u_cnt|min_counter:u_min" File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/top_counter.v Line: 70
+Info (12128): Elaborating entity "hour_counter" for hierarchy "top_counter:u_cnt|hour_counter:u_hour" File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/top_counter.v Line: 81
+Info (12128): Elaborating entity "day_counter" for hierarchy "top_counter:u_cnt|day_counter:u_day" File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/top_counter.v Line: 94
+Warning (10036): Verilog HDL or VHDL warning at day_counter.v(14): object "END_OF_PREVIOUS_MONTH" assigned a value but never read File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/day_counter.v Line: 14
+Warning (10230): Verilog HDL assignment warning at day_counter.v(19): truncated value with size 32 to match size of target (6) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/day_counter.v Line: 19
+Warning (10230): Verilog HDL assignment warning at day_counter.v(42): truncated value with size 32 to match size of target (6) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/day_counter.v Line: 42
+Warning (10230): Verilog HDL assignment warning at day_counter.v(48): truncated value with size 32 to match size of target (6) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/day_counter.v Line: 48
+Warning (10230): Verilog HDL assignment warning at day_counter.v(57): truncated value with size 32 to match size of target (6) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/day_counter.v Line: 57
+Info (12128): Elaborating entity "month_counter" for hierarchy "top_counter:u_cnt|month_counter:u_month" File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/top_counter.v Line: 105
+Warning (10230): Verilog HDL assignment warning at month_counter.v(21): truncated value with size 32 to match size of target (4) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/month_counter.v Line: 21
+Warning (10230): Verilog HDL assignment warning at month_counter.v(25): truncated value with size 32 to match size of target (4) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/month_counter.v Line: 25
+Warning (10230): Verilog HDL assignment warning at month_counter.v(27): truncated value with size 32 to match size of target (4) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/month_counter.v Line: 27
+Warning (10230): Verilog HDL assignment warning at month_counter.v(34): truncated value with size 32 to match size of target (4) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/month_counter.v Line: 34
+Info (12128): Elaborating entity "year_counter" for hierarchy "top_counter:u_cnt|year_counter:u_year" File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/top_counter.v Line: 115
+Warning (10230): Verilog HDL assignment warning at year_counter.v(16): truncated value with size 32 to match size of target (12) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/year_counter.v Line: 16
+Warning (10230): Verilog HDL assignment warning at year_counter.v(21): truncated value with size 32 to match size of target (12) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/year_counter.v Line: 21
+Warning (10230): Verilog HDL assignment warning at year_counter.v(23): truncated value with size 32 to match size of target (12) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/year_counter.v Line: 23
+Warning (10230): Verilog HDL assignment warning at year_counter.v(27): truncated value with size 32 to match size of target (12) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/year_counter.v Line: 27
+Warning (10230): Verilog HDL assignment warning at year_counter.v(29): truncated value with size 32 to match size of target (12) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/year_counter.v Line: 29
+Warning (10230): Verilog HDL assignment warning at year_counter.v(34): truncated value with size 32 to match size of target (12) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/year_counter.v Line: 34
+Warning (10230): Verilog HDL assignment warning at year_counter.v(36): truncated value with size 32 to match size of target (12) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/year_counter.v Line: 36
+Info (12128): Elaborating entity "leap_year_check" for hierarchy "top_counter:u_cnt|leap_year_check:u_ly" File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/top_counter.v Line: 122
+Info (12128): Elaborating entity "top_display" for hierarchy "top_display:u_disp" File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/top_module.v Line: 59
+Info (12128): Elaborating entity "bin_to_bcd_0_23" for hierarchy "top_display:u_disp|bin_to_bcd_0_23:u_h" File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/top_display.v Line: 39
+Warning (10230): Verilog HDL assignment warning at bin_to_bcd_0_23.v(10): truncated value with size 32 to match size of target (6) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_0_23.v Line: 10
+Warning (10230): Verilog HDL assignment warning at bin_to_bcd_0_23.v(11): truncated value with size 32 to match size of target (6) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_0_23.v Line: 11
+Info (12128): Elaborating entity "bin_to_bcd_0_59" for hierarchy "top_display:u_disp|bin_to_bcd_0_59:u_m" File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/top_display.v Line: 40
+Warning (10230): Verilog HDL assignment warning at bin_to_bcd_0_59.v(10): truncated value with size 32 to match size of target (7) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_0_59.v Line: 10
+Warning (10230): Verilog HDL assignment warning at bin_to_bcd_0_59.v(11): truncated value with size 32 to match size of target (7) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_0_59.v Line: 11
+Warning (10230): Verilog HDL assignment warning at bin_to_bcd_0_59.v(12): truncated value with size 32 to match size of target (7) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_0_59.v Line: 12
+Warning (10230): Verilog HDL assignment warning at bin_to_bcd_0_59.v(13): truncated value with size 32 to match size of target (7) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_0_59.v Line: 13
+Warning (10230): Verilog HDL assignment warning at bin_to_bcd_0_59.v(14): truncated value with size 32 to match size of target (7) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_0_59.v Line: 14
+Info (12128): Elaborating entity "bin_to_bcd_1_31" for hierarchy "top_display:u_disp|bin_to_bcd_1_31:u_d" File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/top_display.v Line: 43
+Warning (10230): Verilog HDL assignment warning at bin_to_bcd_1_31.v(10): truncated value with size 32 to match size of target (6) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_1_31.v Line: 10
+Warning (10230): Verilog HDL assignment warning at bin_to_bcd_1_31.v(11): truncated value with size 32 to match size of target (6) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_1_31.v Line: 11
+Warning (10230): Verilog HDL assignment warning at bin_to_bcd_1_31.v(12): truncated value with size 32 to match size of target (6) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_1_31.v Line: 12
+Info (12128): Elaborating entity "bin_to_bcd_1_12" for hierarchy "top_display:u_disp|bin_to_bcd_1_12:u_mo" File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/top_display.v Line: 44
+Warning (10230): Verilog HDL assignment warning at bin_to_bcd_1_12.v(10): truncated value with size 32 to match size of target (5) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_1_12.v Line: 10
+Info (12128): Elaborating entity "bin_to_bcd_year" for hierarchy "top_display:u_disp|bin_to_bcd_year:u_y" File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/top_display.v Line: 46
+Warning (10230): Verilog HDL assignment warning at bin_to_bcd_year.v(17): truncated value with size 32 to match size of target (12) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_year.v Line: 17
+Warning (10230): Verilog HDL assignment warning at bin_to_bcd_year.v(20): truncated value with size 32 to match size of target (12) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_year.v Line: 20
+Warning (10230): Verilog HDL assignment warning at bin_to_bcd_year.v(24): truncated value with size 32 to match size of target (12) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_year.v Line: 24
+Warning (10230): Verilog HDL assignment warning at bin_to_bcd_year.v(25): truncated value with size 32 to match size of target (12) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_year.v Line: 25
+Warning (10230): Verilog HDL assignment warning at bin_to_bcd_year.v(26): truncated value with size 32 to match size of target (12) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_year.v Line: 26
+Warning (10230): Verilog HDL assignment warning at bin_to_bcd_year.v(27): truncated value with size 32 to match size of target (12) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_year.v Line: 27
+Warning (10230): Verilog HDL assignment warning at bin_to_bcd_year.v(28): truncated value with size 32 to match size of target (12) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_year.v Line: 28
+Warning (10230): Verilog HDL assignment warning at bin_to_bcd_year.v(29): truncated value with size 32 to match size of target (12) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_year.v Line: 29
+Warning (10230): Verilog HDL assignment warning at bin_to_bcd_year.v(30): truncated value with size 32 to match size of target (12) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_year.v Line: 30
+Warning (10230): Verilog HDL assignment warning at bin_to_bcd_year.v(31): truncated value with size 32 to match size of target (12) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_year.v Line: 31
+Warning (10230): Verilog HDL assignment warning at bin_to_bcd_year.v(32): truncated value with size 32 to match size of target (12) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_year.v Line: 32
+Warning (10230): Verilog HDL assignment warning at bin_to_bcd_year.v(36): truncated value with size 32 to match size of target (12) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_year.v Line: 36
+Warning (10230): Verilog HDL assignment warning at bin_to_bcd_year.v(37): truncated value with size 32 to match size of target (12) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_year.v Line: 37
+Warning (10230): Verilog HDL assignment warning at bin_to_bcd_year.v(38): truncated value with size 32 to match size of target (12) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_year.v Line: 38
+Warning (10230): Verilog HDL assignment warning at bin_to_bcd_year.v(39): truncated value with size 32 to match size of target (12) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_year.v Line: 39
+Warning (10230): Verilog HDL assignment warning at bin_to_bcd_year.v(40): truncated value with size 32 to match size of target (12) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_year.v Line: 40
+Warning (10230): Verilog HDL assignment warning at bin_to_bcd_year.v(41): truncated value with size 32 to match size of target (12) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_year.v Line: 41
+Warning (10230): Verilog HDL assignment warning at bin_to_bcd_year.v(42): truncated value with size 32 to match size of target (12) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_year.v Line: 42
+Warning (10230): Verilog HDL assignment warning at bin_to_bcd_year.v(43): truncated value with size 32 to match size of target (12) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_year.v Line: 43
+Warning (10230): Verilog HDL assignment warning at bin_to_bcd_year.v(44): truncated value with size 32 to match size of target (12) File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/bin_to_bcd_year.v Line: 44
+Info (12128): Elaborating entity "seg7_dec" for hierarchy "top_display:u_disp|seg7_dec:u7" File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/top_display.v Line: 87
+Info (13000): Registers with preset signals will power-up high File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/day_counter.v Line: 37
+Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 8 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "SW[7]" File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/top_module.v Line: 6
+    Warning (15610): No output dependent on input pin "SW[8]" File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/top_module.v Line: 6
+    Warning (15610): No output dependent on input pin "SW[9]" File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/top_module.v Line: 6
+    Warning (15610): No output dependent on input pin "SW[10]" File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/top_module.v Line: 6
+    Warning (15610): No output dependent on input pin "SW[11]" File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/top_module.v Line: 6
+    Warning (15610): No output dependent on input pin "SW[12]" File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/top_module.v Line: 6
+    Warning (15610): No output dependent on input pin "SW[13]" File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/top_module.v Line: 6
+    Warning (15610): No output dependent on input pin "SW[14]" File: C:/Users/ADMIN/Documents/VLSI/hdl/hdl/top_module.v Line: 6
+Info (21057): Implemented 755 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 19 input pins
+    Info (21059): Implemented 56 output pins
+    Info (21061): Implemented 680 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 57 warnings
+    Info: Peak virtual memory: 4794 megabytes
+    Info: Processing ended: Thu Mar 19 15:13:43 2026
+    Info: Elapsed time: 00:00:13
+    Info: Total CPU time (on all processors): 00:00:21
+
+

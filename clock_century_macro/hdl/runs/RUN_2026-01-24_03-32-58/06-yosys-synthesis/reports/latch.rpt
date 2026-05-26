@@ -1,0 +1,4 @@
+
+23. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\day_in_month_decode.\unit_day_in_month' from process `\day_in_month_decode.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_in_month_decode.v:10$1'.
+No latch inferred for signal `\day_in_month_decode.\ten_day_in_month' from process `\day_in_month_decode.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_in_month_decode.v:10$1'.

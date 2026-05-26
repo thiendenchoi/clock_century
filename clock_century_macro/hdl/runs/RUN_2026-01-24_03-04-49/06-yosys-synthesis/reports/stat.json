@@ -1,0 +1,45 @@
+{
+   "creator": "Yosys 0.46 (git sha1 e97731b9dda91fa5fa53ed87df7c34163ba59a41, clang++ 17.0.6 -fPIC -O3)",
+   "invocation": "stat -json -liberty /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-24_03-04-49/tmp/c16a1956396f466ab86a4b81752b91b5.lib ",
+   "modules": {
+      "\\top_century_clock": {
+         "num_wires":         103,
+         "num_wire_bits":     193,
+         "num_pub_wires":     103,
+         "num_pub_wire_bits": 193,
+         "num_ports":         21,
+         "num_port_bits":     111,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         5,
+         "num_cells_by_type": {
+            "control_unit": 1,
+            "hour_counter_alarm": 1,
+            "min_counter_alarm": 1,
+            "top_counter": 1,
+            "top_display": 1
+         }
+      }
+   },
+      "design": {
+         "num_wires":         103,
+         "num_wire_bits":     193,
+         "num_pub_wires":     103,
+         "num_pub_wire_bits": 193,
+         "num_ports":         21,
+         "num_port_bits":     111,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         5,
+         "num_cells_by_type": {
+            "control_unit": 1,
+            "hour_counter_alarm": 1,
+            "min_counter_alarm": 1,
+            "top_counter": 1,
+            "top_display": 1
+         }
+      }
+}
+

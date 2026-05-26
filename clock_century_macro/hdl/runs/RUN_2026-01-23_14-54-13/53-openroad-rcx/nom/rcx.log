@@ -1,0 +1,40 @@
+Reading technology LEF file at '/home/lroot/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef'…
+[INFO ODB-0227] LEF file: /home/lroot/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef, created 14 layers, 25 vias
+Reading cell LEF file at '/home/lroot/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef'…
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/lroot/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef at line 2.
+
+[INFO ODB-0227] LEF file: /home/lroot/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef, created 437 library cells
+Reading cell LEF file at '/home/lroot/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef'…
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/lroot/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef at line 2.
+
+[INFO ODB-0227] LEF file: /home/lroot/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef, created 4 library cells
+[INFO ODB-0127] Reading DEF file: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-23_14-54-13/52-odb-cellfrequencytables/top_century_clock.def
+[INFO ODB-0128] Design: top_century_clock
+[INFO ODB-0130]     Created 113 pins.
+[INFO ODB-0131]     Created 2524 components and 12587 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 9576 connections.
+[INFO ODB-0133]     Created 886 nets and 2995 connections.
+[INFO ODB-0134] Finished DEF file: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-23_14-54-13/52-odb-cellfrequencytables/top_century_clock.def
+Using RCX ruleset '/home/lroot/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.tech/openlane/rules.openrcx.sky130A.nom.calibre'…
+[INFO RCX-0431] Defined process_corner CURRENT_CORNER with ext_model_index 0
+[INFO RCX-0029] Defined extraction corner CURRENT_CORNER
+[INFO RCX-0435] Reading extraction model file /home/lroot/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.tech/openlane/rules.openrcx.sky130A.nom.calibre ...
+[INFO RCX-0436] RC segment generation top_century_clock (max_merge_res 50.0) ...
+[INFO RCX-0040] Final 3563 rc segments
+[INFO RCX-0439] Coupling Cap extraction top_century_clock ...
+[INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
+[INFO RCX-0442] 50% of 5877 wires extracted
+[INFO RCX-0442] 100% of 5877 wires extracted
+[INFO RCX-0045] Extract 886 nets, 4449 rsegs, 4449 caps, 6372 ccs
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+Updating metrics…
+Cell type report:                       Count       Area
+  Fill cell                              1376   10777.84
+  Tap cell                                260     325.31
+  Standard cell                           888    7602.29
+  Total                                  2524   18705.44
+Writing extracted parasitics to '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-23_14-54-13/53-openroad-rcx/nom/top_century_clock.nom.spef'…
+[INFO RCX-0443] 886 nets finished

@@ -1,0 +1,280 @@
+
+===========================================================================
+report_checks -unconstrained
+===========================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+Startpoint: top_counter (rising edge-triggered flip-flop clocked by clk)
+Endpoint: led_unit_h[4] (output port clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                                  0.000000    0.000000   clock clk (rise edge)
+                                  0.000000    0.000000   clock source latency
+     5    0.080400    0.368721    0.251677    0.251677 ^ clk (in)
+                                                         clk (net)
+                      0.368721    0.000000    0.251677 ^ top_counter/clk (top_counter)
+     1    0.003000    0.045600    2.216130    2.467807 v top_counter/unit_m[2] (top_counter)
+                                                         unit_m[2] (net)
+                      0.045600    0.000000    2.467807 v top_display/unit_m[2] (top_display)
+     1    0.034000    0.167515    7.384836    9.852643 v top_display/led_unit_h[4] (top_display)
+                                                         led_unit_h[4] (net)
+                      0.167515    0.000000    9.852643 v led_unit_h[4] (out)
+                                              9.852643   data arrival time
+
+                                 50.000000   50.000000   clock clk (rise edge)
+                                  0.000000   50.000000   clock network delay (propagated)
+                                 -0.250000   49.749996   clock uncertainty
+                                  0.000000   49.749996   clock reconvergence pessimism
+                                -10.000000   39.749996   output external delay
+                                             39.749996   data required time
+---------------------------------------------------------------------------------------------
+                                             39.749996   data required time
+                                             -9.852643   data arrival time
+---------------------------------------------------------------------------------------------
+                                             29.897350   slack (MET)
+
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+No paths found.
+
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 193 unannotated drivers.
+ clk
+ inc
+ mode
+ reset_n
+ sel
+ control_unit/mode_alarm[0]
+ control_unit/mode_alarm[1]
+ control_unit/mode_display[0]
+ control_unit/mode_display[1]
+ control_unit/select_time[0]
+ control_unit/select_time[1]
+ control_unit/select_time[2]
+ control_unit/select_time[3]
+ control_unit/select_time[4]
+ control_unit/select_time[5]
+ hour_counter_alarm/ten_h_alarm[0]
+ hour_counter_alarm/ten_h_alarm[1]
+ hour_counter_alarm/ten_h_alarm[2]
+ hour_counter_alarm/ten_h_alarm[3]
+ hour_counter_alarm/unit_h_alarm[0]
+ hour_counter_alarm/unit_h_alarm[1]
+ hour_counter_alarm/unit_h_alarm[2]
+ hour_counter_alarm/unit_h_alarm[3]
+ min_counter_alarm/ten_m_alarm[0]
+ min_counter_alarm/ten_m_alarm[1]
+ min_counter_alarm/ten_m_alarm[2]
+ min_counter_alarm/ten_m_alarm[3]
+ min_counter_alarm/unit_m_alarm[0]
+ min_counter_alarm/unit_m_alarm[1]
+ min_counter_alarm/unit_m_alarm[2]
+ min_counter_alarm/unit_m_alarm[3]
+ top_counter/hun_y[0]
+ top_counter/hun_y[1]
+ top_counter/hun_y[2]
+ top_counter/hun_y[3]
+ top_counter/ten_d[0]
+ top_counter/ten_d[1]
+ top_counter/ten_d[2]
+ top_counter/ten_d[3]
+ top_counter/ten_h[0]
+ top_counter/ten_h[1]
+ top_counter/ten_h[2]
+ top_counter/ten_h[3]
+ top_counter/ten_m[0]
+ top_counter/ten_m[1]
+ top_counter/ten_m[2]
+ top_counter/ten_m[3]
+ top_counter/ten_mo[0]
+ top_counter/ten_mo[1]
+ top_counter/ten_mo[2]
+ top_counter/ten_mo[3]
+ top_counter/ten_s[0]
+ top_counter/ten_s[1]
+ top_counter/ten_s[2]
+ top_counter/ten_s[3]
+ top_counter/ten_y[0]
+ top_counter/ten_y[1]
+ top_counter/ten_y[2]
+ top_counter/ten_y[3]
+ top_counter/thou_y[0]
+ top_counter/thou_y[1]
+ top_counter/thou_y[2]
+ top_counter/thou_y[3]
+ top_counter/unit_d[0]
+ top_counter/unit_d[1]
+ top_counter/unit_d[2]
+ top_counter/unit_d[3]
+ top_counter/unit_h[0]
+ top_counter/unit_h[1]
+ top_counter/unit_h[2]
+ top_counter/unit_h[3]
+ top_counter/unit_m[0]
+ top_counter/unit_m[1]
+ top_counter/unit_m[2]
+ top_counter/unit_m[3]
+ top_counter/unit_mo[0]
+ top_counter/unit_mo[1]
+ top_counter/unit_mo[2]
+ top_counter/unit_mo[3]
+ top_counter/unit_s[0]
+ top_counter/unit_s[1]
+ top_counter/unit_s[2]
+ top_counter/unit_s[3]
+ top_counter/unit_y[0]
+ top_counter/unit_y[1]
+ top_counter/unit_y[2]
+ top_counter/unit_y[3]
+ top_display/alarm
+ top_display/led_am_pm[0]
+ top_display/led_am_pm[1]
+ top_display/led_am_pm[2]
+ top_display/led_am_pm[3]
+ top_display/led_am_pm[4]
+ top_display/led_am_pm[5]
+ top_display/led_am_pm[6]
+ top_display/led_hun_y[0]
+ top_display/led_hun_y[1]
+ top_display/led_hun_y[2]
+ top_display/led_hun_y[3]
+ top_display/led_hun_y[4]
+ top_display/led_hun_y[5]
+ top_display/led_hun_y[6]
+ top_display/led_ten_d[0]
+ top_display/led_ten_d[1]
+ top_display/led_ten_d[2]
+ top_display/led_ten_d[3]
+ top_display/led_ten_d[4]
+ top_display/led_ten_d[5]
+ top_display/led_ten_d[6]
+ top_display/led_ten_h[0]
+ top_display/led_ten_h[1]
+ top_display/led_ten_h[2]
+ top_display/led_ten_h[3]
+ top_display/led_ten_h[4]
+ top_display/led_ten_h[5]
+ top_display/led_ten_h[6]
+ top_display/led_ten_m[0]
+ top_display/led_ten_m[1]
+ top_display/led_ten_m[2]
+ top_display/led_ten_m[3]
+ top_display/led_ten_m[4]
+ top_display/led_ten_m[5]
+ top_display/led_ten_m[6]
+ top_display/led_ten_mo[0]
+ top_display/led_ten_mo[1]
+ top_display/led_ten_mo[2]
+ top_display/led_ten_mo[3]
+ top_display/led_ten_mo[4]
+ top_display/led_ten_mo[5]
+ top_display/led_ten_mo[6]
+ top_display/led_ten_s[0]
+ top_display/led_ten_s[1]
+ top_display/led_ten_s[2]
+ top_display/led_ten_s[3]
+ top_display/led_ten_s[4]
+ top_display/led_ten_s[5]
+ top_display/led_ten_s[6]
+ top_display/led_ten_y[0]
+ top_display/led_ten_y[1]
+ top_display/led_ten_y[2]
+ top_display/led_ten_y[3]
+ top_display/led_ten_y[4]
+ top_display/led_ten_y[5]
+ top_display/led_ten_y[6]
+ top_display/led_thou_y[0]
+ top_display/led_thou_y[1]
+ top_display/led_thou_y[2]
+ top_display/led_thou_y[3]
+ top_display/led_thou_y[4]
+ top_display/led_thou_y[5]
+ top_display/led_thou_y[6]
+ top_display/led_unit_d[0]
+ top_display/led_unit_d[1]
+ top_display/led_unit_d[2]
+ top_display/led_unit_d[3]
+ top_display/led_unit_d[4]
+ top_display/led_unit_d[5]
+ top_display/led_unit_d[6]
+ top_display/led_unit_h[0]
+ top_display/led_unit_h[1]
+ top_display/led_unit_h[2]
+ top_display/led_unit_h[3]
+ top_display/led_unit_h[4]
+ top_display/led_unit_h[5]
+ top_display/led_unit_h[6]
+ top_display/led_unit_m[0]
+ top_display/led_unit_m[1]
+ top_display/led_unit_m[2]
+ top_display/led_unit_m[3]
+ top_display/led_unit_m[4]
+ top_display/led_unit_m[5]
+ top_display/led_unit_m[6]
+ top_display/led_unit_mo[0]
+ top_display/led_unit_mo[1]
+ top_display/led_unit_mo[2]
+ top_display/led_unit_mo[3]
+ top_display/led_unit_mo[4]
+ top_display/led_unit_mo[5]
+ top_display/led_unit_mo[6]
+ top_display/led_unit_s[0]
+ top_display/led_unit_s[1]
+ top_display/led_unit_s[2]
+ top_display/led_unit_s[3]
+ top_display/led_unit_s[4]
+ top_display/led_unit_s[5]
+ top_display/led_unit_s[6]
+ top_display/led_unit_y[0]
+ top_display/led_unit_y[1]
+ top_display/led_unit_y[2]
+ top_display/led_unit_y[3]
+ top_display/led_unit_y[4]
+ top_display/led_unit_y[5]
+ top_display/led_unit_y[6]
+Found 0 partially unannotated drivers.
+
+===========================================================================
+max slew violation count 0
+max fanout violation count 0
+max cap violation count 0
+============================================================================
+
+===========================================================================
+check_setup -verbose -unconstrained_endpoints -multiple_clock -no_clock -no_input_delay -loops -generated_clocks
+===========================================================================
+Warning: There are 15 unconstrained endpoints.
+  alarm
+  led_am_pm[0]
+  led_am_pm[1]
+  led_am_pm[2]
+  led_am_pm[3]
+  led_am_pm[4]
+  led_am_pm[5]
+  led_am_pm[6]
+  led_thou_y[0]
+  led_thou_y[1]
+  led_thou_y[2]
+  led_thou_y[3]
+  led_thou_y[4]
+  led_thou_y[5]
+  led_thou_y[6]

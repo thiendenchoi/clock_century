@@ -1,0 +1,90 @@
+
+===========================================================================
+report_checks -unconstrained
+===========================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+Startpoint: top_counter (rising edge-triggered flip-flop clocked by clk)
+Endpoint: led_unit_h[4] (output port clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                                  0.000000    0.000000   clock clk (rise edge)
+                                  0.000000    0.000000   clock source latency
+     5    0.150495    0.673567    0.472253    0.472253 ^ clk (in)
+                                                         clk (net)
+                      0.674120    0.000000    0.472253 ^ top_counter/clk (top_counter)
+     1    0.013521    0.085276    2.265283    2.737536 v top_counter/unit_m[2] (top_counter)
+                                                         unit_m[2] (net)
+                      0.085276    0.000365    2.737901 v top_display/unit_m[2] (top_display)
+     1    0.038353    0.178965    7.398341   10.136242 v top_display/led_unit_h[4] (top_display)
+                                                         led_unit_h[4] (net)
+                      0.178965    0.000645   10.136888 v led_unit_h[4] (out)
+                                             10.136888   data arrival time
+
+                                 50.000000   50.000000   clock clk (rise edge)
+                                  0.000000   50.000000   clock network delay (propagated)
+                                 -0.250000   49.749996   clock uncertainty
+                                  0.000000   49.749996   clock reconvergence pessimism
+                                -10.000000   39.749996   output external delay
+                                             39.749996   data required time
+---------------------------------------------------------------------------------------------
+                                             39.749996   data required time
+                                            -10.136888   data arrival time
+---------------------------------------------------------------------------------------------
+                                             29.613110   slack (MET)
+
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+No paths found.
+
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 0 unannotated drivers.
+Found 0 partially unannotated drivers.
+
+===========================================================================
+max slew violation count 0
+Writing metric design__max_slew_violation__count__corner:nom_tt_025C_1v80: 0
+max fanout violation count 0
+Writing metric design__max_fanout_violation__count__corner:nom_tt_025C_1v80: 0
+max cap violation count 0
+Writing metric design__max_cap_violation__count__corner:nom_tt_025C_1v80: 0
+============================================================================
+
+===========================================================================
+check_setup -verbose -unconstrained_endpoints -multiple_clock -no_clock -no_input_delay -loops -generated_clocks
+===========================================================================
+Warning: There are 15 unconstrained endpoints.
+  alarm
+  led_am_pm[0]
+  led_am_pm[1]
+  led_am_pm[2]
+  led_am_pm[3]
+  led_am_pm[4]
+  led_am_pm[5]
+  led_am_pm[6]
+  led_thou_y[0]
+  led_thou_y[1]
+  led_thou_y[2]
+  led_thou_y[3]
+  led_thou_y[4]
+  led_thou_y[5]
+  led_thou_y[6]

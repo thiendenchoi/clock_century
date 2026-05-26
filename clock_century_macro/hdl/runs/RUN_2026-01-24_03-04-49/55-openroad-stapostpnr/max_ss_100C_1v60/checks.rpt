@@ -1,0 +1,134 @@
+
+===========================================================================
+report_checks -unconstrained
+===========================================================================
+======================= max_ss_100C_1v60 Corner ===================================
+
+Startpoint: top_counter (rising edge-triggered flip-flop clocked by clk)
+Endpoint: led_unit_h[4] (output port clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                                  0.000000    0.000000   clock clk (rise edge)
+                                  0.000000    0.000000   clock source latency
+     4    0.069115    0.498599    0.354279    0.354279 ^ clk (in)
+                                                         clk (net)
+                      0.499914    0.000000    0.354279 ^ clkbuf_0_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     5    0.039545    0.098621    0.431640    0.785920 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                                         clknet_0_clk (net)
+                      0.098768    0.003330    0.789249 ^ clkbuf_1_0__f_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     5    0.100288    0.177580    0.322519    1.111769 ^ clkbuf_1_0__f_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                                         clknet_1_0__leaf_clk (net)
+                      0.178480    0.010170    1.121938 ^ top_counter/clk (top_counter)
+     3    0.024268    0.124259    2.303746    3.425685 v top_counter/unit_m[2] (top_counter)
+                                                         unit_m[2] (net)
+                      0.124259    0.002059    3.427743 v top_display/unit_m[2] (top_display)
+     1    0.007777    0.062674    7.290344   10.718087 v top_display/led_unit_h[4] (top_display)
+                                                         net80 (net)
+                      0.062674    0.000216   10.718303 v output80/A (sky130_fd_sc_hd__buf_2)
+     2    0.035199    0.169902    0.343534   11.061837 v output80/X (sky130_fd_sc_hd__buf_2)
+                                                         led_unit_h[4] (net)
+                      0.169916    0.001625   11.063462 v led_unit_h[4] (out)
+                                             11.063462   data arrival time
+
+                                 50.000000   50.000000   clock clk (rise edge)
+                                  0.000000   50.000000   clock network delay (propagated)
+                                 -0.250000   49.749996   clock uncertainty
+                                  0.000000   49.749996   clock reconvergence pessimism
+                                -10.000000   39.749996   output external delay
+                                             39.749996   data required time
+---------------------------------------------------------------------------------------------
+                                             39.749996   data required time
+                                            -11.063462   data arrival time
+---------------------------------------------------------------------------------------------
+                                             28.686533   slack (MET)
+
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+======================= max_ss_100C_1v60 Corner ===================================
+
+No paths found.
+
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+======================= max_ss_100C_1v60 Corner ===================================
+
+max slew
+
+Pin                                        Limit        Slew       Slack
+------------------------------------------------------------------------
+ANTENNA_min_counter_alarm_alarm/DIODE    0.750000    1.060520   -0.310520 (VIOLATED)
+min_counter_alarm/alarm                 0.750000    1.060507   -0.310507 (VIOLATED)
+ANTENNA_hour_counter_alarm_alarm/DIODE    0.750000    1.060020   -0.310020 (VIOLATED)
+hour_counter_alarm/alarm                0.750000    1.059902   -0.309902 (VIOLATED)
+ANTENNA_output5_A/DIODE                 0.750000    1.051796   -0.301796 (VIOLATED)
+ANTENNA_top_display_alarm/DIODE         0.750000    1.051796   -0.301796 (VIOLATED)
+output5/A                               0.750000    1.051796   -0.301796 (VIOLATED)
+top_display/alarm                       0.750000    1.051796   -0.301796 (VIOLATED)
+ANTENNA_top_display_mode_display[0]/DIODE    0.750000    0.974829   -0.224829 (VIOLATED)
+top_display/mode_display[0]             0.750000    0.974829   -0.224829 (VIOLATED)
+ANTENNA_control_unit_mode_display[0]/DIODE    0.750000    0.966491   -0.216491 (VIOLATED)
+control_unit/mode_display[0]            0.750000    0.966491   -0.216491 (VIOLATED)
+top_display/mode_display[1]             0.750000    0.919796   -0.169796 (VIOLATED)
+ANTENNA_top_display_mode_display[1]/DIODE    0.750000    0.919772   -0.169772 (VIOLATED)
+ANTENNA_control_unit_mode_display[1]/DIODE    0.750000    0.913118   -0.163119 (VIOLATED)
+control_unit/mode_display[1]            0.750000    0.913118   -0.163119 (VIOLATED)
+top_display/ten_h_alarm[2]              0.750000    0.850707   -0.100707 (VIOLATED)
+ANTENNA_top_display_ten_h_alarm[2]/DIODE    0.750000    0.850689   -0.100689 (VIOLATED)
+ANTENNA_hour_counter_alarm_ten_h_alarm[2]/DIODE    0.750000    0.847198   -0.097198 (VIOLATED)
+hour_counter_alarm/ten_h_alarm[2]       0.750000    0.847198   -0.097198 (VIOLATED)
+top_display/ten_h_alarm[0]              0.750000    0.808426   -0.058426 (VIOLATED)
+ANTENNA_top_display_ten_h_alarm[0]/DIODE    0.750000    0.808404   -0.058404 (VIOLATED)
+ANTENNA_hour_counter_alarm_ten_h_alarm[0]/DIODE    0.750000    0.805169   -0.055169 (VIOLATED)
+hour_counter_alarm/ten_h_alarm[0]       0.750000    0.805169   -0.055169 (VIOLATED)
+top_display/ten_m_alarm[2]              0.750000    0.804736   -0.054736 (VIOLATED)
+ANTENNA_top_display_ten_m_alarm[2]/DIODE    0.750000    0.804736   -0.054736 (VIOLATED)
+ANTENNA_min_counter_alarm_ten_m_alarm[2]/DIODE    0.750000    0.802219   -0.052219 (VIOLATED)
+min_counter_alarm/ten_m_alarm[2]        0.750000    0.802219   -0.052219 (VIOLATED)
+top_display/unit_h_alarm[0]             0.750000    0.794222   -0.044223 (VIOLATED)
+ANTENNA_top_display_unit_h_alarm[0]/DIODE    0.750000    0.794201   -0.044201 (VIOLATED)
+ANTENNA_hour_counter_alarm_unit_h_alarm[0]/DIODE    0.750000    0.791253   -0.041253 (VIOLATED)
+hour_counter_alarm/unit_h_alarm[0]      0.750000    0.791253   -0.041253 (VIOLATED)
+
+
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 1 unannotated drivers.
+ clkload0/Y
+Found 0 partially unannotated drivers.
+
+===========================================================================
+max slew violation count 32
+max fanout violation count 0
+max cap violation count 0
+============================================================================
+
+===========================================================================
+check_setup -verbose -unconstrained_endpoints -multiple_clock -no_clock -no_input_delay -loops -generated_clocks
+===========================================================================
+Warning: There are 15 unconstrained endpoints.
+  alarm
+  led_am_pm[0]
+  led_am_pm[1]
+  led_am_pm[2]
+  led_am_pm[3]
+  led_am_pm[4]
+  led_am_pm[5]
+  led_am_pm[6]
+  led_thou_y[0]
+  led_thou_y[1]
+  led_thou_y[2]
+  led_thou_y[3]
+  led_thou_y[4]
+  led_thou_y[5]
+  led_thou_y[6]

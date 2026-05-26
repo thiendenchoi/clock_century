@@ -1,0 +1,26 @@
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter.v:65:18: Bits of signal are not used: 'select_time'[5:2,0]
+                                                                                                                   : ... note: In instance 'top_counter.min_counter'
+   65 |     input  [5:0] select_time,
+      |                  ^~~~~~~~~~~
+                       ... For warning description see https://verilator.org/warn/UNUSEDSIGNAL?v=5.018
+                       ... Use "/* verilator lint_off UNUSEDSIGNAL */" and lint_on around source to disable this message.
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:6:22: Bits of signal are not used: 'select_time'[5:3,1:0]
+                                                                                                                   : ... note: In instance 'top_counter.hour_counter'
+    6 |     input      [5:0] select_time ,
+      |                      ^~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:6:22: Bits of signal are not used: 'select_time'[5,3:0]
+                                                                                                                    : ... note: In instance 'top_counter.month_counter'
+    6 |     input      [5:0] select_time,
+      |                      ^~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:6:22: Bits of signal are not used: 'select_time'[4:0]
+                                                                                                                   : ... note: In instance 'top_counter.year_counter'
+    6 |     input      [5:0] select_time,
+      |                      ^~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v:6:22: Bits of signal are not used: 'select_time'[5:4,2:0]
+                                                                                                                  : ... note: In instance 'top_counter.day_counter'
+    6 |     input      [5:0] select_time       ,
+      |                      ^~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:29:17: Bits of signal are not used: 'year'[13:2]
+                                                                                                                       : ... note: In instance 'top_counter.leap_year_check'
+   29 |     wire [13:0] year = part_thousand + part_hundred + part_ten + u;
+      |                 ^~~~

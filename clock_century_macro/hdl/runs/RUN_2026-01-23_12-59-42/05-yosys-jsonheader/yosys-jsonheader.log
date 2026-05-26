@@ -1,0 +1,935 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2024  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.46 (git sha1 e97731b9dda91fa5fa53ed87df7c34163ba59a41, clang++ 17.0.6 -fPIC -O3)
+Loaded SDC plugin
+
+1. Executing Verilog-2005 frontend: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-23_12-59-42/tmp/f5bc95be3d03461883f83c6c227e44ad.bb.v
+Parsing SystemVerilog input from `/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-23_12-59-42/tmp/f5bc95be3d03461883f83c6c227e44ad.bb.v' to AST representation.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__decap_12'.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__fill_12'.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__fill_4'.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__fill_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111oi_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21bo_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21bo_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21bo_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21boi_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21boi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21boi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21boi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a222oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4bb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4bb_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4bb_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_12'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_6'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__bufbuf_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__bufbuf_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__bufinv_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__bufinv_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s15_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s15_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s18_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s18_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s25_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s25_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s50_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s50_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinvlp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinvlp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__conb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_12'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_3'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_6'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfbbn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfbbn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfbbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrtn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfsbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfsbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfstp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfstp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfstp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__diode_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlclkp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlclkp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlclkp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrbn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrbn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtn_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxbn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxbn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxtn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxtn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxtn_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlygate4sd1_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlygate4sd2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlygate4sd3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlymetal6s2s_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlymetal6s4s_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlymetal6s6s_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ebufn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ebufn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ebufn_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ebufn_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__edfxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__edfxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvp_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fa_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fa_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fa_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fah_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fahcin_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fahcon_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fill_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fill_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fill_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fill_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ha_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ha_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ha_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_12'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_6'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_bleeder_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_12'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_3'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_6'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputiso0n_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputiso0p_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputiso1n_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputiso1p_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputisolatch_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrckapwr_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__macro_sparecell'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__maj3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__maj3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__maj3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2i_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2i_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2i_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4bb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4bb_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4bb_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4bb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4bb_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4bb_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ai_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ba_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ba_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ba_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21bai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21bai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21bai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311ai_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4bb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4bb_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4bb_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__probe_p_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__probec_p_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfbbn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfbbn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfbbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrtn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfsbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfsbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfstp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfstp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfstp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdlclkp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdlclkp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdlclkp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tap_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tap_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tapvgnd2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tapvgnd_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tapvpwrvgnd_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor3_4'.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/adder_4bit.v
+Parsing SystemVerilog input from `/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/adder_4bit.v' to AST representation.
+Storing AST representation for module `$abstract\adder_4bit'.
+Successfully finished Verilog frontend.
+
+3. Executing Verilog-2005 frontend: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/comparator_4bit.v
+Parsing SystemVerilog input from `/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/comparator_4bit.v' to AST representation.
+Storing AST representation for module `$abstract\comparator_4bit'.
+Successfully finished Verilog frontend.
+
+4. Executing Verilog-2005 frontend: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/comparator_6bit.v
+Parsing SystemVerilog input from `/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/comparator_6bit.v' to AST representation.
+Storing AST representation for module `$abstract\comparator_6bit'.
+Successfully finished Verilog frontend.
+
+5. Executing Verilog-2005 frontend: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/control_unit.v
+Parsing SystemVerilog input from `/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/control_unit.v' to AST representation.
+Storing AST representation for module `$abstract\control_unit'.
+Successfully finished Verilog frontend.
+
+6. Executing Verilog-2005 frontend: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v
+Parsing SystemVerilog input from `/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v' to AST representation.
+Storing AST representation for module `$abstract\day_counter'.
+Successfully finished Verilog frontend.
+
+7. Executing Verilog-2005 frontend: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_in_month_decode.v
+Parsing SystemVerilog input from `/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_in_month_decode.v' to AST representation.
+Storing AST representation for module `$abstract\day_in_month_decode'.
+Successfully finished Verilog frontend.
+
+8. Executing Verilog-2005 frontend: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/full_adder.v
+Parsing SystemVerilog input from `/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/full_adder.v' to AST representation.
+Storing AST representation for module `$abstract\full_adder'.
+Successfully finished Verilog frontend.
+
+9. Executing Verilog-2005 frontend: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/half_adder.v
+Parsing SystemVerilog input from `/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/half_adder.v' to AST representation.
+Storing AST representation for module `$abstract\half_adder'.
+Successfully finished Verilog frontend.
+
+10. Executing Verilog-2005 frontend: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter_alarm.v
+Parsing SystemVerilog input from `/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter_alarm.v' to AST representation.
+Storing AST representation for module `$abstract\hour_counter_alarm'.
+Successfully finished Verilog frontend.
+
+11. Executing Verilog-2005 frontend: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v
+Parsing SystemVerilog input from `/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v' to AST representation.
+Storing AST representation for module `$abstract\hour_counter'.
+Successfully finished Verilog frontend.
+
+12. Executing Verilog-2005 frontend: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v
+Parsing SystemVerilog input from `/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v' to AST representation.
+Storing AST representation for module `$abstract\leap_year_check'.
+Successfully finished Verilog frontend.
+
+13. Executing Verilog-2005 frontend: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter_alarm.v
+Parsing SystemVerilog input from `/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter_alarm.v' to AST representation.
+Storing AST representation for module `$abstract\min_counter_alarm'.
+Successfully finished Verilog frontend.
+
+14. Executing Verilog-2005 frontend: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter.v
+Parsing SystemVerilog input from `/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter.v' to AST representation.
+Storing AST representation for module `$abstract\min_counter'.
+Successfully finished Verilog frontend.
+
+15. Executing Verilog-2005 frontend: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v
+Parsing SystemVerilog input from `/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v' to AST representation.
+Storing AST representation for module `$abstract\month_counter'.
+Successfully finished Verilog frontend.
+
+16. Executing Verilog-2005 frontend: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/mux2_1.v
+Parsing SystemVerilog input from `/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/mux2_1.v' to AST representation.
+Storing AST representation for module `$abstract\mux2_1'.
+Successfully finished Verilog frontend.
+
+17. Executing Verilog-2005 frontend: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v
+Parsing SystemVerilog input from `/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v' to AST representation.
+Storing AST representation for module `$abstract\second_counter'.
+Successfully finished Verilog frontend.
+
+18. Executing Verilog-2005 frontend: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/seven_seg_dec.v
+Parsing SystemVerilog input from `/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/seven_seg_dec.v' to AST representation.
+Storing AST representation for module `$abstract\seven_seg_dec'.
+Successfully finished Verilog frontend.
+
+19. Executing Verilog-2005 frontend: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v
+Parsing SystemVerilog input from `/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v' to AST representation.
+Storing AST representation for module `$abstract\top_century_clock'.
+Successfully finished Verilog frontend.
+
+20. Executing Verilog-2005 frontend: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_counter.v
+Parsing SystemVerilog input from `/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_counter.v' to AST representation.
+Storing AST representation for module `$abstract\top_counter'.
+Successfully finished Verilog frontend.
+
+21. Executing Verilog-2005 frontend: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_display.v
+Parsing SystemVerilog input from `/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_display.v' to AST representation.
+Storing AST representation for module `$abstract\top_display'.
+Successfully finished Verilog frontend.
+
+22. Executing Verilog-2005 frontend: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v
+Parsing SystemVerilog input from `/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v' to AST representation.
+Storing AST representation for module `$abstract\year_counter'.
+Successfully finished Verilog frontend.
+
+23. Executing HIERARCHY pass (managing design hierarchy).
+
+24. Executing AST frontend in derive mode using pre-parsed AST for module `\top_century_clock'.
+Generating RTLIL representation for module `\top_century_clock'.
+Note: Assuming pure combinatorial block at /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:52.1-59.4 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+
+24.1. Analyzing design hierarchy..
+Top module:  \top_century_clock
+
+24.2. Executing AST frontend in derive mode using pre-parsed AST for module `\top_display'.
+Generating RTLIL representation for module `\top_display'.
+Note: Assuming pure combinatorial block at /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_display.v:45.1-52.4 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+
+24.3. Executing AST frontend in derive mode using pre-parsed AST for module `\control_unit'.
+Generating RTLIL representation for module `\control_unit'.
+Note: Assuming pure combinatorial block at /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/control_unit.v:31.1-47.4 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+
+24.4. Executing AST frontend in derive mode using pre-parsed AST for module `\hour_counter_alarm'.
+Generating RTLIL representation for module `\hour_counter_alarm'.
+
+24.5. Executing AST frontend in derive mode using pre-parsed AST for module `\min_counter_alarm'.
+Generating RTLIL representation for module `\min_counter_alarm'.
+
+24.6. Executing AST frontend in derive mode using pre-parsed AST for module `\top_counter'.
+Generating RTLIL representation for module `\top_counter'.
+
+24.7. Analyzing design hierarchy..
+Top module:  \top_century_clock
+Used module:     \top_display
+Used module:     \control_unit
+Used module:     \hour_counter_alarm
+Used module:     \min_counter_alarm
+Used module:     \top_counter
+
+24.8. Executing AST frontend in derive mode using pre-parsed AST for module `\day_in_month_decode'.
+Generating RTLIL representation for module `\day_in_month_decode'.
+Note: Assuming pure combinatorial block at /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_in_month_decode.v:10.1-35.4 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+
+24.9. Executing AST frontend in derive mode using pre-parsed AST for module `\leap_year_check'.
+Generating RTLIL representation for module `\leap_year_check'.
+
+24.10. Executing AST frontend in derive mode using pre-parsed AST for module `\year_counter'.
+Generating RTLIL representation for module `\year_counter'.
+
+24.11. Executing AST frontend in derive mode using pre-parsed AST for module `\month_counter'.
+Generating RTLIL representation for module `\month_counter'.
+
+24.12. Executing AST frontend in derive mode using pre-parsed AST for module `\day_counter'.
+Generating RTLIL representation for module `\day_counter'.
+
+24.13. Executing AST frontend in derive mode using pre-parsed AST for module `\hour_counter'.
+Generating RTLIL representation for module `\hour_counter'.
+
+24.14. Executing AST frontend in derive mode using pre-parsed AST for module `\min_counter'.
+Generating RTLIL representation for module `\min_counter'.
+
+24.15. Executing AST frontend in derive mode using pre-parsed AST for module `\second_counter'.
+Generating RTLIL representation for module `\second_counter'.
+
+24.16. Executing AST frontend in derive mode using pre-parsed AST for module `\seven_seg_dec'.
+Generating RTLIL representation for module `\seven_seg_dec'.
+Note: Assuming pure combinatorial block at /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/seven_seg_dec.v:7.1-23.4 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+
+24.17. Analyzing design hierarchy..
+Top module:  \top_century_clock
+Used module:     \top_display
+Used module:         \seven_seg_dec
+Used module:     \control_unit
+Used module:     \hour_counter_alarm
+Used module:     \min_counter_alarm
+Used module:     \top_counter
+Used module:         \day_in_month_decode
+Used module:         \leap_year_check
+Used module:         \year_counter
+Used module:         \month_counter
+Used module:         \day_counter
+Used module:         \hour_counter
+Used module:         \min_counter
+Used module:         \second_counter
+
+24.18. Analyzing design hierarchy..
+Top module:  \top_century_clock
+Used module:     \top_display
+Used module:         \seven_seg_dec
+Used module:     \control_unit
+Used module:     \hour_counter_alarm
+Used module:     \min_counter_alarm
+Used module:     \top_counter
+Used module:         \day_in_month_decode
+Used module:         \leap_year_check
+Used module:         \year_counter
+Used module:         \month_counter
+Used module:         \day_counter
+Used module:         \hour_counter
+Used module:         \min_counter
+Used module:         \second_counter
+Removing unused module `$abstract\year_counter'.
+Removing unused module `$abstract\top_display'.
+Removing unused module `$abstract\top_counter'.
+Removing unused module `$abstract\top_century_clock'.
+Removing unused module `$abstract\seven_seg_dec'.
+Removing unused module `$abstract\second_counter'.
+Removing unused module `$abstract\mux2_1'.
+Removing unused module `$abstract\month_counter'.
+Removing unused module `$abstract\min_counter'.
+Removing unused module `$abstract\min_counter_alarm'.
+Removing unused module `$abstract\leap_year_check'.
+Removing unused module `$abstract\hour_counter'.
+Removing unused module `$abstract\hour_counter_alarm'.
+Removing unused module `$abstract\half_adder'.
+Removing unused module `$abstract\full_adder'.
+Removing unused module `$abstract\day_in_month_decode'.
+Removing unused module `$abstract\day_counter'.
+Removing unused module `$abstract\control_unit'.
+Removing unused module `$abstract\comparator_6bit'.
+Removing unused module `$abstract\comparator_4bit'.
+Removing unused module `$abstract\adder_4bit'.
+Removed 21 unused modules.
+Renaming module top_century_clock to top_century_clock.
+
+25. Executing PROC pass (convert processes to netlists).
+
+25.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+25.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Marked 1 switch rules as full_case in process $proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:52$1 in module top_century_clock.
+Marked 2 switch rules as full_case in process $proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_in_month_decode.v:10$76 in module day_in_month_decode.
+Marked 5 switch rules as full_case in process $proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter_alarm.v:12$68 in module min_counter_alarm.
+Marked 5 switch rules as full_case in process $proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter_alarm.v:12$58 in module hour_counter_alarm.
+Marked 10 switch rules as full_case in process $proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/control_unit.v:50$47 in module control_unit.
+Marked 4 switch rules as full_case in process $proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/control_unit.v:31$46 in module control_unit.
+Marked 1 switch rules as full_case in process $proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/control_unit.v:21$44 in module control_unit.
+Marked 1 switch rules as full_case in process $proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_display.v:45$5 in module top_display.
+Marked 9 switch rules as full_case in process $proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:14$100 in module year_counter.
+Marked 1 switch rules as full_case in process $proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/seven_seg_dec.v:7$271 in module seven_seg_dec.
+Marked 7 switch rules as full_case in process $proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v:12$253 in module second_counter.
+Marked 1 switch rules as full_case in process $proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter.v:176$238 in module min_counter.
+Marked 7 switch rules as full_case in process $proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:13$176 in module hour_counter.
+Marked 7 switch rules as full_case in process $proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v:15$154 in module day_counter.
+Marked 7 switch rules as full_case in process $proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:13$132 in module month_counter.
+Removed a total of 0 dead cases.
+
+25.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 24 redundant assignments.
+Promoted 6 assignments to connections.
+
+25.4. Executing PROC_INIT pass (extract init attributes).
+
+25.5. Executing PROC_ARST pass (detect async resets in processes).
+Found async reset \reset_n in `\min_counter_alarm.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter_alarm.v:12$68'.
+Found async reset \reset_n in `\hour_counter_alarm.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter_alarm.v:12$58'.
+Found async reset \reset_n in `\control_unit.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/control_unit.v:50$47'.
+Found async reset \reset_n in `\control_unit.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/control_unit.v:21$44'.
+Found async reset \reset_n in `\year_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:14$100'.
+Found async reset \reset_n in `\second_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v:12$253'.
+Found async reset \reset_n in `\min_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter.v:176$238'.
+Found async reset \reset_n in `\hour_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:13$176'.
+Found async reset \reset_n in `\day_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v:15$154'.
+Found async reset \reset_n in `\month_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:13$132'.
+
+25.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 1 switch.
+<suppressed ~58 debug messages>
+
+25.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\top_century_clock.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:52$1'.
+     1/1: $1\over[0:0]
+Creating decoders for process `\day_in_month_decode.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_in_month_decode.v:10$76'.
+     1/4: $2\unit_day_in_month[3:0]
+     2/4: $2\ten_day_in_month[3:0]
+     3/4: $1\unit_day_in_month[3:0]
+     4/4: $1\ten_day_in_month[3:0]
+Creating decoders for process `\min_counter_alarm.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter_alarm.v:12$68'.
+     1/2: $0\ten_m_alarm[3:0]
+     2/2: $0\unit_m_alarm[3:0]
+Creating decoders for process `\hour_counter_alarm.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter_alarm.v:12$58'.
+     1/2: $0\ten_h_alarm[3:0]
+     2/2: $0\unit_h_alarm[3:0]
+Creating decoders for process `\control_unit.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/control_unit.v:50$47'.
+     1/3: $0\select_time[5:0]
+     2/3: $0\mode_alarm[1:0]
+     3/3: $0\mode_display[1:0]
+Creating decoders for process `\control_unit.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/control_unit.v:31$46'.
+     1/4: $4\next_state[1:0]
+     2/4: $3\next_state[1:0]
+     3/4: $2\next_state[1:0]
+     4/4: $1\next_state[1:0]
+Creating decoders for process `\control_unit.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/control_unit.v:21$44'.
+     1/1: $0\current_state[1:0]
+Creating decoders for process `\top_display.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_display.v:45$5'.
+     1/1: $1\over[0:0]
+Creating decoders for process `\year_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:14$100'.
+     1/4: $0\thou_y[3:0]
+     2/4: $0\hun_y[3:0]
+     3/4: $0\ten_y[3:0]
+     4/4: $0\unit_y[3:0]
+Creating decoders for process `\seven_seg_dec.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/seven_seg_dec.v:7$271'.
+     1/1: $1\seg[6:0]
+Creating decoders for process `\second_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v:12$253'.
+     1/2: $0\ten_s[3:0]
+     2/2: $0\unit_s[3:0]
+Creating decoders for process `\min_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter.v:176$238'.
+     1/7: $0\t2[0:0]
+     2/7: $0\t1[0:0]
+     3/7: $0\t0[0:0]
+     4/7: $0\u3[0:0]
+     5/7: $0\u2[0:0]
+     6/7: $0\u1[0:0]
+     7/7: $0\u0[0:0]
+Creating decoders for process `\hour_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:13$176'.
+     1/2: $0\ten_h[3:0]
+     2/2: $0\unit_h[3:0]
+Creating decoders for process `\day_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v:15$154'.
+     1/2: $0\ten_d[3:0]
+     2/2: $0\unit_d[3:0]
+Creating decoders for process `\month_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:13$132'.
+     1/2: $0\ten_mo[3:0]
+     2/2: $0\unit_mo[3:0]
+
+25.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\top_century_clock.\over' from process `\top_century_clock.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:52$1'.
+No latch inferred for signal `\day_in_month_decode.\unit_day_in_month' from process `\day_in_month_decode.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_in_month_decode.v:10$76'.
+No latch inferred for signal `\day_in_month_decode.\ten_day_in_month' from process `\day_in_month_decode.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_in_month_decode.v:10$76'.
+No latch inferred for signal `\control_unit.\next_state' from process `\control_unit.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/control_unit.v:31$46'.
+No latch inferred for signal `\top_display.\over' from process `\top_display.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_display.v:45$5'.
+No latch inferred for signal `\seven_seg_dec.\seg' from process `\seven_seg_dec.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/seven_seg_dec.v:7$271'.
+
+25.9. Executing PROC_DFF pass (convert process syncs to FFs).
+Creating register for signal `\min_counter_alarm.\unit_m_alarm' using process `\min_counter_alarm.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter_alarm.v:12$68'.
+  created $adff cell `$procdff$645' with positive edge clock and positive level reset.
+Creating register for signal `\min_counter_alarm.\ten_m_alarm' using process `\min_counter_alarm.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter_alarm.v:12$68'.
+  created $adff cell `$procdff$650' with positive edge clock and positive level reset.
+Creating register for signal `\hour_counter_alarm.\unit_h_alarm' using process `\hour_counter_alarm.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter_alarm.v:12$58'.
+  created $adff cell `$procdff$655' with positive edge clock and positive level reset.
+Creating register for signal `\hour_counter_alarm.\ten_h_alarm' using process `\hour_counter_alarm.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter_alarm.v:12$58'.
+  created $adff cell `$procdff$660' with positive edge clock and positive level reset.
+Creating register for signal `\control_unit.\mode_display' using process `\control_unit.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/control_unit.v:50$47'.
+  created $adff cell `$procdff$665' with positive edge clock and positive level reset.
+Creating register for signal `\control_unit.\mode_alarm' using process `\control_unit.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/control_unit.v:50$47'.
+  created $adff cell `$procdff$670' with positive edge clock and positive level reset.
+Creating register for signal `\control_unit.\select_time' using process `\control_unit.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/control_unit.v:50$47'.
+  created $adff cell `$procdff$675' with positive edge clock and positive level reset.
+Creating register for signal `\control_unit.\current_state' using process `\control_unit.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/control_unit.v:21$44'.
+  created $adff cell `$procdff$680' with positive edge clock and positive level reset.
+Creating register for signal `\year_counter.\unit_y' using process `\year_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:14$100'.
+  created $adff cell `$procdff$685' with positive edge clock and positive level reset.
+Creating register for signal `\year_counter.\ten_y' using process `\year_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:14$100'.
+  created $adff cell `$procdff$690' with positive edge clock and positive level reset.
+Creating register for signal `\year_counter.\hun_y' using process `\year_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:14$100'.
+  created $adff cell `$procdff$695' with positive edge clock and positive level reset.
+Creating register for signal `\year_counter.\thou_y' using process `\year_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:14$100'.
+  created $adff cell `$procdff$700' with positive edge clock and positive level reset.
+Creating register for signal `\second_counter.\unit_s' using process `\second_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v:12$253'.
+  created $adff cell `$procdff$705' with positive edge clock and positive level reset.
+Creating register for signal `\second_counter.\ten_s' using process `\second_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v:12$253'.
+  created $adff cell `$procdff$710' with positive edge clock and positive level reset.
+Creating register for signal `\min_counter.\u3' using process `\min_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter.v:176$238'.
+  created $adff cell `$procdff$715' with positive edge clock and positive level reset.
+Creating register for signal `\min_counter.\u2' using process `\min_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter.v:176$238'.
+  created $adff cell `$procdff$720' with positive edge clock and positive level reset.
+Creating register for signal `\min_counter.\u1' using process `\min_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter.v:176$238'.
+  created $adff cell `$procdff$725' with positive edge clock and positive level reset.
+Creating register for signal `\min_counter.\u0' using process `\min_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter.v:176$238'.
+  created $adff cell `$procdff$730' with positive edge clock and positive level reset.
+Creating register for signal `\min_counter.\t2' using process `\min_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter.v:176$238'.
+  created $adff cell `$procdff$735' with positive edge clock and positive level reset.
+Creating register for signal `\min_counter.\t1' using process `\min_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter.v:176$238'.
+  created $adff cell `$procdff$740' with positive edge clock and positive level reset.
+Creating register for signal `\min_counter.\t0' using process `\min_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter.v:176$238'.
+  created $adff cell `$procdff$745' with positive edge clock and positive level reset.
+Creating register for signal `\hour_counter.\unit_h' using process `\hour_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:13$176'.
+  created $adff cell `$procdff$750' with positive edge clock and positive level reset.
+Creating register for signal `\hour_counter.\ten_h' using process `\hour_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:13$176'.
+  created $adff cell `$procdff$755' with positive edge clock and positive level reset.
+Creating register for signal `\day_counter.\unit_d' using process `\day_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v:15$154'.
+  created $adff cell `$procdff$760' with positive edge clock and positive level reset.
+Creating register for signal `\day_counter.\ten_d' using process `\day_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v:15$154'.
+  created $adff cell `$procdff$765' with positive edge clock and positive level reset.
+Creating register for signal `\month_counter.\unit_mo' using process `\month_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:13$132'.
+  created $adff cell `$procdff$770' with positive edge clock and positive level reset.
+Creating register for signal `\month_counter.\ten_mo' using process `\month_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:13$132'.
+  created $adff cell `$procdff$775' with positive edge clock and positive level reset.
+
+25.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+25.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Found and cleaned up 1 empty switch in `\top_century_clock.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:52$1'.
+Removing empty process `top_century_clock.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:52$1'.
+Found and cleaned up 2 empty switches in `\day_in_month_decode.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_in_month_decode.v:10$76'.
+Removing empty process `day_in_month_decode.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_in_month_decode.v:10$76'.
+Found and cleaned up 4 empty switches in `\min_counter_alarm.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter_alarm.v:12$68'.
+Removing empty process `min_counter_alarm.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter_alarm.v:12$68'.
+Found and cleaned up 4 empty switches in `\hour_counter_alarm.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter_alarm.v:12$58'.
+Removing empty process `hour_counter_alarm.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter_alarm.v:12$58'.
+Found and cleaned up 10 empty switches in `\control_unit.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/control_unit.v:50$47'.
+Removing empty process `control_unit.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/control_unit.v:50$47'.
+Found and cleaned up 4 empty switches in `\control_unit.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/control_unit.v:31$46'.
+Removing empty process `control_unit.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/control_unit.v:31$46'.
+Removing empty process `control_unit.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/control_unit.v:21$44'.
+Found and cleaned up 1 empty switch in `\top_display.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_display.v:45$5'.
+Removing empty process `top_display.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_display.v:45$5'.
+Found and cleaned up 8 empty switches in `\year_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:14$100'.
+Removing empty process `year_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:14$100'.
+Found and cleaned up 1 empty switch in `\seven_seg_dec.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/seven_seg_dec.v:7$271'.
+Removing empty process `seven_seg_dec.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/seven_seg_dec.v:7$271'.
+Found and cleaned up 6 empty switches in `\second_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v:12$253'.
+Removing empty process `second_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v:12$253'.
+Removing empty process `min_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter.v:176$238'.
+Found and cleaned up 6 empty switches in `\hour_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:13$176'.
+Removing empty process `hour_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:13$176'.
+Found and cleaned up 6 empty switches in `\day_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v:15$154'.
+Removing empty process `day_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v:15$154'.
+Found and cleaned up 6 empty switches in `\month_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:13$132'.
+Removing empty process `month_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:13$132'.
+Cleaned up 59 empty switches.
+
+25.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module top_century_clock.
+Optimizing module leap_year_check.
+<suppressed ~12 debug messages>
+Optimizing module day_in_month_decode.
+Optimizing module top_counter.
+Optimizing module min_counter_alarm.
+<suppressed ~4 debug messages>
+Optimizing module hour_counter_alarm.
+<suppressed ~4 debug messages>
+Optimizing module control_unit.
+<suppressed ~19 debug messages>
+Optimizing module top_display.
+<suppressed ~7 debug messages>
+Optimizing module year_counter.
+<suppressed ~13 debug messages>
+Optimizing module seven_seg_dec.
+Optimizing module second_counter.
+<suppressed ~7 debug messages>
+Optimizing module min_counter.
+<suppressed ~14 debug messages>
+Optimizing module hour_counter.
+<suppressed ~6 debug messages>
+Optimizing module day_counter.
+<suppressed ~6 debug messages>
+Optimizing module month_counter.
+<suppressed ~6 debug messages>
+
+26. Executing FLATTEN pass (flatten design).
+Deleting now unused module leap_year_check.
+Deleting now unused module day_in_month_decode.
+Deleting now unused module top_counter.
+Deleting now unused module min_counter_alarm.
+Deleting now unused module hour_counter_alarm.
+Deleting now unused module control_unit.
+Deleting now unused module top_display.
+Deleting now unused module year_counter.
+Deleting now unused module seven_seg_dec.
+Deleting now unused module second_counter.
+Deleting now unused module min_counter.
+Deleting now unused module hour_counter.
+Deleting now unused module day_counter.
+Deleting now unused module month_counter.
+<suppressed ~28 debug messages>
+
+27. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \top_century_clock..
+Removed 69 unused cells and 523 unused wires.
+<suppressed ~242 debug messages>

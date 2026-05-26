@@ -1,0 +1,1120 @@
+Reading OpenROAD database at '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-24_03-04-49/38-openroad-globalrouting/top_century_clock.odb'…
+Reading library file at '/home/lroot/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading library file at '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/control_unit_macro/lib/max_ss_100C_1v60/control_unit__max_ss_100C_1v60.lib'…
+Reading library file at '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_counter_macro/lib/max_ss_100C_1v60/top_counter__max_ss_100C_1v60.lib'…
+Reading library file at '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_display_macro/lib/max_ss_100C_1v60/top_display__max_ss_100C_1v60.lib'…
+Reading library file at '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter_alarm_macro/lib/max_ss_100C_1v60/min_counter_alarm__max_ss_100C_1v60.lib'…
+Reading library file at '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter_alarm_macro/lib/max_ss_100C_1v60/hour_counter_alarm__max_ss_100C_1v60.lib'…
+Reading macro library file at '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/control_unit_macro/lib/max_ss_100C_1v60/control_unit__max_ss_100C_1v60.lib'…
+[WARNING STA-1140] /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/control_unit_macro/lib/max_ss_100C_1v60/control_unit__max_ss_100C_1v60.lib line 1, library control_unit already exists.
+Reading macro library file at '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_counter_macro/lib/max_ss_100C_1v60/top_counter__max_ss_100C_1v60.lib'…
+[WARNING STA-1140] /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_counter_macro/lib/max_ss_100C_1v60/top_counter__max_ss_100C_1v60.lib line 1, library top_counter already exists.
+Reading macro library file at '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_display_macro/lib/max_ss_100C_1v60/top_display__max_ss_100C_1v60.lib'…
+[WARNING STA-1140] /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_display_macro/lib/max_ss_100C_1v60/top_display__max_ss_100C_1v60.lib line 1, library top_display already exists.
+Reading macro library file at '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter_alarm_macro/lib/max_ss_100C_1v60/min_counter_alarm__max_ss_100C_1v60.lib'…
+[WARNING STA-1140] /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter_alarm_macro/lib/max_ss_100C_1v60/min_counter_alarm__max_ss_100C_1v60.lib line 1, library min_counter_alarm already exists.
+Reading macro library file at '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter_alarm_macro/lib/max_ss_100C_1v60/hour_counter_alarm__max_ss_100C_1v60.lib'…
+[WARNING STA-1140] /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter_alarm_macro/lib/max_ss_100C_1v60/hour_counter_alarm__max_ss_100C_1v60.lib line 1, library hour_counter_alarm already exists.
+Reading design constraints file at '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/pnr_clock.sdc'…
+%OL_CREATE_REPORT /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-24_03-04-49/39-openroad-checkantennas/reports/antenna.rpt
+Net: mode_display\[0\]
+  Pin:   top_display/mode_display[0] (top_display)
+    Layer: met3
+      Partial area ratio:  551.53
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  551.53
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio: 2948.72
+      Required ratio: 2778.20 (Side area) (VIOLATED)
+      Cumulative area ratio: 2948.72
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: mode_display\[1\]
+  Pin:   top_display/mode_display[1] (top_display)
+    Layer: met3
+      Partial area ratio:  551.40
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  551.40
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio: 2948.03
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio: 2948.03
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: ten_h\[0\]
+  Pin:   top_display/ten_h[0] (top_display)
+    Layer: met3
+      Partial area ratio:  179.43
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  179.43
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  980.13
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio:  980.13
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via3
+      Partial area ratio:    0.25
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    0.25
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met4
+      Partial area ratio:   52.82
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  232.25
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  284.68
+      Required ratio: 2778.20 (Side area) 
+      Cumulative area ratio: 1264.81
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: ten_h\[2\]
+  Pin:   top_display/ten_h[2] (top_display)
+    Layer: met3
+      Partial area ratio:  175.41
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  175.41
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  941.48
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio:  941.48
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via3
+      Partial area ratio:    0.25
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    0.25
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met4
+      Partial area ratio:   52.82
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  228.23
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  284.68
+      Required ratio: 2778.20 (Side area) 
+      Cumulative area ratio: 1226.16
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: ten_h\[3\]
+  Pin:   top_display/ten_h[3] (top_display)
+    Layer: met3
+      Partial area ratio:  121.22
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  121.22
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  650.97
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio:  650.97
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via3
+      Partial area ratio:    0.19
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    0.19
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met4
+      Partial area ratio:   39.43
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  160.65
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  212.51
+      Required ratio: 2778.20 (Side area) 
+      Cumulative area ratio:  863.47
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: ten_h_alarm\[0\]
+  Pin:   top_display/ten_h_alarm[0] (top_display)
+    Layer: met3
+      Partial area ratio:  509.75
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  509.75
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio: 2725.30
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio: 2725.30
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via3
+      Partial area ratio:    0.19
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    0.19
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met4
+      Partial area ratio:   49.15
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  558.90
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  264.34
+      Required ratio: 2778.20 (Side area) 
+      Cumulative area ratio: 2989.63
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: ten_h_alarm\[1\]
+  Pin:   top_display/ten_h_alarm[1] (top_display)
+    Layer: met3
+      Partial area ratio:  421.56
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  421.56
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio: 2254.24
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio: 2254.24
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via3
+      Partial area ratio:    0.25
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    0.25
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met4
+      Partial area ratio:  209.05
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  630.60
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio: 1117.89
+      Required ratio: 2778.20 (Side area) 
+      Cumulative area ratio: 3372.13
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: ten_h_alarm\[2\]
+  Pin:   top_display/ten_h_alarm[2] (top_display)
+    Layer: met3
+      Partial area ratio:  654.95
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  654.95
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio: 3496.05
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio: 3496.05
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via3
+      Partial area ratio:    0.25
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    0.25
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met4
+      Partial area ratio:  586.60
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio: 1241.55
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio: 3131.47
+      Required ratio: 2778.20 (Side area) (VIOLATED)
+      Cumulative area ratio: 6627.52
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: ten_h_alarm\[3\]
+  Pin:   top_display/ten_h_alarm[3] (top_display)
+    Layer: met3
+      Partial area ratio:  407.41
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  407.41
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio: 2175.80
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio: 2175.80
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via3
+      Partial area ratio:    0.25
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    0.25
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met4
+      Partial area ratio:  587.34
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  994.75
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio: 3138.42
+      Required ratio: 2778.20 (Side area) (VIOLATED)
+      Cumulative area ratio: 5314.21
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: ten_m\[1\]
+  Pin:   top_display/ten_m[1] (top_display)
+    Layer: met3
+      Partial area ratio:  137.36
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  137.36
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  734.80
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio:  734.80
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via3
+      Partial area ratio:    0.19
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    0.19
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met4
+      Partial area ratio:   58.87
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  196.23
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  316.17
+      Required ratio: 2778.20 (Side area) 
+      Cumulative area ratio: 1050.97
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: ten_m\[3\]
+  Pin:   top_display/ten_m[3] (top_display)
+    Layer: met3
+      Partial area ratio:  148.59
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  148.59
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  794.87
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio:  794.87
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via3
+      Partial area ratio:    0.20
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    0.20
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met4
+      Partial area ratio:   53.28
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  201.86
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  286.53
+      Required ratio:  400.00 (Side area) 
+      Cumulative area ratio: 1081.40
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: ten_m_alarm\[0\]
+  Pin:   top_display/ten_m_alarm[0] (top_display)
+    Layer: met3
+      Partial area ratio:  684.38
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  684.38
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio: 3658.92
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio: 3658.92
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via3
+      Partial area ratio:    0.25
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    0.25
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met4
+      Partial area ratio:   52.82
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  737.20
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  284.68
+      Required ratio: 2778.20 (Side area) 
+      Cumulative area ratio: 3943.60
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: ten_m_alarm\[2\]
+  Pin:   top_display/ten_m_alarm[2] (top_display)
+    Layer: met3
+      Partial area ratio:  159.61
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  159.61
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  853.48
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio:  853.48
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via3
+      Partial area ratio:    0.19
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    0.19
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met4
+      Partial area ratio:   35.14
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  194.75
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  170.25
+      Required ratio:  400.00 (Side area) 
+      Cumulative area ratio: 1023.74
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via4
+      Partial area ratio:    3.00
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    3.19
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met5
+      Partial area ratio: 1877.93
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio: 2072.69
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio: 2834.93
+      Required ratio: 2778.20 (Side area) (VIOLATED)
+      Cumulative area ratio: 3858.67
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: ten_s\[0\]
+  Pin:   top_display/ten_s[0] (top_display)
+    Layer: met3
+      Partial area ratio:   81.56
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:   81.56
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  437.94
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio:  437.94
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via3
+      Partial area ratio:    0.25
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    0.25
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met4
+      Partial area ratio:   92.63
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  174.18
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  499.92
+      Required ratio: 2778.20 (Side area) 
+      Cumulative area ratio:  937.86
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: ten_s\[2\]
+  Pin:   top_display/ten_s[2] (top_display)
+    Layer: met3
+      Partial area ratio:  138.35
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  138.35
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  740.06
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio:  740.06
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via3
+      Partial area ratio:    0.19
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    0.19
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met4
+      Partial area ratio:   68.59
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  206.93
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  368.00
+      Required ratio: 2778.20 (Side area) 
+      Cumulative area ratio: 1108.06
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: ten_y\[0\]
+  Pin:   top_display/ten_y[0] (top_display)
+    Layer: met3
+      Partial area ratio:  186.05
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  186.05
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  995.22
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio:  995.22
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via3
+      Partial area ratio:    0.25
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    0.25
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met4
+      Partial area ratio:  117.92
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  303.96
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  631.85
+      Required ratio: 2778.20 (Side area) 
+      Cumulative area ratio: 1627.07
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: ten_y\[1\]
+  Pin:   top_display/ten_y[1] (top_display)
+    Layer: met3
+      Partial area ratio:  139.58
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  139.58
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  748.88
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio:  748.88
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via3
+      Partial area ratio:    0.19
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    0.19
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met4
+      Partial area ratio:   39.43
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  179.01
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  212.51
+      Required ratio: 2778.20 (Side area) 
+      Cumulative area ratio:  961.39
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: thou_y\[0\]
+  Pin:   top_display/thou_y[0] (top_display)
+    Layer: met3
+      Partial area ratio:  187.56
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  187.56
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio: 1003.27
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio: 1003.27
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via3
+      Partial area ratio:    0.25
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    0.25
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met4
+      Partial area ratio:  104.90
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  292.46
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  562.42
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio: 1565.69
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: thou_y\[1\]
+  Pin:   top_display/thou_y[1] (top_display)
+    Layer: met3
+      Partial area ratio:   33.25
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:   33.25
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  179.53
+      Required ratio:  400.00 (Side area) 
+      Cumulative area ratio:  179.53
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via3
+      Partial area ratio:    0.19
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    0.19
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met4
+      Partial area ratio:   78.86
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  112.11
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  425.01
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio:  604.54
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: thou_y\[2\]
+  Pin:   top_display/thou_y[2] (top_display)
+    Layer: met3
+      Partial area ratio:  140.29
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  140.29
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  750.42
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio:  750.42
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via3
+      Partial area ratio:    0.19
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    0.19
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met4
+      Partial area ratio:   78.30
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  218.59
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  419.83
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio: 1170.25
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: thou_y\[3\]
+  Pin:   top_display/thou_y[3] (top_display)
+    Layer: met3
+      Partial area ratio:  130.71
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  130.71
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  699.34
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio:  699.34
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via3
+      Partial area ratio:    0.19
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    0.19
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met4
+      Partial area ratio:   78.30
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  209.02
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  419.83
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio: 1119.17
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: unit_d\[0\]
+  Pin:   top_display/unit_d[0] (top_display)
+    Layer: met3
+      Partial area ratio:  130.94
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  130.94
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  702.80
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio:  702.80
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via3
+      Partial area ratio:    0.19
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    0.19
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met4
+      Partial area ratio:   58.87
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  189.80
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  316.17
+      Required ratio: 2778.20 (Side area) 
+      Cumulative area ratio: 1018.97
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: unit_d\[2\]
+  Pin:   top_display/unit_d[2] (top_display)
+    Layer: met3
+      Partial area ratio:  178.93
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  178.93
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  980.33
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio:  980.33
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via3
+      Partial area ratio:    0.25
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    0.25
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met4
+      Partial area ratio:   78.86
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  257.79
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  423.55
+      Required ratio: 2778.20 (Side area) 
+      Cumulative area ratio: 1403.87
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: unit_d\[3\]
+  Pin:   top_display/unit_d[3] (top_display)
+    Layer: met3
+      Partial area ratio:   77.29
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:   77.29
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  423.85
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio:  423.85
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via3
+      Partial area ratio:    0.25
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    0.25
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met4
+      Partial area ratio:   78.86
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  156.15
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  423.55
+      Required ratio: 2778.20 (Side area) 
+      Cumulative area ratio:  847.40
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: unit_h\[0\]
+  Pin:   top_display/unit_h[0] (top_display)
+    Layer: met3
+      Partial area ratio:  131.37
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  131.37
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  703.60
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio:  703.60
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via3
+      Partial area ratio:    0.25
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    0.25
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met4
+      Partial area ratio:   52.82
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  184.19
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  284.68
+      Required ratio: 2778.20 (Side area) 
+      Cumulative area ratio:  988.28
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: unit_h\[1\]
+  Pin:   top_display/unit_h[1] (top_display)
+    Layer: met3
+      Partial area ratio:   88.20
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:   88.20
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  472.64
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio:  472.64
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via3
+      Partial area ratio:    0.19
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    0.19
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met4
+      Partial area ratio:   39.43
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  127.64
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  212.51
+      Required ratio: 2778.20 (Side area) 
+      Cumulative area ratio:  685.15
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: unit_h_alarm\[2\]
+  Pin:   top_display/unit_h_alarm[2] (top_display)
+    Layer: met3
+      Partial area ratio:  421.44
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  421.44
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio: 2249.92
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio: 2249.92
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via3
+      Partial area ratio:    0.19
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    0.19
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met4
+      Partial area ratio:  360.14
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  781.58
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio: 1922.93
+      Required ratio: 2778.20 (Side area) 
+      Cumulative area ratio: 4172.85
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: unit_h_alarm\[3\]
+  Pin:   top_display/unit_h_alarm[3] (top_display)
+    Layer: met3
+      Partial area ratio:  683.06
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  683.06
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio: 3651.87
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio: 3651.87
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via3
+      Partial area ratio:    0.25
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    0.25
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met4
+      Partial area ratio:  117.92
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  800.97
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  631.85
+      Required ratio: 2778.20 (Side area) 
+      Cumulative area ratio: 4283.72
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: unit_m_alarm\[0\]
+  Pin:   top_display/unit_m_alarm[0] (top_display)
+    Layer: met3
+      Partial area ratio:  510.42
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  510.42
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio: 2726.69
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio: 2726.69
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via3
+      Partial area ratio:    0.19
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    0.19
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met4
+      Partial area ratio:  233.80
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  744.22
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio: 1249.13
+      Required ratio: 2778.20 (Side area) 
+      Cumulative area ratio: 3975.81
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: unit_m_alarm\[1\]
+  Pin:   top_display/unit_m_alarm[1] (top_display)
+    Layer: met3
+      Partial area ratio:  511.13
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  511.13
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio: 2732.66
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio: 2732.66
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via3
+      Partial area ratio:    0.19
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    0.19
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met4
+      Partial area ratio:   10.28
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  521.40
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:   57.01
+      Required ratio: 2778.20 (Side area) 
+      Cumulative area ratio: 2789.67
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: unit_m_alarm\[2\]
+  Pin:   top_display/unit_m_alarm[2] (top_display)
+    Layer: met3
+      Partial area ratio:  201.56
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  201.56
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio: 1077.94
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio: 1077.94
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via3
+      Partial area ratio:    0.25
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    0.25
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met4
+      Partial area ratio:  379.04
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  580.60
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio: 2027.47
+      Required ratio: 2778.20 (Side area) 
+      Cumulative area ratio: 3105.41
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: unit_mo\[1\]
+  Pin:   top_display/unit_mo[1] (top_display)
+    Layer: met3
+      Partial area ratio:  183.97
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  183.97
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  984.15
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio:  984.15
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via3
+      Partial area ratio:    0.25
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    0.25
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met4
+      Partial area ratio:   91.88
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  275.85
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  492.98
+      Required ratio: 2778.20 (Side area) 
+      Cumulative area ratio: 1477.13
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: unit_mo\[3\]
+  Pin:   top_display/unit_mo[3] (top_display)
+    Layer: met3
+      Partial area ratio:   80.20
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:   80.20
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  430.69
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio:  430.69
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via3
+      Partial area ratio:    0.25
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    0.25
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met4
+      Partial area ratio:  104.90
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  185.10
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  562.42
+      Required ratio: 2778.20 (Side area) 
+      Cumulative area ratio:  993.11
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: unit_y\[1\]
+  Pin:   top_display/unit_y[1] (top_display)
+    Layer: met3
+      Partial area ratio:  139.02
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  139.02
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  745.88
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio:  745.88
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via3
+      Partial area ratio:    0.19
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    0.19
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met4
+      Partial area ratio:   68.59
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  207.61
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  368.00
+      Required ratio: 2778.20 (Side area) 
+      Cumulative area ratio: 1113.88
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: unit_y\[3\]
+  Pin:   top_display/unit_y[3] (top_display)
+    Layer: met3
+      Partial area ratio:   90.15
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:   90.15
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  483.00
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio:  483.00
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via3
+      Partial area ratio:    0.19
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    0.19
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met4
+      Partial area ratio:  185.21
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  275.35
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  989.97
+      Required ratio: 2778.20 (Side area) 
+      Cumulative area ratio: 1472.98
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+Net: net5
+  Pin:   min_counter_alarm/alarm (min_counter_alarm)
+    Layer: met3
+      Partial area ratio:    3.11
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:    3.11
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:   35.73
+      Required ratio:  400.00 (Side area) 
+      Cumulative area ratio:   35.73
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+  Pin:   output5/A (sky130_fd_sc_hd__buf_1)
+    Layer: mcon
+      Partial area ratio:    0.15
+      Required ratio:    3.00 (Gate area) 
+      Cumulative area ratio:    0.15
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met1
+      Partial area ratio:   36.61
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:   36.61
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:  182.12
+      Required ratio:  400.00 (Side area) 
+      Cumulative area ratio:  182.12
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via
+      Partial area ratio:    0.23
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    0.38
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met2
+      Partial area ratio:  371.86
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  408.47
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio: 1856.03
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio: 2038.16
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: via2
+      Partial area ratio:    0.61
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    0.99
+      Required ratio:    0.00 (Cumulative area) 
+
+    Layer: met3
+      Partial area ratio:    3.11
+      Required ratio:    0.00 (Gate area) 
+      Cumulative area ratio:  411.58
+      Required ratio:    0.00 (Cumulative area) 
+      Partial area ratio:   35.73
+      Required ratio:  400.00 (Side area) 
+      Cumulative area ratio: 2073.89
+      Required ratio:    0.00 (Cumulative side area) 
+
+
+
+[INFO ANT-0002] Found 36 net violations.
+[INFO ANT-0001] Found 36 pin violations.
+%OL_END_REPORT

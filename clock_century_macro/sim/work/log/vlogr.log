@@ -1,0 +1,35 @@
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 17 2018
+Start time: 13:26:40 on Jan 17,2026
+vlog -f filelist_com.f -f filelist_rtl.f "+cover=bcefs" -l ./log/vlogr.log 
+-- Compiling module adder_4bit
+-- Compiling module comparator_4bit
+-- Compiling module comparator_6bit
+-- Compiling module control_unit
+-- Compiling module day_counter
+-- Compiling module day_in_month_decode
+-- Compiling module full_adder
+-- Compiling module half_adder
+-- Compiling module hour_counter
+-- Compiling module leap_year_check
+-- Compiling module min_counter
+-- Compiling module month_counter
+-- Compiling module mux2_1
+-- Compiling module second_counter
+-- Compiling module seven_seg_dec
+-- Compiling module top_century_clock
+-- Compiling module year_counter
+-- Compiling module gen_clk_1hz
+-- Compiling module hour_counter_alarm
+-- Compiling module min_counter_alarm
+-- Compiling module top_display
+-- Compiling module top_counter
+
+Top level modules:
+	adder_4bit
+	comparator_4bit
+	comparator_6bit
+	mux2_1
+	top_century_clock
+	gen_clk_1hz
+End time: 13:26:40 on Jan 17,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

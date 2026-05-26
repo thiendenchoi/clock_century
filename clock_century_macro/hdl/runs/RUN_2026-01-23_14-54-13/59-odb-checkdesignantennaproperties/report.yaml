@@ -1,0 +1,12 @@
+- cell: top_century_clock
+  inout: []
+  input: []
+  output:
+  - led_am_pm[4]
+  - led_thou_y[0]
+  - led_thou_y[1]
+  - led_thou_y[2]
+  - led_thou_y[3]
+  - led_thou_y[4]
+  - led_thou_y[5]
+  - led_thou_y[6]

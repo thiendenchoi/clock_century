@@ -1,0 +1,43 @@
+[WARNING ORD-0039] .openroad ignored with -python
+Unannotated report:
+['report_parasitic_annotation -report_unannotated\n',
+ '============================================================================\n',
+ 'Found 16 unannotated drivers.\n',
+ ' _1222__154/LO\n',
+ ' clkload0/X\n',
+ ' clkload1/Y\n',
+ ' clkload2/Y\n',
+ ' clkload3/Y\n',
+ ' clkload4/Y\n',
+ ' clkload5/Y\n',
+ ' clkload6/X\n',
+ ' top_century_clock_146/HI\n',
+ ' top_century_clock_147/HI\n',
+ ' top_century_clock_148/HI\n',
+ ' top_century_clock_149/HI\n',
+ ' top_century_clock_150/HI\n',
+ ' top_century_clock_151/LO\n',
+ ' top_century_clock_152/LO\n',
+ ' top_century_clock_153/LO\n',
+ 'Found 0 partially unannotated drivers.\n',
+ '\n']
+Reported nets:
+['_1222__154/LO',
+ 'clkload0/X',
+ 'clkload1/Y',
+ 'clkload2/Y',
+ 'clkload3/Y',
+ 'clkload4/Y',
+ 'clkload5/Y',
+ 'clkload6/X',
+ 'top_century_clock_146/HI',
+ 'top_century_clock_147/HI',
+ 'top_century_clock_148/HI',
+ 'top_century_clock_149/HI',
+ 'top_century_clock_150/HI',
+ 'top_century_clock_151/LO',
+ 'top_century_clock_152/LO',
+ 'top_century_clock_153/LO']
+Filtered nets:
+[]
+done

@@ -1,0 +1,113 @@
+
+===========================================================================
+report_checks -unconstrained
+===========================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+Startpoint: top_counter (rising edge-triggered flip-flop clocked by clk)
+Endpoint: led_unit_h[4] (output port clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                                  0.000000    0.000000   clock clk (rise edge)
+                                  0.000000    0.000000   clock source latency
+     4    0.054821    0.250929    0.178967    0.178967 ^ clk (in)
+                                                         clk (net)
+                      0.251774    0.000000    0.178967 ^ clkbuf_0_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     5    0.033040    0.056607    0.203919    0.382886 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                                         clknet_0_clk (net)
+                      0.056636    0.001874    0.384760 ^ clkbuf_1_0__f_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     5    0.092835    0.109732    0.180624    0.565384 ^ clkbuf_1_0__f_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                                         clknet_1_0__leaf_clk (net)
+                      0.110388    0.006871    0.572255 ^ top_counter/clk (top_counter)
+     3    0.017009    0.100273    2.279563    2.851818 v top_counter/unit_m[2] (top_counter)
+                                                         unit_m[2] (net)
+                      0.100273    0.001095    2.852913 v top_display/unit_m[2] (top_display)
+     1    0.006794    0.059320    7.286252   10.139165 v top_display/led_unit_h[4] (top_display)
+                                                         net80 (net)
+                      0.059320    0.000086   10.139251 v output80/A (sky130_fd_sc_hd__buf_2)
+     2    0.035032    0.091207    0.187653   10.326903 v output80/X (sky130_fd_sc_hd__buf_2)
+                                                         led_unit_h[4] (net)
+                      0.091216    0.000905   10.327808 v led_unit_h[4] (out)
+                                             10.327808   data arrival time
+
+                                 50.000000   50.000000   clock clk (rise edge)
+                                  0.000000   50.000000   clock network delay (propagated)
+                                 -0.250000   49.749996   clock uncertainty
+                                  0.000000   49.749996   clock reconvergence pessimism
+                                -10.000000   39.749996   output external delay
+                                             39.749996   data required time
+---------------------------------------------------------------------------------------------
+                                             39.749996   data required time
+                                            -10.327808   data arrival time
+---------------------------------------------------------------------------------------------
+                                             29.422188   slack (MET)
+
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+No paths found.
+
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+max slew
+
+Pin                                        Limit        Slew       Slack
+------------------------------------------------------------------------
+min_counter_alarm/alarm                 0.750000    0.809774   -0.059774 (VIOLATED)
+ANTENNA_min_counter_alarm_alarm/DIODE    0.750000    0.809772   -0.059772 (VIOLATED)
+ANTENNA_hour_counter_alarm_alarm/DIODE    0.750000    0.809610   -0.059610 (VIOLATED)
+hour_counter_alarm/alarm                0.750000    0.809591   -0.059591 (VIOLATED)
+ANTENNA_output5_A/DIODE                 0.750000    0.805680   -0.055680 (VIOLATED)
+ANTENNA_top_display_alarm/DIODE         0.750000    0.805680   -0.055680 (VIOLATED)
+output5/A                               0.750000    0.805680   -0.055680 (VIOLATED)
+top_display/alarm                       0.750000    0.805680   -0.055680 (VIOLATED)
+
+
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 1 unannotated drivers.
+ clkload0/Y
+Found 0 partially unannotated drivers.
+
+===========================================================================
+max slew violation count 8
+Writing metric design__max_slew_violation__count__corner:nom_tt_025C_1v80: 8
+max fanout violation count 0
+Writing metric design__max_fanout_violation__count__corner:nom_tt_025C_1v80: 0
+max cap violation count 0
+Writing metric design__max_cap_violation__count__corner:nom_tt_025C_1v80: 0
+============================================================================
+
+===========================================================================
+check_setup -verbose -unconstrained_endpoints -multiple_clock -no_clock -no_input_delay -loops -generated_clocks
+===========================================================================
+Warning: There are 15 unconstrained endpoints.
+  alarm
+  led_am_pm[0]
+  led_am_pm[1]
+  led_am_pm[2]
+  led_am_pm[3]
+  led_am_pm[4]
+  led_am_pm[5]
+  led_am_pm[6]
+  led_thou_y[0]
+  led_thou_y[1]
+  led_thou_y[2]
+  led_thou_y[3]
+  led_thou_y[4]
+  led_thou_y[5]
+  led_thou_y[6]

@@ -1,0 +1,32 @@
+{
+  "DESIGN_NAME": "top_century_clock",
+  "VERILOG_FILES": [
+    "dir::adder_4bit.v",
+    "dir::comparator_4bit.v",
+    "dir::comparator_6bit.v",
+    "dir::control_unit.v",
+    "dir::day_counter.v",
+    "dir::day_in_month_decode.v",
+    "dir::full_adder.v",
+    "dir::half_adder.v",
+    "dir::hour_counter_alarm.v",
+    "dir::hour_counter.v",
+    "dir::leap_year_check.v",
+    "dir::min_counter_alarm.v",
+    "dir::min_counter.v",
+    "dir::month_counter.v",
+    "dir::mux2_1.v",
+    "dir::second_counter.v",
+    "dir::seven_seg_dec.v",
+    "dir::top_century_clock.v",
+    "dir::top_counter.v",
+    "dir::top_display.v",
+    "dir::year_counter.v"
+
+],
+  "CLOCK_PORT": "clk",
+  "CLOCK_PERIOD": 1000000000.0,
+  "FP_CORE_UTIL": 40,
+  "PNR_SDC_FILE": "dir::pnr_clock.sdc",
+  "SIGNOFF_SDC_FILE": "dir::signoff_clock.sdc"
+}

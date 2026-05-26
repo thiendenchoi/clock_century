@@ -1,0 +1,1070 @@
+
+Cell sky130_ef_sc_hd__decap_12 (0) disconnected node: VPWR
+Cell sky130_ef_sc_hd__decap_12 (0) disconnected node: VGND
+Cell sky130_ef_sc_hd__decap_12 (0) disconnected node: VPB
+Cell sky130_ef_sc_hd__decap_12 (0) disconnected node: VNB
+
+Subcircuit pins:
+Circuit 1: sky130_ef_sc_hd__decap_12       |Circuit 2: sky130_ef_sc_hd__decap_12       
+-------------------------------------------|-------------------------------------------
+VPWR                                       |VPWR                                       
+VGND                                       |VGND                                       
+VPB                                        |VPB                                        
+VNB                                        |VNB                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_ef_sc_hd__decap_12 and sky130_ef_sc_hd__decap_12 are equivalent.
+
+Cell sky130_fd_sc_hd__fill_1 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__fill_1 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__fill_1 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__fill_1 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__fill_1 (1) disconnected node: VGND
+Cell sky130_fd_sc_hd__fill_1 (1) disconnected node: VNB
+Cell sky130_fd_sc_hd__fill_1 (1) disconnected node: VPB
+Cell sky130_fd_sc_hd__fill_1 (1) disconnected node: VPWR
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__fill_1         |Circuit 2: sky130_fd_sc_hd__fill_1         
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__fill_1 and sky130_fd_sc_hd__fill_1 are equivalent.
+
+Cell sky130_fd_sc_hd__decap_6 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__decap_6 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__decap_6 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__decap_6 (0) disconnected node: VPWR
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__decap_6        |Circuit 2: sky130_fd_sc_hd__decap_6        
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__decap_6 and sky130_fd_sc_hd__decap_6 are equivalent.
+
+Cell sky130_fd_sc_hd__decap_3 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__decap_3 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__decap_3 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__decap_3 (0) disconnected node: VPWR
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__decap_3        |Circuit 2: sky130_fd_sc_hd__decap_3        
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__decap_3 and sky130_fd_sc_hd__decap_3 are equivalent.
+
+Cell sky130_fd_sc_hd__tapvpwrvgnd_1 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__tapvpwrvgnd_1 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__tapvpwrvgnd_1 (1) disconnected node: VGND
+Cell sky130_fd_sc_hd__tapvpwrvgnd_1 (1) disconnected node: VPWR
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__tapvpwrvgnd_1  |Circuit 2: sky130_fd_sc_hd__tapvpwrvgnd_1  
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__tapvpwrvgnd_1 and sky130_fd_sc_hd__tapvpwrvgnd_1 are equivalent.
+
+Cell sky130_fd_sc_hd__decap_4 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__decap_4 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__decap_4 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__decap_4 (0) disconnected node: VPWR
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__decap_4        |Circuit 2: sky130_fd_sc_hd__decap_4        
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__decap_4 and sky130_fd_sc_hd__decap_4 are equivalent.
+
+Cell sky130_fd_sc_hd__decap_8 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__decap_8 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__decap_8 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__decap_8 (0) disconnected node: VPWR
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__decap_8        |Circuit 2: sky130_fd_sc_hd__decap_8        
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__decap_8 and sky130_fd_sc_hd__decap_8 are equivalent.
+
+Cell sky130_fd_sc_hd__fill_2 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__fill_2 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__fill_2 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__fill_2 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__fill_2 (1) disconnected node: VGND
+Cell sky130_fd_sc_hd__fill_2 (1) disconnected node: VNB
+Cell sky130_fd_sc_hd__fill_2 (1) disconnected node: VPB
+Cell sky130_fd_sc_hd__fill_2 (1) disconnected node: VPWR
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__fill_2         |Circuit 2: sky130_fd_sc_hd__fill_2         
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__fill_2 and sky130_fd_sc_hd__fill_2 are equivalent.
+
+Cell sky130_fd_sc_hd__diode_2 (0) disconnected node: DIODE
+Cell sky130_fd_sc_hd__diode_2 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__diode_2 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__diode_2 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__diode_2 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__diode_2 (1) disconnected node: VGND
+Cell sky130_fd_sc_hd__diode_2 (1) disconnected node: VPB
+Cell sky130_fd_sc_hd__diode_2 (1) disconnected node: VPWR
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__diode_2        |Circuit 2: sky130_fd_sc_hd__diode_2        
+-------------------------------------------|-------------------------------------------
+DIODE                                      |DIODE                                      
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__diode_2 and sky130_fd_sc_hd__diode_2 are equivalent.
+
+Cell sky130_fd_sc_hd__buf_6 (0) disconnected node: A
+Cell sky130_fd_sc_hd__buf_6 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__buf_6 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__buf_6 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__buf_6 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__buf_6 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__buf_6          |Circuit 2: sky130_fd_sc_hd__buf_6          
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__buf_6 and sky130_fd_sc_hd__buf_6 are equivalent.
+
+Cell sky130_fd_sc_hd__buf_1 (0) disconnected node: A
+Cell sky130_fd_sc_hd__buf_1 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__buf_1 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__buf_1 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__buf_1 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__buf_1 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__buf_1          |Circuit 2: sky130_fd_sc_hd__buf_1          
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__buf_1 and sky130_fd_sc_hd__buf_1 are equivalent.
+
+Cell sky130_fd_sc_hd__buf_2 (0) disconnected node: A
+Cell sky130_fd_sc_hd__buf_2 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__buf_2 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__buf_2 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__buf_2 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__buf_2 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__buf_2          |Circuit 2: sky130_fd_sc_hd__buf_2          
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__buf_2 and sky130_fd_sc_hd__buf_2 are equivalent.
+
+Cell sky130_fd_sc_hd__inv_16 (0) disconnected node: A
+Cell sky130_fd_sc_hd__inv_16 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__inv_16 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__inv_16 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__inv_16 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__inv_16 (0) disconnected node: Y
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__inv_16         |Circuit 2: sky130_fd_sc_hd__inv_16         
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+Y                                          |Y                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__inv_16 and sky130_fd_sc_hd__inv_16 are equivalent.
+
+Cell sky130_fd_sc_hd__clkbuf_16 (0) disconnected node: A
+Cell sky130_fd_sc_hd__clkbuf_16 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__clkbuf_16 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__clkbuf_16 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__clkbuf_16 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__clkbuf_16 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__clkbuf_16      |Circuit 2: sky130_fd_sc_hd__clkbuf_16      
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__clkbuf_16 and sky130_fd_sc_hd__clkbuf_16 are equivalent.
+
+Cell sky130_fd_sc_hd__buf_4 (0) disconnected node: A
+Cell sky130_fd_sc_hd__buf_4 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__buf_4 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__buf_4 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__buf_4 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__buf_4 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__buf_4          |Circuit 2: sky130_fd_sc_hd__buf_4          
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__buf_4 and sky130_fd_sc_hd__buf_4 are equivalent.
+
+Cell hour_counter_alarm (0) disconnected node: VGND
+Cell hour_counter_alarm (0) disconnected node: VPWR
+Cell hour_counter_alarm (0) disconnected node: alarm
+Cell hour_counter_alarm (0) disconnected node: clk
+Cell hour_counter_alarm (0) disconnected node: inc
+Cell hour_counter_alarm (0) disconnected node: mode_alarm[0]
+Cell hour_counter_alarm (0) disconnected node: mode_alarm[1]
+Cell hour_counter_alarm (0) disconnected node: reset_n
+Cell hour_counter_alarm (0) disconnected node: ten_h_alarm[0]
+Cell hour_counter_alarm (0) disconnected node: ten_h_alarm[1]
+Cell hour_counter_alarm (0) disconnected node: ten_h_alarm[2]
+Cell hour_counter_alarm (0) disconnected node: ten_h_alarm[3]
+Cell hour_counter_alarm (0) disconnected node: unit_h_alarm[0]
+Cell hour_counter_alarm (0) disconnected node: unit_h_alarm[1]
+Cell hour_counter_alarm (0) disconnected node: unit_h_alarm[2]
+Cell hour_counter_alarm (0) disconnected node: unit_h_alarm[3]
+
+Subcircuit pins:
+Circuit 1: hour_counter_alarm              |Circuit 2: hour_counter_alarm              
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VPWR                                       |VPWR                                       
+alarm                                      |alarm                                      
+clk                                        |clk                                        
+inc                                        |inc                                        
+mode_alarm[0]                              |mode_alarm[0]                              
+mode_alarm[1]                              |mode_alarm[1]                              
+reset_n                                    |reset_n                                    
+ten_h_alarm[0]                             |ten_h_alarm[0]                             
+ten_h_alarm[1]                             |ten_h_alarm[1]                             
+ten_h_alarm[2]                             |ten_h_alarm[2]                             
+ten_h_alarm[3]                             |ten_h_alarm[3]                             
+unit_h_alarm[0]                            |unit_h_alarm[0]                            
+unit_h_alarm[1]                            |unit_h_alarm[1]                            
+unit_h_alarm[2]                            |unit_h_alarm[2]                            
+unit_h_alarm[3]                            |unit_h_alarm[3]                            
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes hour_counter_alarm and hour_counter_alarm are equivalent.
+
+Cell control_unit (0) disconnected node: VGND
+Cell control_unit (0) disconnected node: VPWR
+Cell control_unit (0) disconnected node: clk
+Cell control_unit (0) disconnected node: mode
+Cell control_unit (0) disconnected node: mode_alarm[0]
+Cell control_unit (0) disconnected node: mode_alarm[1]
+Cell control_unit (0) disconnected node: mode_display[0]
+Cell control_unit (0) disconnected node: mode_display[1]
+Cell control_unit (0) disconnected node: reset_n
+Cell control_unit (0) disconnected node: sel
+Cell control_unit (0) disconnected node: select_time[0]
+Cell control_unit (0) disconnected node: select_time[1]
+Cell control_unit (0) disconnected node: select_time[2]
+Cell control_unit (0) disconnected node: select_time[3]
+Cell control_unit (0) disconnected node: select_time[4]
+Cell control_unit (0) disconnected node: select_time[5]
+
+Subcircuit pins:
+Circuit 1: control_unit                    |Circuit 2: control_unit                    
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VPWR                                       |VPWR                                       
+clk                                        |clk                                        
+mode                                       |mode                                       
+mode_alarm[0]                              |mode_alarm[0]                              
+mode_alarm[1]                              |mode_alarm[1]                              
+mode_display[0]                            |mode_display[0]                            
+mode_display[1]                            |mode_display[1]                            
+reset_n                                    |reset_n                                    
+sel                                        |sel                                        
+select_time[0]                             |select_time[0]                             
+select_time[1]                             |select_time[1]                             
+select_time[2]                             |select_time[2]                             
+select_time[3]                             |select_time[3]                             
+select_time[4]                             |select_time[4]                             
+select_time[5]                             |select_time[5]                             
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes control_unit and control_unit are equivalent.
+
+Cell top_display (0) disconnected node: VGND
+Cell top_display (0) disconnected node: VPWR
+Cell top_display (0) disconnected node: alarm
+Cell top_display (0) disconnected node: clk
+Cell top_display (0) disconnected node: hun_y[0]
+Cell top_display (0) disconnected node: hun_y[1]
+Cell top_display (0) disconnected node: hun_y[2]
+Cell top_display (0) disconnected node: hun_y[3]
+Cell top_display (0) disconnected node: led_am_pm[0]
+Cell top_display (0) disconnected node: led_am_pm[1]
+Cell top_display (0) disconnected node: led_am_pm[2]
+Cell top_display (0) disconnected node: led_am_pm[3]
+Cell top_display (0) disconnected node: led_am_pm[4]
+Cell top_display (0) disconnected node: led_am_pm[5]
+Cell top_display (0) disconnected node: led_am_pm[6]
+Cell top_display (0) disconnected node: led_hun_y[0]
+Cell top_display (0) disconnected node: led_hun_y[1]
+Cell top_display (0) disconnected node: led_hun_y[2]
+Cell top_display (0) disconnected node: led_hun_y[3]
+Cell top_display (0) disconnected node: led_hun_y[4]
+Cell top_display (0) disconnected node: led_hun_y[5]
+Cell top_display (0) disconnected node: led_hun_y[6]
+Cell top_display (0) disconnected node: led_ten_d[0]
+Cell top_display (0) disconnected node: led_ten_d[1]
+Cell top_display (0) disconnected node: led_ten_d[2]
+Cell top_display (0) disconnected node: led_ten_d[3]
+Cell top_display (0) disconnected node: led_ten_d[4]
+Cell top_display (0) disconnected node: led_ten_d[5]
+Cell top_display (0) disconnected node: led_ten_d[6]
+Cell top_display (0) disconnected node: led_ten_h[0]
+Cell top_display (0) disconnected node: led_ten_h[1]
+Cell top_display (0) disconnected node: led_ten_h[2]
+Cell top_display (0) disconnected node: led_ten_h[3]
+Cell top_display (0) disconnected node: led_ten_h[4]
+Cell top_display (0) disconnected node: led_ten_h[5]
+Cell top_display (0) disconnected node: led_ten_h[6]
+Cell top_display (0) disconnected node: led_ten_m[0]
+Cell top_display (0) disconnected node: led_ten_m[1]
+Cell top_display (0) disconnected node: led_ten_m[2]
+Cell top_display (0) disconnected node: led_ten_m[3]
+Cell top_display (0) disconnected node: led_ten_m[4]
+Cell top_display (0) disconnected node: led_ten_m[5]
+Cell top_display (0) disconnected node: led_ten_m[6]
+Cell top_display (0) disconnected node: led_ten_mo[0]
+Cell top_display (0) disconnected node: led_ten_mo[1]
+Cell top_display (0) disconnected node: led_ten_mo[2]
+Cell top_display (0) disconnected node: led_ten_mo[3]
+Cell top_display (0) disconnected node: led_ten_mo[4]
+Cell top_display (0) disconnected node: led_ten_mo[5]
+Cell top_display (0) disconnected node: led_ten_mo[6]
+Cell top_display (0) disconnected node: led_ten_s[0]
+Cell top_display (0) disconnected node: led_ten_s[1]
+Cell top_display (0) disconnected node: led_ten_s[2]
+Cell top_display (0) disconnected node: led_ten_s[3]
+Cell top_display (0) disconnected node: led_ten_s[4]
+Cell top_display (0) disconnected node: led_ten_s[5]
+Cell top_display (0) disconnected node: led_ten_s[6]
+Cell top_display (0) disconnected node: led_ten_y[0]
+Cell top_display (0) disconnected node: led_ten_y[1]
+Cell top_display (0) disconnected node: led_ten_y[2]
+Cell top_display (0) disconnected node: led_ten_y[3]
+Cell top_display (0) disconnected node: led_ten_y[4]
+Cell top_display (0) disconnected node: led_ten_y[5]
+Cell top_display (0) disconnected node: led_ten_y[6]
+Cell top_display (0) disconnected node: led_thou_y[0]
+Cell top_display (0) disconnected node: led_thou_y[1]
+Cell top_display (0) disconnected node: led_thou_y[2]
+Cell top_display (0) disconnected node: led_thou_y[3]
+Cell top_display (0) disconnected node: led_thou_y[4]
+Cell top_display (0) disconnected node: led_thou_y[5]
+Cell top_display (0) disconnected node: led_thou_y[6]
+Cell top_display (0) disconnected node: led_unit_d[0]
+Cell top_display (0) disconnected node: led_unit_d[1]
+Cell top_display (0) disconnected node: led_unit_d[2]
+Cell top_display (0) disconnected node: led_unit_d[3]
+Cell top_display (0) disconnected node: led_unit_d[4]
+Cell top_display (0) disconnected node: led_unit_d[5]
+Cell top_display (0) disconnected node: led_unit_d[6]
+Cell top_display (0) disconnected node: led_unit_h[0]
+Cell top_display (0) disconnected node: led_unit_h[1]
+Cell top_display (0) disconnected node: led_unit_h[2]
+Cell top_display (0) disconnected node: led_unit_h[3]
+Cell top_display (0) disconnected node: led_unit_h[4]
+Cell top_display (0) disconnected node: led_unit_h[5]
+Cell top_display (0) disconnected node: led_unit_h[6]
+Cell top_display (0) disconnected node: led_unit_m[0]
+Cell top_display (0) disconnected node: led_unit_m[1]
+Cell top_display (0) disconnected node: led_unit_m[2]
+Cell top_display (0) disconnected node: led_unit_m[3]
+Cell top_display (0) disconnected node: led_unit_m[4]
+Cell top_display (0) disconnected node: led_unit_m[5]
+Cell top_display (0) disconnected node: led_unit_m[6]
+Cell top_display (0) disconnected node: led_unit_mo[0]
+Cell top_display (0) disconnected node: led_unit_mo[1]
+Cell top_display (0) disconnected node: led_unit_mo[2]
+Cell top_display (0) disconnected node: led_unit_mo[3]
+Cell top_display (0) disconnected node: led_unit_mo[4]
+Cell top_display (0) disconnected node: led_unit_mo[5]
+Cell top_display (0) disconnected node: led_unit_mo[6]
+Cell top_display (0) disconnected node: led_unit_s[0]
+Cell top_display (0) disconnected node: led_unit_s[1]
+Cell top_display (0) disconnected node: led_unit_s[2]
+Cell top_display (0) disconnected node: led_unit_s[3]
+Cell top_display (0) disconnected node: led_unit_s[4]
+Cell top_display (0) disconnected node: led_unit_s[5]
+Cell top_display (0) disconnected node: led_unit_s[6]
+Cell top_display (0) disconnected node: led_unit_y[0]
+Cell top_display (0) disconnected node: led_unit_y[1]
+Cell top_display (0) disconnected node: led_unit_y[2]
+Cell top_display (0) disconnected node: led_unit_y[3]
+Cell top_display (0) disconnected node: led_unit_y[4]
+Cell top_display (0) disconnected node: led_unit_y[5]
+Cell top_display (0) disconnected node: led_unit_y[6]
+Cell top_display (0) disconnected node: mode_alarm[0]
+Cell top_display (0) disconnected node: mode_alarm[1]
+Cell top_display (0) disconnected node: mode_display[0]
+Cell top_display (0) disconnected node: mode_display[1]
+Cell top_display (0) disconnected node: reset_n
+Cell top_display (0) disconnected node: ten_d[0]
+Cell top_display (0) disconnected node: ten_d[1]
+Cell top_display (0) disconnected node: ten_d[2]
+Cell top_display (0) disconnected node: ten_d[3]
+Cell top_display (0) disconnected node: ten_h[0]
+Cell top_display (0) disconnected node: ten_h[1]
+Cell top_display (0) disconnected node: ten_h[2]
+Cell top_display (0) disconnected node: ten_h[3]
+Cell top_display (0) disconnected node: ten_h_alarm[0]
+Cell top_display (0) disconnected node: ten_h_alarm[1]
+Cell top_display (0) disconnected node: ten_h_alarm[2]
+Cell top_display (0) disconnected node: ten_h_alarm[3]
+Cell top_display (0) disconnected node: ten_m[0]
+Cell top_display (0) disconnected node: ten_m[1]
+Cell top_display (0) disconnected node: ten_m[2]
+Cell top_display (0) disconnected node: ten_m[3]
+Cell top_display (0) disconnected node: ten_m_alarm[0]
+Cell top_display (0) disconnected node: ten_m_alarm[1]
+Cell top_display (0) disconnected node: ten_m_alarm[2]
+Cell top_display (0) disconnected node: ten_m_alarm[3]
+Cell top_display (0) disconnected node: ten_mo[0]
+Cell top_display (0) disconnected node: ten_mo[1]
+Cell top_display (0) disconnected node: ten_mo[2]
+Cell top_display (0) disconnected node: ten_mo[3]
+Cell top_display (0) disconnected node: ten_s[0]
+Cell top_display (0) disconnected node: ten_s[1]
+Cell top_display (0) disconnected node: ten_s[2]
+Cell top_display (0) disconnected node: ten_s[3]
+Cell top_display (0) disconnected node: ten_y[0]
+Cell top_display (0) disconnected node: ten_y[1]
+Cell top_display (0) disconnected node: ten_y[2]
+Cell top_display (0) disconnected node: ten_y[3]
+Cell top_display (0) disconnected node: thou_y[0]
+Cell top_display (0) disconnected node: thou_y[1]
+Cell top_display (0) disconnected node: thou_y[2]
+Cell top_display (0) disconnected node: thou_y[3]
+Cell top_display (0) disconnected node: unit_d[0]
+Cell top_display (0) disconnected node: unit_d[1]
+Cell top_display (0) disconnected node: unit_d[2]
+Cell top_display (0) disconnected node: unit_d[3]
+Cell top_display (0) disconnected node: unit_h[0]
+Cell top_display (0) disconnected node: unit_h[1]
+Cell top_display (0) disconnected node: unit_h[2]
+Cell top_display (0) disconnected node: unit_h[3]
+Cell top_display (0) disconnected node: unit_h_alarm[0]
+Cell top_display (0) disconnected node: unit_h_alarm[1]
+Cell top_display (0) disconnected node: unit_h_alarm[2]
+Cell top_display (0) disconnected node: unit_h_alarm[3]
+Cell top_display (0) disconnected node: unit_m[0]
+Cell top_display (0) disconnected node: unit_m[1]
+Cell top_display (0) disconnected node: unit_m[2]
+Cell top_display (0) disconnected node: unit_m[3]
+Cell top_display (0) disconnected node: unit_m_alarm[0]
+Cell top_display (0) disconnected node: unit_m_alarm[1]
+Cell top_display (0) disconnected node: unit_m_alarm[2]
+Cell top_display (0) disconnected node: unit_m_alarm[3]
+Cell top_display (0) disconnected node: unit_mo[0]
+Cell top_display (0) disconnected node: unit_mo[1]
+Cell top_display (0) disconnected node: unit_mo[2]
+Cell top_display (0) disconnected node: unit_mo[3]
+Cell top_display (0) disconnected node: unit_s[0]
+Cell top_display (0) disconnected node: unit_s[1]
+Cell top_display (0) disconnected node: unit_s[2]
+Cell top_display (0) disconnected node: unit_s[3]
+Cell top_display (0) disconnected node: unit_y[0]
+Cell top_display (0) disconnected node: unit_y[1]
+Cell top_display (0) disconnected node: unit_y[2]
+Cell top_display (0) disconnected node: unit_y[3]
+
+Subcircuit pins:
+Circuit 1: top_display                     |Circuit 2: top_display                     
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VPWR                                       |VPWR                                       
+alarm                                      |alarm                                      
+clk                                        |clk                                        
+hun_y[0]                                   |hun_y[0]                                   
+hun_y[1]                                   |hun_y[1]                                   
+hun_y[2]                                   |hun_y[2]                                   
+hun_y[3]                                   |hun_y[3]                                   
+led_am_pm[0]                               |led_am_pm[0]                               
+led_am_pm[1]                               |led_am_pm[1]                               
+led_am_pm[2]                               |led_am_pm[2]                               
+led_am_pm[3]                               |led_am_pm[3]                               
+led_am_pm[4]                               |led_am_pm[4]                               
+led_am_pm[5]                               |led_am_pm[5]                               
+led_am_pm[6]                               |led_am_pm[6]                               
+led_hun_y[0]                               |led_hun_y[0]                               
+led_hun_y[1]                               |led_hun_y[1]                               
+led_hun_y[2]                               |led_hun_y[2]                               
+led_hun_y[3]                               |led_hun_y[3]                               
+led_hun_y[4]                               |led_hun_y[4]                               
+led_hun_y[5]                               |led_hun_y[5]                               
+led_hun_y[6]                               |led_hun_y[6]                               
+led_ten_d[0]                               |led_ten_d[0]                               
+led_ten_d[1]                               |led_ten_d[1]                               
+led_ten_d[2]                               |led_ten_d[2]                               
+led_ten_d[3]                               |led_ten_d[3]                               
+led_ten_d[4]                               |led_ten_d[4]                               
+led_ten_d[5]                               |led_ten_d[5]                               
+led_ten_d[6]                               |led_ten_d[6]                               
+led_ten_h[0]                               |led_ten_h[0]                               
+led_ten_h[1]                               |led_ten_h[1]                               
+led_ten_h[2]                               |led_ten_h[2]                               
+led_ten_h[3]                               |led_ten_h[3]                               
+led_ten_h[4]                               |led_ten_h[4]                               
+led_ten_h[5]                               |led_ten_h[5]                               
+led_ten_h[6]                               |led_ten_h[6]                               
+led_ten_m[0]                               |led_ten_m[0]                               
+led_ten_m[1]                               |led_ten_m[1]                               
+led_ten_m[2]                               |led_ten_m[2]                               
+led_ten_m[3]                               |led_ten_m[3]                               
+led_ten_m[4]                               |led_ten_m[4]                               
+led_ten_m[5]                               |led_ten_m[5]                               
+led_ten_m[6]                               |led_ten_m[6]                               
+led_ten_mo[0]                              |led_ten_mo[0]                              
+led_ten_mo[1]                              |led_ten_mo[1]                              
+led_ten_mo[2]                              |led_ten_mo[2]                              
+led_ten_mo[3]                              |led_ten_mo[3]                              
+led_ten_mo[4]                              |led_ten_mo[4]                              
+led_ten_mo[5]                              |led_ten_mo[5]                              
+led_ten_mo[6]                              |led_ten_mo[6]                              
+led_ten_s[0]                               |led_ten_s[0]                               
+led_ten_s[1]                               |led_ten_s[1]                               
+led_ten_s[2]                               |led_ten_s[2]                               
+led_ten_s[3]                               |led_ten_s[3]                               
+led_ten_s[4]                               |led_ten_s[4]                               
+led_ten_s[5]                               |led_ten_s[5]                               
+led_ten_s[6]                               |led_ten_s[6]                               
+led_ten_y[0]                               |led_ten_y[0]                               
+led_ten_y[1]                               |led_ten_y[1]                               
+led_ten_y[2]                               |led_ten_y[2]                               
+led_ten_y[3]                               |led_ten_y[3]                               
+led_ten_y[4]                               |led_ten_y[4]                               
+led_ten_y[5]                               |led_ten_y[5]                               
+led_ten_y[6]                               |led_ten_y[6]                               
+led_thou_y[0]                              |led_thou_y[0]                              
+led_thou_y[1]                              |led_thou_y[1]                              
+led_thou_y[2]                              |led_thou_y[2]                              
+led_thou_y[3]                              |led_thou_y[3]                              
+led_thou_y[4]                              |led_thou_y[4]                              
+led_thou_y[5]                              |led_thou_y[5]                              
+led_thou_y[6]                              |led_thou_y[6]                              
+led_unit_d[0]                              |led_unit_d[0]                              
+led_unit_d[1]                              |led_unit_d[1]                              
+led_unit_d[2]                              |led_unit_d[2]                              
+led_unit_d[3]                              |led_unit_d[3]                              
+led_unit_d[4]                              |led_unit_d[4]                              
+led_unit_d[5]                              |led_unit_d[5]                              
+led_unit_d[6]                              |led_unit_d[6]                              
+led_unit_h[0]                              |led_unit_h[0]                              
+led_unit_h[1]                              |led_unit_h[1]                              
+led_unit_h[2]                              |led_unit_h[2]                              
+led_unit_h[3]                              |led_unit_h[3]                              
+led_unit_h[4]                              |led_unit_h[4]                              
+led_unit_h[5]                              |led_unit_h[5]                              
+led_unit_h[6]                              |led_unit_h[6]                              
+led_unit_m[0]                              |led_unit_m[0]                              
+led_unit_m[1]                              |led_unit_m[1]                              
+led_unit_m[2]                              |led_unit_m[2]                              
+led_unit_m[3]                              |led_unit_m[3]                              
+led_unit_m[4]                              |led_unit_m[4]                              
+led_unit_m[5]                              |led_unit_m[5]                              
+led_unit_m[6]                              |led_unit_m[6]                              
+led_unit_mo[0]                             |led_unit_mo[0]                             
+led_unit_mo[1]                             |led_unit_mo[1]                             
+led_unit_mo[2]                             |led_unit_mo[2]                             
+led_unit_mo[3]                             |led_unit_mo[3]                             
+led_unit_mo[4]                             |led_unit_mo[4]                             
+led_unit_mo[5]                             |led_unit_mo[5]                             
+led_unit_mo[6]                             |led_unit_mo[6]                             
+led_unit_s[0]                              |led_unit_s[0]                              
+led_unit_s[1]                              |led_unit_s[1]                              
+led_unit_s[2]                              |led_unit_s[2]                              
+led_unit_s[3]                              |led_unit_s[3]                              
+led_unit_s[4]                              |led_unit_s[4]                              
+led_unit_s[5]                              |led_unit_s[5]                              
+led_unit_s[6]                              |led_unit_s[6]                              
+led_unit_y[0]                              |led_unit_y[0]                              
+led_unit_y[1]                              |led_unit_y[1]                              
+led_unit_y[2]                              |led_unit_y[2]                              
+led_unit_y[3]                              |led_unit_y[3]                              
+led_unit_y[4]                              |led_unit_y[4]                              
+led_unit_y[5]                              |led_unit_y[5]                              
+led_unit_y[6]                              |led_unit_y[6]                              
+mode_alarm[0]                              |mode_alarm[0]                              
+mode_alarm[1]                              |mode_alarm[1]                              
+mode_display[0]                            |mode_display[0]                            
+mode_display[1]                            |mode_display[1]                            
+reset_n                                    |reset_n                                    
+ten_d[0]                                   |ten_d[0]                                   
+ten_d[1]                                   |ten_d[1]                                   
+ten_d[2]                                   |ten_d[2]                                   
+ten_d[3]                                   |ten_d[3]                                   
+ten_h[0]                                   |ten_h[0]                                   
+ten_h[1]                                   |ten_h[1]                                   
+ten_h[2]                                   |ten_h[2]                                   
+ten_h[3]                                   |ten_h[3]                                   
+ten_h_alarm[0]                             |ten_h_alarm[0]                             
+ten_h_alarm[1]                             |ten_h_alarm[1]                             
+ten_h_alarm[2]                             |ten_h_alarm[2]                             
+ten_h_alarm[3]                             |ten_h_alarm[3]                             
+ten_m[0]                                   |ten_m[0]                                   
+ten_m[1]                                   |ten_m[1]                                   
+ten_m[2]                                   |ten_m[2]                                   
+ten_m[3]                                   |ten_m[3]                                   
+ten_m_alarm[0]                             |ten_m_alarm[0]                             
+ten_m_alarm[1]                             |ten_m_alarm[1]                             
+ten_m_alarm[2]                             |ten_m_alarm[2]                             
+ten_m_alarm[3]                             |ten_m_alarm[3]                             
+ten_mo[0]                                  |ten_mo[0]                                  
+ten_mo[1]                                  |ten_mo[1]                                  
+ten_mo[2]                                  |ten_mo[2]                                  
+ten_mo[3]                                  |ten_mo[3]                                  
+ten_s[0]                                   |ten_s[0]                                   
+ten_s[1]                                   |ten_s[1]                                   
+ten_s[2]                                   |ten_s[2]                                   
+ten_s[3]                                   |ten_s[3]                                   
+ten_y[0]                                   |ten_y[0]                                   
+ten_y[1]                                   |ten_y[1]                                   
+ten_y[2]                                   |ten_y[2]                                   
+ten_y[3]                                   |ten_y[3]                                   
+thou_y[0]                                  |thou_y[0]                                  
+thou_y[1]                                  |thou_y[1]                                  
+thou_y[2]                                  |thou_y[2]                                  
+thou_y[3]                                  |thou_y[3]                                  
+unit_d[0]                                  |unit_d[0]                                  
+unit_d[1]                                  |unit_d[1]                                  
+unit_d[2]                                  |unit_d[2]                                  
+unit_d[3]                                  |unit_d[3]                                  
+unit_h[0]                                  |unit_h[0]                                  
+unit_h[1]                                  |unit_h[1]                                  
+unit_h[2]                                  |unit_h[2]                                  
+unit_h[3]                                  |unit_h[3]                                  
+unit_h_alarm[0]                            |unit_h_alarm[0]                            
+unit_h_alarm[1]                            |unit_h_alarm[1]                            
+unit_h_alarm[2]                            |unit_h_alarm[2]                            
+unit_h_alarm[3]                            |unit_h_alarm[3]                            
+unit_m[0]                                  |unit_m[0]                                  
+unit_m[1]                                  |unit_m[1]                                  
+unit_m[2]                                  |unit_m[2]                                  
+unit_m[3]                                  |unit_m[3]                                  
+unit_m_alarm[0]                            |unit_m_alarm[0]                            
+unit_m_alarm[1]                            |unit_m_alarm[1]                            
+unit_m_alarm[2]                            |unit_m_alarm[2]                            
+unit_m_alarm[3]                            |unit_m_alarm[3]                            
+unit_mo[0]                                 |unit_mo[0]                                 
+unit_mo[1]                                 |unit_mo[1]                                 
+unit_mo[2]                                 |unit_mo[2]                                 
+unit_mo[3]                                 |unit_mo[3]                                 
+unit_s[0]                                  |unit_s[0]                                  
+unit_s[1]                                  |unit_s[1]                                  
+unit_s[2]                                  |unit_s[2]                                  
+unit_s[3]                                  |unit_s[3]                                  
+unit_y[0]                                  |unit_y[0]                                  
+unit_y[1]                                  |unit_y[1]                                  
+unit_y[2]                                  |unit_y[2]                                  
+unit_y[3]                                  |unit_y[3]                                  
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes top_display and top_display are equivalent.
+
+Cell top_counter (0) disconnected node: VGND
+Cell top_counter (0) disconnected node: VPWR
+Cell top_counter (0) disconnected node: clk
+Cell top_counter (0) disconnected node: hun_y[0]
+Cell top_counter (0) disconnected node: hun_y[1]
+Cell top_counter (0) disconnected node: hun_y[2]
+Cell top_counter (0) disconnected node: hun_y[3]
+Cell top_counter (0) disconnected node: inc
+Cell top_counter (0) disconnected node: reset_n
+Cell top_counter (0) disconnected node: select_time[0]
+Cell top_counter (0) disconnected node: select_time[1]
+Cell top_counter (0) disconnected node: select_time[2]
+Cell top_counter (0) disconnected node: select_time[3]
+Cell top_counter (0) disconnected node: select_time[4]
+Cell top_counter (0) disconnected node: select_time[5]
+Cell top_counter (0) disconnected node: ten_d[0]
+Cell top_counter (0) disconnected node: ten_d[1]
+Cell top_counter (0) disconnected node: ten_d[2]
+Cell top_counter (0) disconnected node: ten_d[3]
+Cell top_counter (0) disconnected node: ten_h[0]
+Cell top_counter (0) disconnected node: ten_h[1]
+Cell top_counter (0) disconnected node: ten_h[2]
+Cell top_counter (0) disconnected node: ten_h[3]
+Cell top_counter (0) disconnected node: ten_m[0]
+Cell top_counter (0) disconnected node: ten_m[1]
+Cell top_counter (0) disconnected node: ten_m[2]
+Cell top_counter (0) disconnected node: ten_m[3]
+Cell top_counter (0) disconnected node: ten_mo[0]
+Cell top_counter (0) disconnected node: ten_mo[1]
+Cell top_counter (0) disconnected node: ten_mo[2]
+Cell top_counter (0) disconnected node: ten_mo[3]
+Cell top_counter (0) disconnected node: ten_s[0]
+Cell top_counter (0) disconnected node: ten_s[1]
+Cell top_counter (0) disconnected node: ten_s[2]
+Cell top_counter (0) disconnected node: ten_s[3]
+Cell top_counter (0) disconnected node: ten_y[0]
+Cell top_counter (0) disconnected node: ten_y[1]
+Cell top_counter (0) disconnected node: ten_y[2]
+Cell top_counter (0) disconnected node: ten_y[3]
+Cell top_counter (0) disconnected node: thou_y[0]
+Cell top_counter (0) disconnected node: thou_y[1]
+Cell top_counter (0) disconnected node: thou_y[2]
+Cell top_counter (0) disconnected node: thou_y[3]
+Cell top_counter (0) disconnected node: unit_d[0]
+Cell top_counter (0) disconnected node: unit_d[1]
+Cell top_counter (0) disconnected node: unit_d[2]
+Cell top_counter (0) disconnected node: unit_d[3]
+Cell top_counter (0) disconnected node: unit_h[0]
+Cell top_counter (0) disconnected node: unit_h[1]
+Cell top_counter (0) disconnected node: unit_h[2]
+Cell top_counter (0) disconnected node: unit_h[3]
+Cell top_counter (0) disconnected node: unit_m[0]
+Cell top_counter (0) disconnected node: unit_m[1]
+Cell top_counter (0) disconnected node: unit_m[2]
+Cell top_counter (0) disconnected node: unit_m[3]
+Cell top_counter (0) disconnected node: unit_mo[0]
+Cell top_counter (0) disconnected node: unit_mo[1]
+Cell top_counter (0) disconnected node: unit_mo[2]
+Cell top_counter (0) disconnected node: unit_mo[3]
+Cell top_counter (0) disconnected node: unit_s[0]
+Cell top_counter (0) disconnected node: unit_s[1]
+Cell top_counter (0) disconnected node: unit_s[2]
+Cell top_counter (0) disconnected node: unit_s[3]
+Cell top_counter (0) disconnected node: unit_y[0]
+Cell top_counter (0) disconnected node: unit_y[1]
+Cell top_counter (0) disconnected node: unit_y[2]
+Cell top_counter (0) disconnected node: unit_y[3]
+
+Subcircuit pins:
+Circuit 1: top_counter                     |Circuit 2: top_counter                     
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VPWR                                       |VPWR                                       
+clk                                        |clk                                        
+hun_y[0]                                   |hun_y[0]                                   
+hun_y[1]                                   |hun_y[1]                                   
+hun_y[2]                                   |hun_y[2]                                   
+hun_y[3]                                   |hun_y[3]                                   
+inc                                        |inc                                        
+reset_n                                    |reset_n                                    
+select_time[0]                             |select_time[0]                             
+select_time[1]                             |select_time[1]                             
+select_time[2]                             |select_time[2]                             
+select_time[3]                             |select_time[3]                             
+select_time[4]                             |select_time[4]                             
+select_time[5]                             |select_time[5]                             
+ten_d[0]                                   |ten_d[0]                                   
+ten_d[1]                                   |ten_d[1]                                   
+ten_d[2]                                   |ten_d[2]                                   
+ten_d[3]                                   |ten_d[3]                                   
+ten_h[0]                                   |ten_h[0]                                   
+ten_h[1]                                   |ten_h[1]                                   
+ten_h[2]                                   |ten_h[2]                                   
+ten_h[3]                                   |ten_h[3]                                   
+ten_m[0]                                   |ten_m[0]                                   
+ten_m[1]                                   |ten_m[1]                                   
+ten_m[2]                                   |ten_m[2]                                   
+ten_m[3]                                   |ten_m[3]                                   
+ten_mo[0]                                  |ten_mo[0]                                  
+ten_mo[1]                                  |ten_mo[1]                                  
+ten_mo[2]                                  |ten_mo[2]                                  
+ten_mo[3]                                  |ten_mo[3]                                  
+ten_s[0]                                   |ten_s[0]                                   
+ten_s[1]                                   |ten_s[1]                                   
+ten_s[2]                                   |ten_s[2]                                   
+ten_s[3]                                   |ten_s[3]                                   
+ten_y[0]                                   |ten_y[0]                                   
+ten_y[1]                                   |ten_y[1]                                   
+ten_y[2]                                   |ten_y[2]                                   
+ten_y[3]                                   |ten_y[3]                                   
+thou_y[0]                                  |thou_y[0]                                  
+thou_y[1]                                  |thou_y[1]                                  
+thou_y[2]                                  |thou_y[2]                                  
+thou_y[3]                                  |thou_y[3]                                  
+unit_d[0]                                  |unit_d[0]                                  
+unit_d[1]                                  |unit_d[1]                                  
+unit_d[2]                                  |unit_d[2]                                  
+unit_d[3]                                  |unit_d[3]                                  
+unit_h[0]                                  |unit_h[0]                                  
+unit_h[1]                                  |unit_h[1]                                  
+unit_h[2]                                  |unit_h[2]                                  
+unit_h[3]                                  |unit_h[3]                                  
+unit_m[0]                                  |unit_m[0]                                  
+unit_m[1]                                  |unit_m[1]                                  
+unit_m[2]                                  |unit_m[2]                                  
+unit_m[3]                                  |unit_m[3]                                  
+unit_mo[0]                                 |unit_mo[0]                                 
+unit_mo[1]                                 |unit_mo[1]                                 
+unit_mo[2]                                 |unit_mo[2]                                 
+unit_mo[3]                                 |unit_mo[3]                                 
+unit_s[0]                                  |unit_s[0]                                  
+unit_s[1]                                  |unit_s[1]                                  
+unit_s[2]                                  |unit_s[2]                                  
+unit_s[3]                                  |unit_s[3]                                  
+unit_y[0]                                  |unit_y[0]                                  
+unit_y[1]                                  |unit_y[1]                                  
+unit_y[2]                                  |unit_y[2]                                  
+unit_y[3]                                  |unit_y[3]                                  
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes top_counter and top_counter are equivalent.
+
+Cell min_counter_alarm (0) disconnected node: VGND
+Cell min_counter_alarm (0) disconnected node: VPWR
+Cell min_counter_alarm (0) disconnected node: alarm
+Cell min_counter_alarm (0) disconnected node: clk
+Cell min_counter_alarm (0) disconnected node: inc
+Cell min_counter_alarm (0) disconnected node: mode_alarm[0]
+Cell min_counter_alarm (0) disconnected node: mode_alarm[1]
+Cell min_counter_alarm (0) disconnected node: reset_n
+Cell min_counter_alarm (0) disconnected node: ten_m_alarm[0]
+Cell min_counter_alarm (0) disconnected node: ten_m_alarm[1]
+Cell min_counter_alarm (0) disconnected node: ten_m_alarm[2]
+Cell min_counter_alarm (0) disconnected node: ten_m_alarm[3]
+Cell min_counter_alarm (0) disconnected node: unit_m_alarm[0]
+Cell min_counter_alarm (0) disconnected node: unit_m_alarm[1]
+Cell min_counter_alarm (0) disconnected node: unit_m_alarm[2]
+Cell min_counter_alarm (0) disconnected node: unit_m_alarm[3]
+
+Subcircuit pins:
+Circuit 1: min_counter_alarm               |Circuit 2: min_counter_alarm               
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VPWR                                       |VPWR                                       
+alarm                                      |alarm                                      
+clk                                        |clk                                        
+inc                                        |inc                                        
+mode_alarm[0]                              |mode_alarm[0]                              
+mode_alarm[1]                              |mode_alarm[1]                              
+reset_n                                    |reset_n                                    
+ten_m_alarm[0]                             |ten_m_alarm[0]                             
+ten_m_alarm[1]                             |ten_m_alarm[1]                             
+ten_m_alarm[2]                             |ten_m_alarm[2]                             
+ten_m_alarm[3]                             |ten_m_alarm[3]                             
+unit_m_alarm[0]                            |unit_m_alarm[0]                            
+unit_m_alarm[1]                            |unit_m_alarm[1]                            
+unit_m_alarm[2]                            |unit_m_alarm[2]                            
+unit_m_alarm[3]                            |unit_m_alarm[3]                            
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes min_counter_alarm and min_counter_alarm are equivalent.
+
+Class top_century_clock (0):  Merged 41975 parallel devices.
+Class top_century_clock (1):  Merged 41975 parallel devices.
+Subcircuit summary:
+Circuit 1: top_century_clock               |Circuit 2: top_century_clock               
+-------------------------------------------|-------------------------------------------
+sky130_ef_sc_hd__decap_12 (22854->1)       |sky130_ef_sc_hd__decap_12 (22854->1)       
+sky130_fd_sc_hd__fill_1 (5579->1)          |sky130_fd_sc_hd__fill_1 (5579->1)          
+sky130_fd_sc_hd__decap_6 (4593->1)         |sky130_fd_sc_hd__decap_6 (4593->1)         
+sky130_fd_sc_hd__decap_3 (2270->1)         |sky130_fd_sc_hd__decap_3 (2270->1)         
+sky130_fd_sc_hd__tapvpwrvgnd_1 (5752->1)   |sky130_fd_sc_hd__tapvpwrvgnd_1 (5752->1)   
+sky130_fd_sc_hd__decap_4 (460->1)          |sky130_fd_sc_hd__decap_4 (460->1)          
+sky130_fd_sc_hd__decap_8 (199->1)          |sky130_fd_sc_hd__decap_8 (199->1)          
+sky130_fd_sc_hd__fill_2 (167->1)           |sky130_fd_sc_hd__fill_2 (167->1)           
+sky130_fd_sc_hd__diode_2 (311->202)        |sky130_fd_sc_hd__diode_2 (311->202)        
+sky130_fd_sc_hd__buf_6 (3)                 |sky130_fd_sc_hd__buf_6 (3)                 
+sky130_fd_sc_hd__buf_1 (10)                |sky130_fd_sc_hd__buf_1 (10)                
+sky130_fd_sc_hd__buf_2 (98)                |sky130_fd_sc_hd__buf_2 (98)                
+sky130_fd_sc_hd__inv_16 (1)                |sky130_fd_sc_hd__inv_16 (1)                
+sky130_fd_sc_hd__clkbuf_16 (6)             |sky130_fd_sc_hd__clkbuf_16 (6)             
+sky130_fd_sc_hd__buf_4 (1)                 |sky130_fd_sc_hd__buf_4 (1)                 
+hour_counter_alarm (1)                     |hour_counter_alarm (1)                     
+control_unit (1)                           |control_unit (1)                           
+top_display (1)                            |top_display (1)                            
+top_counter (1)                            |top_counter (1)                            
+min_counter_alarm (1)                      |min_counter_alarm (1)                      
+Number of devices: 334                     |Number of devices: 334                     
+Number of nets: 314                        |Number of nets: 314                        
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: top_century_clock               |Circuit 2: top_century_clock               
+-------------------------------------------|-------------------------------------------
+clk                                        |clk                                        
+inc                                        |inc                                        
+reset_n                                    |reset_n                                    
+mode                                       |mode                                       
+sel                                        |sel                                        
+alarm                                      |alarm                                      
+led_am_pm[0]                               |led_am_pm[0]                               
+led_am_pm[6]                               |led_am_pm[6]                               
+led_am_pm[3]                               |led_am_pm[3]                               
+led_am_pm[2]                               |led_am_pm[2]                               
+led_am_pm[4]                               |led_am_pm[4]                               
+led_am_pm[1]                               |led_am_pm[1]                               
+led_am_pm[5]                               |led_am_pm[5]                               
+led_unit_mo[6]                             |led_unit_mo[6]                             
+led_unit_d[4]                              |led_unit_d[4]                              
+led_ten_s[2]                               |led_ten_s[2]                               
+led_unit_h[4]                              |led_unit_h[4]                              
+led_unit_h[6]                              |led_unit_h[6]                              
+led_ten_s[4]                               |led_ten_s[4]                               
+led_unit_y[4]                              |led_unit_y[4]                              
+led_unit_y[2]                              |led_unit_y[2]                              
+led_unit_m[1]                              |led_unit_m[1]                              
+led_unit_y[0]                              |led_unit_y[0]                              
+led_unit_mo[1]                             |led_unit_mo[1]                             
+led_ten_y[6]                               |led_ten_y[6]                               
+led_unit_mo[3]                             |led_unit_mo[3]                             
+led_unit_s[4]                              |led_unit_s[4]                              
+led_thou_y[1]                              |led_thou_y[1]                              
+led_unit_d[1]                              |led_unit_d[1]                              
+led_ten_m[6]                               |led_ten_m[6]                               
+led_unit_mo[5]                             |led_unit_mo[5]                             
+led_unit_s[6]                              |led_unit_s[6]                              
+led_unit_y[6]                              |led_unit_y[6]                              
+led_unit_d[3]                              |led_unit_d[3]                              
+led_unit_y[1]                              |led_unit_y[1]                              
+led_unit_d[5]                              |led_unit_d[5]                              
+led_unit_h[5]                              |led_unit_h[5]                              
+led_ten_s[3]                               |led_ten_s[3]                               
+led_unit_y[3]                              |led_unit_y[3]                              
+led_hun_y[6]                               |led_hun_y[6]                               
+led_unit_m[0]                              |led_unit_m[0]                              
+led_ten_h[2]                               |led_ten_h[2]                               
+led_unit_mo[0]                             |led_unit_mo[0]                             
+led_unit_y[5]                              |led_unit_y[5]                              
+led_ten_m[5]                               |led_ten_m[5]                               
+led_ten_h[1]                               |led_ten_h[1]                               
+led_hun_y[4]                               |led_hun_y[4]                               
+led_ten_y[5]                               |led_ten_y[5]                               
+led_ten_h[3]                               |led_ten_h[3]                               
+led_ten_s[1]                               |led_ten_s[1]                               
+led_ten_m[4]                               |led_ten_m[4]                               
+led_hun_y[3]                               |led_hun_y[3]                               
+led_unit_m[2]                              |led_unit_m[2]                              
+led_hun_y[5]                               |led_hun_y[5]                               
+led_ten_s[0]                               |led_ten_s[0]                               
+led_ten_m[3]                               |led_ten_m[3]                               
+led_ten_d[6]                               |led_ten_d[6]                               
+led_hun_y[2]                               |led_hun_y[2]                               
+led_unit_mo[2]                             |led_unit_mo[2]                             
+led_unit_d[0]                              |led_unit_d[0]                              
+led_ten_y[3]                               |led_ten_y[3]                               
+led_ten_mo[6]                              |led_ten_mo[6]                              
+led_ten_m[2]                               |led_ten_m[2]                               
+led_ten_d[5]                               |led_ten_d[5]                               
+led_hun_y[1]                               |led_hun_y[1]                               
+led_unit_s[3]                              |led_unit_s[3]                              
+led_thou_y[0]                              |led_thou_y[0]                              
+led_unit_h[3]                              |led_unit_h[3]                              
+led_thou_y[6]                              |led_thou_y[6]                              
+led_ten_mo[5]                              |led_ten_mo[5]                              
+led_ten_m[1]                               |led_ten_m[1]                               
+led_ten_d[4]                               |led_ten_d[4]                               
+led_hun_y[0]                               |led_hun_y[0]                               
+led_unit_h[2]                              |led_unit_h[2]                              
+led_thou_y[5]                              |led_thou_y[5]                              
+led_ten_y[1]                               |led_ten_y[1]                               
+led_ten_mo[4]                              |led_ten_mo[4]                              
+led_ten_d[3]                               |led_ten_d[3]                               
+led_ten_y[2]                               |led_ten_y[2]                               
+led_unit_mo[4]                             |led_unit_mo[4]                             
+led_unit_s[2]                              |led_unit_s[2]                              
+led_unit_m[5]                              |led_unit_m[5]                              
+led_unit_h[1]                              |led_unit_h[1]                              
+led_thou_y[4]                              |led_thou_y[4]                              
+led_ten_y[0]                               |led_ten_y[0]                               
+led_ten_mo[3]                              |led_ten_mo[3]                              
+led_ten_h[6]                               |led_ten_h[6]                               
+led_ten_d[2]                               |led_ten_d[2]                               
+led_ten_h[0]                               |led_ten_h[0]                               
+led_unit_s[5]                              |led_unit_s[5]                              
+led_unit_s[1]                              |led_unit_s[1]                              
+led_unit_m[4]                              |led_unit_m[4]                              
+led_unit_h[0]                              |led_unit_h[0]                              
+led_thou_y[3]                              |led_thou_y[3]                              
+led_ten_s[6]                               |led_ten_s[6]                               
+led_ten_mo[2]                              |led_ten_mo[2]                              
+led_ten_h[5]                               |led_ten_h[5]                               
+led_ten_d[1]                               |led_ten_d[1]                               
+led_ten_m[0]                               |led_ten_m[0]                               
+led_unit_d[2]                              |led_unit_d[2]                              
+led_unit_m[6]                              |led_unit_m[6]                              
+led_unit_s[0]                              |led_unit_s[0]                              
+led_unit_m[3]                              |led_unit_m[3]                              
+led_unit_d[6]                              |led_unit_d[6]                              
+led_thou_y[2]                              |led_thou_y[2]                              
+led_ten_s[5]                               |led_ten_s[5]                               
+led_ten_mo[1]                              |led_ten_mo[1]                              
+led_ten_h[4]                               |led_ten_h[4]                               
+led_ten_d[0]                               |led_ten_d[0]                               
+led_ten_mo[0]                              |led_ten_mo[0]                              
+led_ten_y[4]                               |led_ten_y[4]                               
+vssd1                                      |vssd1                                      
+vccd1                                      |vccd1                                      
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes top_century_clock and top_century_clock are equivalent.
+
+Final result: Circuits match uniquely.
+.

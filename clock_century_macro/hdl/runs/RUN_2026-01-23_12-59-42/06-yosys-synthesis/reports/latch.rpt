@@ -1,0 +1,8 @@
+
+35. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\top_century_clock.\over' from process `\top_century_clock.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:52$1'.
+No latch inferred for signal `\day_in_month_decode.\unit_day_in_month' from process `\day_in_month_decode.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_in_month_decode.v:10$76'.
+No latch inferred for signal `\day_in_month_decode.\ten_day_in_month' from process `\day_in_month_decode.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_in_month_decode.v:10$76'.
+No latch inferred for signal `\control_unit.\next_state' from process `\control_unit.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/control_unit.v:31$46'.
+No latch inferred for signal `\top_display.\over' from process `\top_display.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_display.v:45$5'.
+No latch inferred for signal `\seven_seg_dec.\seg' from process `\seven_seg_dec.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/seven_seg_dec.v:7$271'.

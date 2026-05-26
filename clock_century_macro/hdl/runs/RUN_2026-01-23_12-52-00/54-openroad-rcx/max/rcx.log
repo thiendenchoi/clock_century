@@ -1,0 +1,72 @@
+Reading technology LEF file at '/home/lroot/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__max.tlef'…
+[INFO ODB-0227] LEF file: /home/lroot/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__max.tlef, created 14 layers, 25 vias
+Reading cell LEF file at '/home/lroot/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef'…
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/lroot/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef at line 2.
+
+[INFO ODB-0227] LEF file: /home/lroot/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef, created 437 library cells
+Reading cell LEF file at '/home/lroot/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef'…
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/lroot/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef at line 2.
+
+[INFO ODB-0227] LEF file: /home/lroot/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef, created 4 library cells
+Reading macro LEF file at '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/control_unit_macro/lef/control_unit.lef'…
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/control_unit_macro/lef/control_unit.lef at line 2.
+
+[INFO ODB-0227] LEF file: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/control_unit_macro/lef/control_unit.lef, created 1 library cells
+Reading macro LEF file at '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_counter_macro/lef/top_counter.lef'…
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_counter_macro/lef/top_counter.lef at line 2.
+
+[INFO ODB-0227] LEF file: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_counter_macro/lef/top_counter.lef, created 1 library cells
+Reading macro LEF file at '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_display_macro/lef/top_display.lef'…
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_display_macro/lef/top_display.lef at line 2.
+
+[INFO ODB-0227] LEF file: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_display_macro/lef/top_display.lef, created 1 library cells
+Reading macro LEF file at '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter_alarm_macro/lef/min_counter_alarm.lef'…
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter_alarm_macro/lef/min_counter_alarm.lef at line 2.
+
+[INFO ODB-0227] LEF file: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter_alarm_macro/lef/min_counter_alarm.lef, created 1 library cells
+Reading macro LEF file at '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter_alarm_macro/lef/hour_counter_alarm.lef'…
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter_alarm_macro/lef/hour_counter_alarm.lef at line 2.
+
+[INFO ODB-0227] LEF file: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter_alarm_macro/lef/hour_counter_alarm.lef, created 1 library cells
+[INFO ODB-0127] Reading DEF file: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-23_12-52-00/53-odb-cellfrequencytables/top_century_clock.def
+[INFO ODB-0128] Design: top_century_clock
+[INFO ODB-0130]     Created 113 pins.
+[INFO ODB-0131]     Created 42309 components and 158562 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 157722 connections.
+[INFO ODB-0133]     Created 311 nets and 839 connections.
+[INFO ODB-0134] Finished DEF file: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-23_12-52-00/53-odb-cellfrequencytables/top_century_clock.def
+Using RCX ruleset '/home/lroot/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.tech/openlane/rules.openrcx.sky130A.max.calibre'…
+[INFO RCX-0431] Defined process_corner CURRENT_CORNER with ext_model_index 0
+[INFO RCX-0029] Defined extraction corner CURRENT_CORNER
+[INFO RCX-0435] Reading extraction model file /home/lroot/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.tech/openlane/rules.openrcx.sky130A.max.calibre ...
+[INFO RCX-0436] RC segment generation top_century_clock (max_merge_res 50.0) ...
+[INFO RCX-0040] Final 1392 rc segments
+[INFO RCX-0439] Coupling Cap extraction top_century_clock ...
+[INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
+[INFO RCX-0442] 94% of 14312 wires extracted
+[INFO RCX-0442] 100% of 14312 wires extracted
+[INFO RCX-0045] Extract 311 nets, 1702 rsegs, 1702 caps, 779 ccs
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+control_unit matched with control_unit
+top_counter matched with top_counter
+top_display matched with top_display
+min_counter_alarm matched with min_counter_alarm
+hour_counter_alarm matched with hour_counter_alarm
+Updating metrics…
+Cell type report:                       Count       Area
+  Macro                                     5  125000.00
+  Fill cell                             36122  397832.80
+  Tap cell                               5752    7196.90
+  Antenna cell                            311     778.25
+  Standard cell                           119     739.46
+  Total                                 42309  531547.41
+Writing extracted parasitics to '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-23_12-52-00/54-openroad-rcx/max/top_century_clock.max.spef'…
+[INFO RCX-0443] 311 nets finished

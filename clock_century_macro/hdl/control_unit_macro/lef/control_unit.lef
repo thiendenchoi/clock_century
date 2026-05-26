@@ -1,0 +1,240 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO control_unit
+  CLASS BLOCK ;
+  FOREIGN control_unit ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 100.000 BY 100.000 ;
+  PIN VGND
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER met4 ;
+        RECT 13.020 10.640 14.620 87.280 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 38.020 10.640 39.620 87.280 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 63.020 10.640 64.620 87.280 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 88.020 10.640 89.620 87.280 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.280 18.380 94.540 19.980 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.280 43.380 94.540 44.980 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.280 68.380 94.540 69.980 ;
+    END
+  END VGND
+  PIN VPWR
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER met4 ;
+        RECT 9.720 10.640 11.320 87.280 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 34.720 10.640 36.320 87.280 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 59.720 10.640 61.320 87.280 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 84.720 10.640 86.320 87.280 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.280 15.080 94.540 16.680 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.280 40.080 94.540 41.680 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.280 65.080 94.540 66.680 ;
+    END
+  END VPWR
+  PIN clk
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.852000 ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 12.280 4.000 12.880 ;
+    END
+  END clk
+  PIN mode
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.196500 ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 85.720 4.000 86.320 ;
+    END
+  END mode
+  PIN mode_alarm[0]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    ANTENNADIFFAREA 0.445500 ;
+    PORT
+      LAYER met3 ;
+        RECT 96.000 63.960 100.000 64.560 ;
+    END
+  END mode_alarm[0]
+  PIN mode_alarm[1]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    ANTENNADIFFAREA 0.445500 ;
+    PORT
+      LAYER met3 ;
+        RECT 96.000 73.480 100.000 74.080 ;
+    END
+  END mode_alarm[1]
+  PIN mode_display[0]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    ANTENNADIFFAREA 0.445500 ;
+    PORT
+      LAYER met3 ;
+        RECT 96.000 83.000 100.000 83.600 ;
+    END
+  END mode_display[0]
+  PIN mode_display[1]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    ANTENNADIFFAREA 0.445500 ;
+    PORT
+      LAYER met3 ;
+        RECT 96.000 92.520 100.000 93.120 ;
+    END
+  END mode_display[1]
+  PIN reset_n
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 36.760 4.000 37.360 ;
+    END
+  END reset_n
+  PIN sel
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.196500 ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 61.240 4.000 61.840 ;
+    END
+  END sel
+  PIN select_time[0]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    ANTENNADIFFAREA 0.445500 ;
+    PORT
+      LAYER met3 ;
+        RECT 96.000 6.840 100.000 7.440 ;
+    END
+  END select_time[0]
+  PIN select_time[1]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    ANTENNADIFFAREA 0.445500 ;
+    PORT
+      LAYER met3 ;
+        RECT 96.000 16.360 100.000 16.960 ;
+    END
+  END select_time[1]
+  PIN select_time[2]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    ANTENNADIFFAREA 0.445500 ;
+    PORT
+      LAYER met3 ;
+        RECT 96.000 25.880 100.000 26.480 ;
+    END
+  END select_time[2]
+  PIN select_time[3]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    ANTENNADIFFAREA 0.445500 ;
+    PORT
+      LAYER met3 ;
+        RECT 96.000 35.400 100.000 36.000 ;
+    END
+  END select_time[3]
+  PIN select_time[4]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    ANTENNADIFFAREA 0.445500 ;
+    PORT
+      LAYER met3 ;
+        RECT 96.000 44.920 100.000 45.520 ;
+    END
+  END select_time[4]
+  PIN select_time[5]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    ANTENNADIFFAREA 0.445500 ;
+    PORT
+      LAYER met3 ;
+        RECT 96.000 54.440 100.000 55.040 ;
+    END
+  END select_time[5]
+  OBS
+      LAYER nwell ;
+        RECT 5.330 10.795 94.490 87.125 ;
+      LAYER li1 ;
+        RECT 5.520 10.795 94.300 87.125 ;
+      LAYER met1 ;
+        RECT 0.530 10.640 94.300 87.280 ;
+      LAYER met2 ;
+        RECT 0.550 6.955 92.370 93.005 ;
+      LAYER met3 ;
+        RECT 0.525 92.120 95.600 92.985 ;
+        RECT 0.525 86.720 96.000 92.120 ;
+        RECT 4.400 85.320 96.000 86.720 ;
+        RECT 0.525 84.000 96.000 85.320 ;
+        RECT 0.525 82.600 95.600 84.000 ;
+        RECT 0.525 74.480 96.000 82.600 ;
+        RECT 0.525 73.080 95.600 74.480 ;
+        RECT 0.525 64.960 96.000 73.080 ;
+        RECT 0.525 63.560 95.600 64.960 ;
+        RECT 0.525 62.240 96.000 63.560 ;
+        RECT 4.400 60.840 96.000 62.240 ;
+        RECT 0.525 55.440 96.000 60.840 ;
+        RECT 0.525 54.040 95.600 55.440 ;
+        RECT 0.525 45.920 96.000 54.040 ;
+        RECT 0.525 44.520 95.600 45.920 ;
+        RECT 0.525 37.760 96.000 44.520 ;
+        RECT 4.400 36.400 96.000 37.760 ;
+        RECT 4.400 36.360 95.600 36.400 ;
+        RECT 0.525 35.000 95.600 36.360 ;
+        RECT 0.525 26.880 96.000 35.000 ;
+        RECT 0.525 25.480 95.600 26.880 ;
+        RECT 0.525 17.360 96.000 25.480 ;
+        RECT 0.525 15.960 95.600 17.360 ;
+        RECT 0.525 13.280 96.000 15.960 ;
+        RECT 4.400 11.880 96.000 13.280 ;
+        RECT 0.525 7.840 96.000 11.880 ;
+        RECT 0.525 6.975 95.600 7.840 ;
+  END
+END control_unit
+END LIBRARY
+

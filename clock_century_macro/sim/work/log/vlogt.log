@@ -1,0 +1,21 @@
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 17 2018
+Start time: 13:26:40 on Jan 17,2026
+vlog -f filelist_com.f -f filelist_vsim.f -f filelist_tb.f -l ./log/vlogt.log 
+-- Compiling module top_century_clock_demo_tb
+-- Compiling module top_century_clock_tb
+-- Compiling module test_alarm
+-- Compiling module test_leap_year
+-- Compiling module test_month_rollover
+-- Compiling module test_rst
+-- Compiling module test_all
+
+Top level modules:
+	top_century_clock_demo_tb
+	top_century_clock_tb
+	test_alarm
+	test_leap_year
+	test_month_rollover
+	test_rst
+	test_all
+End time: 13:26:40 on Jan 17,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

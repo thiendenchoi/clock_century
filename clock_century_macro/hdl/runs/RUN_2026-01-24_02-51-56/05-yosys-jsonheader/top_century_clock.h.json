@@ -1,0 +1,620 @@
+{
+  "creator": "Yosys 0.46 (git sha1 e97731b9dda91fa5fa53ed87df7c34163ba59a41, clang++ 17.0.6 -fPIC -O3)",
+  "modules": {
+    "top_century_clock": {
+      "attributes": {
+        "hdlname": "top_century_clock",
+        "top": "00000000000000000000000000000001",
+        "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:1.1-153.10"
+      },
+      "ports": {
+        "clk": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "reset_n": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "mode": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "sel": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "inc": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "led_unit_s": {
+          "direction": "output",
+          "bits": [ 7, 8, 9, 10, 11, 12, 13 ]
+        },
+        "led_ten_s": {
+          "direction": "output",
+          "bits": [ 14, 15, 16, 17, 18, 19, 20 ]
+        },
+        "led_unit_m": {
+          "direction": "output",
+          "bits": [ 21, 22, 23, 24, 25, 26, 27 ]
+        },
+        "led_ten_m": {
+          "direction": "output",
+          "bits": [ 28, 29, 30, 31, 32, 33, 34 ]
+        },
+        "led_unit_h": {
+          "direction": "output",
+          "bits": [ 35, 36, 37, 38, 39, 40, 41 ]
+        },
+        "led_ten_h": {
+          "direction": "output",
+          "bits": [ 42, 43, 44, 45, 46, 47, 48 ]
+        },
+        "led_unit_d": {
+          "direction": "output",
+          "bits": [ 49, 50, 51, 52, 53, 54, 55 ]
+        },
+        "led_ten_d": {
+          "direction": "output",
+          "bits": [ 56, 57, 58, 59, 60, 61, 62 ]
+        },
+        "led_unit_mo": {
+          "direction": "output",
+          "bits": [ 63, 64, 65, 66, 67, 68, 69 ]
+        },
+        "led_ten_mo": {
+          "direction": "output",
+          "bits": [ 70, 71, 72, 73, 74, 75, 76 ]
+        },
+        "led_unit_y": {
+          "direction": "output",
+          "bits": [ 77, 78, 79, 80, 81, 82, 83 ]
+        },
+        "led_ten_y": {
+          "direction": "output",
+          "bits": [ 84, 85, 86, 87, 88, 89, 90 ]
+        },
+        "led_hun_y": {
+          "direction": "output",
+          "bits": [ 91, 92, 93, 94, 95, 96, 97 ]
+        },
+        "led_thou_y": {
+          "direction": "output",
+          "bits": [ 98, 99, 100, 101, 102, 103, 104 ]
+        },
+        "led_am_pm": {
+          "direction": "output",
+          "bits": [ 105, 106, 107, 108, 109, 110, 111 ]
+        },
+        "alarm": {
+          "direction": "output",
+          "bits": [ 112 ]
+        }
+      },
+      "cells": {
+        "control_unit": {
+          "hide_name": 0,
+          "type": "control_unit",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:102.14-110.2"
+          },
+          "port_directions": {
+            "clk": "input",
+            "mode": "input",
+            "mode_alarm": "output",
+            "mode_display": "output",
+            "reset_n": "input",
+            "sel": "input",
+            "select_time": "output"
+          },
+          "connections": {
+            "clk": [ 2 ],
+            "mode": [ 4 ],
+            "mode_alarm": [ 113, 114 ],
+            "mode_display": [ 115, 116 ],
+            "reset_n": [ 3 ],
+            "sel": [ 5 ],
+            "select_time": [ 117, 118, 119, 120, 121, 122 ]
+          }
+        },
+        "hour_counter_alarm": {
+          "hide_name": 0,
+          "type": "hour_counter_alarm",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:92.20-100.2"
+          },
+          "port_directions": {
+            "alarm": "input",
+            "clk": "input",
+            "inc": "input",
+            "mode_alarm": "input",
+            "reset_n": "input",
+            "ten_h_alarm": "output",
+            "unit_h_alarm": "output"
+          },
+          "connections": {
+            "alarm": [ 112 ],
+            "clk": [ 2 ],
+            "inc": [ 6 ],
+            "mode_alarm": [ 113, 114 ],
+            "reset_n": [ 3 ],
+            "ten_h_alarm": [ 123, 124, 125, 126 ],
+            "unit_h_alarm": [ 127, 128, 129, 130 ]
+          }
+        },
+        "min_counter_alarm": {
+          "hide_name": 0,
+          "type": "min_counter_alarm",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:82.19-90.2"
+          },
+          "port_directions": {
+            "alarm": "input",
+            "clk": "input",
+            "inc": "input",
+            "mode_alarm": "input",
+            "reset_n": "input",
+            "ten_m_alarm": "output",
+            "unit_m_alarm": "output"
+          },
+          "connections": {
+            "alarm": [ 112 ],
+            "clk": [ 2 ],
+            "inc": [ 6 ],
+            "mode_alarm": [ 113, 114 ],
+            "reset_n": [ 3 ],
+            "ten_m_alarm": [ 131, 132, 133, 134 ],
+            "unit_m_alarm": [ 135, 136, 137, 138 ]
+          }
+        },
+        "top_counter": {
+          "hide_name": 0,
+          "type": "top_counter",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:61.13-80.2"
+          },
+          "port_directions": {
+            "clk": "input",
+            "hun_y": "output",
+            "inc": "input",
+            "reset_n": "input",
+            "select_time": "input",
+            "ten_d": "output",
+            "ten_h": "output",
+            "ten_m": "output",
+            "ten_mo": "output",
+            "ten_s": "output",
+            "ten_y": "output",
+            "thou_y": "output",
+            "unit_d": "output",
+            "unit_h": "output",
+            "unit_m": "output",
+            "unit_mo": "output",
+            "unit_s": "output",
+            "unit_y": "output"
+          },
+          "connections": {
+            "clk": [ 2 ],
+            "hun_y": [ 139, 140, 141, 142 ],
+            "inc": [ 6 ],
+            "reset_n": [ 3 ],
+            "select_time": [ 117, 118, 119, 120, 121, 122 ],
+            "ten_d": [ 143, 144, 145, 146 ],
+            "ten_h": [ 147, 148, 149, 150 ],
+            "ten_m": [ 151, 152, 153, 154 ],
+            "ten_mo": [ 155, 156, 157, 158 ],
+            "ten_s": [ 159, 160, 161, 162 ],
+            "ten_y": [ 163, 164, 165, 166 ],
+            "thou_y": [ 167, 168, 169, 170 ],
+            "unit_d": [ 171, 172, 173, 174 ],
+            "unit_h": [ 175, 176, 177, 178 ],
+            "unit_m": [ 179, 180, 181, 182 ],
+            "unit_mo": [ 183, 184, 185, 186 ],
+            "unit_s": [ 187, 188, 189, 190 ],
+            "unit_y": [ 191, 192, 193, 194 ]
+          }
+        },
+        "top_display": {
+          "hide_name": 0,
+          "type": "top_display",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:112.13-151.2"
+          },
+          "port_directions": {
+            "alarm": "output",
+            "clk": "input",
+            "hun_y": "input",
+            "led_am_pm": "output",
+            "led_hun_y": "output",
+            "led_ten_d": "output",
+            "led_ten_h": "output",
+            "led_ten_m": "output",
+            "led_ten_mo": "output",
+            "led_ten_s": "output",
+            "led_ten_y": "output",
+            "led_thou_y": "output",
+            "led_unit_d": "output",
+            "led_unit_h": "output",
+            "led_unit_m": "output",
+            "led_unit_mo": "output",
+            "led_unit_s": "output",
+            "led_unit_y": "output",
+            "mode_alarm": "input",
+            "mode_display": "input",
+            "reset_n": "input",
+            "ten_d": "input",
+            "ten_h": "input",
+            "ten_h_alarm": "input",
+            "ten_m": "input",
+            "ten_m_alarm": "input",
+            "ten_mo": "input",
+            "ten_s": "input",
+            "ten_y": "input",
+            "thou_y": "input",
+            "unit_d": "input",
+            "unit_h": "input",
+            "unit_h_alarm": "input",
+            "unit_m": "input",
+            "unit_m_alarm": "input",
+            "unit_mo": "input",
+            "unit_s": "input",
+            "unit_y": "input"
+          },
+          "connections": {
+            "alarm": [ 112 ],
+            "clk": [ 2 ],
+            "hun_y": [ 139, 140, 141, 142 ],
+            "led_am_pm": [ 105, 106, 107, 108, 109, 110, 111 ],
+            "led_hun_y": [ 91, 92, 93, 94, 95, 96, 97 ],
+            "led_ten_d": [ 56, 57, 58, 59, 60, 61, 62 ],
+            "led_ten_h": [ 42, 43, 44, 45, 46, 47, 48 ],
+            "led_ten_m": [ 28, 29, 30, 31, 32, 33, 34 ],
+            "led_ten_mo": [ 70, 71, 72, 73, 74, 75, 76 ],
+            "led_ten_s": [ 14, 15, 16, 17, 18, 19, 20 ],
+            "led_ten_y": [ 84, 85, 86, 87, 88, 89, 90 ],
+            "led_thou_y": [ 98, 99, 100, 101, 102, 103, 104 ],
+            "led_unit_d": [ 49, 50, 51, 52, 53, 54, 55 ],
+            "led_unit_h": [ 35, 36, 37, 38, 39, 40, 41 ],
+            "led_unit_m": [ 21, 22, 23, 24, 25, 26, 27 ],
+            "led_unit_mo": [ 63, 64, 65, 66, 67, 68, 69 ],
+            "led_unit_s": [ 7, 8, 9, 10, 11, 12, 13 ],
+            "led_unit_y": [ 77, 78, 79, 80, 81, 82, 83 ],
+            "mode_alarm": [ 113, 114 ],
+            "mode_display": [ 115, 116 ],
+            "reset_n": [ 3 ],
+            "ten_d": [ 143, 144, 145, 146 ],
+            "ten_h": [ 147, 148, 149, 150 ],
+            "ten_h_alarm": [ 123, 124, 125, 126 ],
+            "ten_m": [ 151, 152, 153, 154 ],
+            "ten_m_alarm": [ 131, 132, 133, 134 ],
+            "ten_mo": [ 155, 156, 157, 158 ],
+            "ten_s": [ 159, 160, 161, 162 ],
+            "ten_y": [ 163, 164, 165, 166 ],
+            "thou_y": [ 167, 168, 169, 170 ],
+            "unit_d": [ 171, 172, 173, 174 ],
+            "unit_h": [ 175, 176, 177, 178 ],
+            "unit_h_alarm": [ 127, 128, 129, 130 ],
+            "unit_m": [ 179, 180, 181, 182 ],
+            "unit_m_alarm": [ 135, 136, 137, 138 ],
+            "unit_mo": [ 183, 184, 185, 186 ],
+            "unit_s": [ 187, 188, 189, 190 ],
+            "unit_y": [ 191, 192, 193, 194 ]
+          }
+        }
+      },
+      "netnames": {
+        "alarm": {
+          "hide_name": 0,
+          "bits": [ 112 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:23.18-23.23"
+          }
+        },
+        "clk": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:3.18-3.21"
+          }
+        },
+        "hun_y": {
+          "hide_name": 0,
+          "bits": [ 139, 140, 141, 142 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:43.12-43.17"
+          }
+        },
+        "inc": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:7.18-7.21"
+          }
+        },
+        "led_am_pm": {
+          "hide_name": 0,
+          "bits": [ 105, 106, 107, 108, 109, 110, 111 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:22.18-22.27"
+          }
+        },
+        "led_hun_y": {
+          "hide_name": 0,
+          "bits": [ 91, 92, 93, 94, 95, 96, 97 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:20.18-20.27"
+          }
+        },
+        "led_ten_d": {
+          "hide_name": 0,
+          "bits": [ 56, 57, 58, 59, 60, 61, 62 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:15.18-15.27"
+          }
+        },
+        "led_ten_h": {
+          "hide_name": 0,
+          "bits": [ 42, 43, 44, 45, 46, 47, 48 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:13.18-13.27"
+          }
+        },
+        "led_ten_m": {
+          "hide_name": 0,
+          "bits": [ 28, 29, 30, 31, 32, 33, 34 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:11.18-11.27"
+          }
+        },
+        "led_ten_mo": {
+          "hide_name": 0,
+          "bits": [ 70, 71, 72, 73, 74, 75, 76 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:17.18-17.28"
+          }
+        },
+        "led_ten_s": {
+          "hide_name": 0,
+          "bits": [ 14, 15, 16, 17, 18, 19, 20 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:9.18-9.27"
+          }
+        },
+        "led_ten_y": {
+          "hide_name": 0,
+          "bits": [ 84, 85, 86, 87, 88, 89, 90 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:19.18-19.27"
+          }
+        },
+        "led_thou_y": {
+          "hide_name": 0,
+          "bits": [ 98, 99, 100, 101, 102, 103, 104 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:21.18-21.28"
+          }
+        },
+        "led_unit_d": {
+          "hide_name": 0,
+          "bits": [ 49, 50, 51, 52, 53, 54, 55 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:14.18-14.28"
+          }
+        },
+        "led_unit_h": {
+          "hide_name": 0,
+          "bits": [ 35, 36, 37, 38, 39, 40, 41 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:12.18-12.28"
+          }
+        },
+        "led_unit_m": {
+          "hide_name": 0,
+          "bits": [ 21, 22, 23, 24, 25, 26, 27 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:10.18-10.28"
+          }
+        },
+        "led_unit_mo": {
+          "hide_name": 0,
+          "bits": [ 63, 64, 65, 66, 67, 68, 69 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:16.18-16.29"
+          }
+        },
+        "led_unit_s": {
+          "hide_name": 0,
+          "bits": [ 7, 8, 9, 10, 11, 12, 13 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:8.18-8.28"
+          }
+        },
+        "led_unit_y": {
+          "hide_name": 0,
+          "bits": [ 77, 78, 79, 80, 81, 82, 83 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:18.18-18.28"
+          }
+        },
+        "mode": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:5.18-5.22"
+          }
+        },
+        "mode_alarm": {
+          "hide_name": 0,
+          "bits": [ 113, 114 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:27.12-27.22"
+          }
+        },
+        "mode_display": {
+          "hide_name": 0,
+          "bits": [ 115, 116 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:26.12-26.24"
+          }
+        },
+        "reset_n": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:4.18-4.25"
+          }
+        },
+        "sel": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:6.18-6.21"
+          }
+        },
+        "select_time": {
+          "hide_name": 0,
+          "bits": [ 117, 118, 119, 120, 121, 122 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:28.12-28.23"
+          }
+        },
+        "ten_d": {
+          "hide_name": 0,
+          "bits": [ 143, 144, 145, 146 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:38.12-38.17"
+          }
+        },
+        "ten_h": {
+          "hide_name": 0,
+          "bits": [ 147, 148, 149, 150 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:36.12-36.17"
+          }
+        },
+        "ten_h_alarm": {
+          "hide_name": 0,
+          "bits": [ 123, 124, 125, 126 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:48.12-48.23"
+          }
+        },
+        "ten_m": {
+          "hide_name": 0,
+          "bits": [ 151, 152, 153, 154 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:34.12-34.17"
+          }
+        },
+        "ten_m_alarm": {
+          "hide_name": 0,
+          "bits": [ 131, 132, 133, 134 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:46.12-46.23"
+          }
+        },
+        "ten_mo": {
+          "hide_name": 0,
+          "bits": [ 155, 156, 157, 158 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:40.12-40.18"
+          }
+        },
+        "ten_s": {
+          "hide_name": 0,
+          "bits": [ 159, 160, 161, 162 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:32.12-32.17"
+          }
+        },
+        "ten_y": {
+          "hide_name": 0,
+          "bits": [ 163, 164, 165, 166 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:42.12-42.17"
+          }
+        },
+        "thou_y": {
+          "hide_name": 0,
+          "bits": [ 167, 168, 169, 170 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:44.12-44.18"
+          }
+        },
+        "unit_d": {
+          "hide_name": 0,
+          "bits": [ 171, 172, 173, 174 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:37.12-37.18"
+          }
+        },
+        "unit_h": {
+          "hide_name": 0,
+          "bits": [ 175, 176, 177, 178 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:35.12-35.18"
+          }
+        },
+        "unit_h_alarm": {
+          "hide_name": 0,
+          "bits": [ 127, 128, 129, 130 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:47.12-47.24"
+          }
+        },
+        "unit_m": {
+          "hide_name": 0,
+          "bits": [ 179, 180, 181, 182 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:33.12-33.18"
+          }
+        },
+        "unit_m_alarm": {
+          "hide_name": 0,
+          "bits": [ 135, 136, 137, 138 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:45.12-45.24"
+          }
+        },
+        "unit_mo": {
+          "hide_name": 0,
+          "bits": [ 183, 184, 185, 186 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:39.12-39.19"
+          }
+        },
+        "unit_s": {
+          "hide_name": 0,
+          "bits": [ 187, 188, 189, 190 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:31.12-31.18"
+          }
+        },
+        "unit_y": {
+          "hide_name": 0,
+          "bits": [ 191, 192, 193, 194 ],
+          "attributes": {
+            "src": "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:41.12-41.18"
+          }
+        }
+      }
+    }
+  }
+}

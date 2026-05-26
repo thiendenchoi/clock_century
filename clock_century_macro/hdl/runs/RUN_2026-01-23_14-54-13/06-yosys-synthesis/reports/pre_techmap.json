@@ -1,0 +1,61 @@
+{
+   "creator": "Yosys 0.46 (git sha1 e97731b9dda91fa5fa53ed87df7c34163ba59a41, clang++ 17.0.6 -fPIC -O3)",
+   "invocation": "stat -json -liberty /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-23_14-54-13/tmp/0e9ce1b967ce4db894ab48180ce35653.lib ",
+   "modules": {
+      "\\top_century_clock": {
+         "num_wires":         822,
+         "num_wire_bits":     976,
+         "num_pub_wires":     56,
+         "num_pub_wire_bits": 210,
+         "num_ports":         21,
+         "num_port_bits":     111,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         948,
+         "num_cells_by_type": {
+            "$_ANDNOT_": 198,
+            "$_AND_": 28,
+            "$_DFFE_PN0P_": 65,
+            "$_DFFE_PN1P_": 5,
+            "$_DFF_PN0_": 9,
+            "$_MUX_": 187,
+            "$_NAND_": 23,
+            "$_NOR_": 68,
+            "$_NOT_": 61,
+            "$_ORNOT_": 48,
+            "$_OR_": 189,
+            "$_XNOR_": 9,
+            "$_XOR_": 58
+         }
+      }
+   },
+      "design": {
+         "num_wires":         822,
+         "num_wire_bits":     976,
+         "num_pub_wires":     56,
+         "num_pub_wire_bits": 210,
+         "num_ports":         21,
+         "num_port_bits":     111,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         948,
+         "num_cells_by_type": {
+            "$_ANDNOT_": 198,
+            "$_AND_": 28,
+            "$_DFFE_PN0P_": 65,
+            "$_DFFE_PN1P_": 5,
+            "$_DFF_PN0_": 9,
+            "$_MUX_": 187,
+            "$_NAND_": 23,
+            "$_NOR_": 68,
+            "$_NOT_": 61,
+            "$_ORNOT_": 48,
+            "$_OR_": 189,
+            "$_XNOR_": 9,
+            "$_XOR_": 58
+         }
+      }
+}
+

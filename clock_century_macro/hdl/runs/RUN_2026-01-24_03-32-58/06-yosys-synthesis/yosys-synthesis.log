@@ -1,0 +1,1761 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2024  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.46 (git sha1 e97731b9dda91fa5fa53ed87df7c34163ba59a41, clang++ 17.0.6 -fPIC -O3)
+Loaded SDC plugin
+
+1. Executing Liberty frontend: /home/lroot/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+Imported 428 cell types from liberty file.
+[INFO] Using SDC file '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-24_03-32-58/06-yosys-synthesis/synthesis.abc.sdc' for ABC…
+
+2. Executing Verilog-2005 frontend: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_counter.v
+Parsing SystemVerilog input from `/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_counter.v' to AST representation.
+Storing AST representation for module `$abstract\top_counter'.
+Successfully finished Verilog frontend.
+
+3. Executing Verilog-2005 frontend: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter.v
+Parsing SystemVerilog input from `/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter.v' to AST representation.
+Storing AST representation for module `$abstract\min_counter'.
+Successfully finished Verilog frontend.
+
+4. Executing Verilog-2005 frontend: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v
+Parsing SystemVerilog input from `/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v' to AST representation.
+Storing AST representation for module `$abstract\hour_counter'.
+Successfully finished Verilog frontend.
+
+5. Executing Verilog-2005 frontend: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v
+Parsing SystemVerilog input from `/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v' to AST representation.
+Storing AST representation for module `$abstract\month_counter'.
+Successfully finished Verilog frontend.
+
+6. Executing Verilog-2005 frontend: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v
+Parsing SystemVerilog input from `/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v' to AST representation.
+Storing AST representation for module `$abstract\year_counter'.
+Successfully finished Verilog frontend.
+
+7. Executing Verilog-2005 frontend: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v
+Parsing SystemVerilog input from `/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v' to AST representation.
+Storing AST representation for module `$abstract\second_counter'.
+Successfully finished Verilog frontend.
+
+8. Executing Verilog-2005 frontend: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v
+Parsing SystemVerilog input from `/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v' to AST representation.
+Storing AST representation for module `$abstract\day_counter'.
+Successfully finished Verilog frontend.
+
+9. Executing Verilog-2005 frontend: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v
+Parsing SystemVerilog input from `/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v' to AST representation.
+Storing AST representation for module `$abstract\leap_year_check'.
+Successfully finished Verilog frontend.
+
+10. Executing Verilog-2005 frontend: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_in_month_decode.v
+Parsing SystemVerilog input from `/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_in_month_decode.v' to AST representation.
+Storing AST representation for module `$abstract\day_in_month_decode'.
+Successfully finished Verilog frontend.
+
+11. Executing HIERARCHY pass (managing design hierarchy).
+
+12. Executing AST frontend in derive mode using pre-parsed AST for module `\top_counter'.
+Generating RTLIL representation for module `\top_counter'.
+
+12.1. Analyzing design hierarchy..
+Top module:  \top_counter
+
+12.2. Executing AST frontend in derive mode using pre-parsed AST for module `\day_in_month_decode'.
+Generating RTLIL representation for module `\day_in_month_decode'.
+Note: Assuming pure combinatorial block at /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_in_month_decode.v:10.1-35.4 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+
+12.3. Executing AST frontend in derive mode using pre-parsed AST for module `\leap_year_check'.
+Generating RTLIL representation for module `\leap_year_check'.
+
+12.4. Executing AST frontend in derive mode using pre-parsed AST for module `\year_counter'.
+Generating RTLIL representation for module `\year_counter'.
+
+12.5. Executing AST frontend in derive mode using pre-parsed AST for module `\month_counter'.
+Generating RTLIL representation for module `\month_counter'.
+
+12.6. Executing AST frontend in derive mode using pre-parsed AST for module `\day_counter'.
+Generating RTLIL representation for module `\day_counter'.
+
+12.7. Executing AST frontend in derive mode using pre-parsed AST for module `\hour_counter'.
+Generating RTLIL representation for module `\hour_counter'.
+
+12.8. Executing AST frontend in derive mode using pre-parsed AST for module `\min_counter'.
+Generating RTLIL representation for module `\min_counter'.
+
+12.9. Executing AST frontend in derive mode using pre-parsed AST for module `\second_counter'.
+Generating RTLIL representation for module `\second_counter'.
+
+12.10. Analyzing design hierarchy..
+Top module:  \top_counter
+Used module:     \day_in_month_decode
+Used module:     \leap_year_check
+Used module:     \year_counter
+Used module:     \month_counter
+Used module:     \day_counter
+Used module:     \hour_counter
+Used module:     \min_counter
+Used module:     \second_counter
+
+12.11. Analyzing design hierarchy..
+Top module:  \top_counter
+Used module:     \day_in_month_decode
+Used module:     \leap_year_check
+Used module:     \year_counter
+Used module:     \month_counter
+Used module:     \day_counter
+Used module:     \hour_counter
+Used module:     \min_counter
+Used module:     \second_counter
+Removing unused module `$abstract\day_in_month_decode'.
+Removing unused module `$abstract\leap_year_check'.
+Removing unused module `$abstract\day_counter'.
+Removing unused module `$abstract\second_counter'.
+Removing unused module `$abstract\year_counter'.
+Removing unused module `$abstract\month_counter'.
+Removing unused module `$abstract\hour_counter'.
+Removing unused module `$abstract\min_counter'.
+Removing unused module `$abstract\top_counter'.
+Removed 9 unused modules.
+Renaming module top_counter to top_counter.
+
+13. Generating Graphviz representation of design.
+Writing dot description to `/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-24_03-32-58/06-yosys-synthesis/hierarchy.dot'.
+Dumping module top_counter to page 1.
+
+14. Executing TRIBUF pass.
+
+15. Executing HIERARCHY pass (managing design hierarchy).
+
+15.1. Analyzing design hierarchy..
+Top module:  \top_counter
+Used module:     \day_in_month_decode
+Used module:     \leap_year_check
+Used module:     \year_counter
+Used module:     \month_counter
+Used module:     \day_counter
+Used module:     \hour_counter
+Used module:     \min_counter
+Used module:     \second_counter
+
+15.2. Analyzing design hierarchy..
+Top module:  \top_counter
+Used module:     \day_in_month_decode
+Used module:     \leap_year_check
+Used module:     \year_counter
+Used module:     \month_counter
+Used module:     \day_counter
+Used module:     \hour_counter
+Used module:     \min_counter
+Used module:     \second_counter
+Removed 0 unused modules.
+
+16. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+17. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Marked 1 switch rules as full_case in process $proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter.v:176$163 in module min_counter.
+Marked 7 switch rules as full_case in process $proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:13$101 in module hour_counter.
+Marked 7 switch rules as full_case in process $proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v:15$79 in module day_counter.
+Marked 7 switch rules as full_case in process $proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:13$57 in module month_counter.
+Marked 9 switch rules as full_case in process $proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:14$25 in module year_counter.
+Marked 2 switch rules as full_case in process $proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_in_month_decode.v:10$1 in module day_in_month_decode.
+Marked 7 switch rules as full_case in process $proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v:12$178 in module second_counter.
+Removed a total of 0 dead cases.
+
+18. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 19 redundant assignments.
+Promoted 2 assignments to connections.
+
+19. Executing PROC_INIT pass (extract init attributes).
+
+20. Executing PROC_ARST pass (detect async resets in processes).
+Found async reset \reset_n in `\min_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter.v:176$163'.
+Found async reset \reset_n in `\hour_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:13$101'.
+Found async reset \reset_n in `\day_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v:15$79'.
+Found async reset \reset_n in `\month_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:13$57'.
+Found async reset \reset_n in `\year_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:14$25'.
+Found async reset \reset_n in `\second_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v:12$178'.
+
+21. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+<suppressed ~34 debug messages>
+
+22. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\min_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter.v:176$163'.
+     1/7: $0\t2[0:0]
+     2/7: $0\t1[0:0]
+     3/7: $0\t0[0:0]
+     4/7: $0\u3[0:0]
+     5/7: $0\u2[0:0]
+     6/7: $0\u1[0:0]
+     7/7: $0\u0[0:0]
+Creating decoders for process `\hour_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:13$101'.
+     1/2: $0\ten_h[3:0]
+     2/2: $0\unit_h[3:0]
+Creating decoders for process `\day_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v:15$79'.
+     1/2: $0\ten_d[3:0]
+     2/2: $0\unit_d[3:0]
+Creating decoders for process `\month_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:13$57'.
+     1/2: $0\ten_mo[3:0]
+     2/2: $0\unit_mo[3:0]
+Creating decoders for process `\year_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:14$25'.
+     1/4: $0\thou_y[3:0]
+     2/4: $0\hun_y[3:0]
+     3/4: $0\ten_y[3:0]
+     4/4: $0\unit_y[3:0]
+Creating decoders for process `\day_in_month_decode.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_in_month_decode.v:10$1'.
+     1/4: $2\unit_day_in_month[3:0]
+     2/4: $2\ten_day_in_month[3:0]
+     3/4: $1\unit_day_in_month[3:0]
+     4/4: $1\ten_day_in_month[3:0]
+Creating decoders for process `\second_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v:12$178'.
+     1/2: $0\ten_s[3:0]
+     2/2: $0\unit_s[3:0]
+
+23. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\day_in_month_decode.\unit_day_in_month' from process `\day_in_month_decode.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_in_month_decode.v:10$1'.
+No latch inferred for signal `\day_in_month_decode.\ten_day_in_month' from process `\day_in_month_decode.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_in_month_decode.v:10$1'.
+
+24. Executing PROC_DFF pass (convert process syncs to FFs).
+Creating register for signal `\min_counter.\u3' using process `\min_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter.v:176$163'.
+  created $adff cell `$procdff$448' with positive edge clock and positive level reset.
+Creating register for signal `\min_counter.\u2' using process `\min_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter.v:176$163'.
+  created $adff cell `$procdff$453' with positive edge clock and positive level reset.
+Creating register for signal `\min_counter.\u1' using process `\min_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter.v:176$163'.
+  created $adff cell `$procdff$458' with positive edge clock and positive level reset.
+Creating register for signal `\min_counter.\u0' using process `\min_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter.v:176$163'.
+  created $adff cell `$procdff$463' with positive edge clock and positive level reset.
+Creating register for signal `\min_counter.\t2' using process `\min_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter.v:176$163'.
+  created $adff cell `$procdff$468' with positive edge clock and positive level reset.
+Creating register for signal `\min_counter.\t1' using process `\min_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter.v:176$163'.
+  created $adff cell `$procdff$473' with positive edge clock and positive level reset.
+Creating register for signal `\min_counter.\t0' using process `\min_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter.v:176$163'.
+  created $adff cell `$procdff$478' with positive edge clock and positive level reset.
+Creating register for signal `\hour_counter.\ten_h' using process `\hour_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:13$101'.
+  created $adff cell `$procdff$483' with positive edge clock and positive level reset.
+Creating register for signal `\hour_counter.\unit_h' using process `\hour_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:13$101'.
+  created $adff cell `$procdff$488' with positive edge clock and positive level reset.
+Creating register for signal `\day_counter.\ten_d' using process `\day_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v:15$79'.
+  created $adff cell `$procdff$493' with positive edge clock and positive level reset.
+Creating register for signal `\day_counter.\unit_d' using process `\day_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v:15$79'.
+  created $adff cell `$procdff$498' with positive edge clock and positive level reset.
+Creating register for signal `\month_counter.\ten_mo' using process `\month_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:13$57'.
+  created $adff cell `$procdff$503' with positive edge clock and positive level reset.
+Creating register for signal `\month_counter.\unit_mo' using process `\month_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:13$57'.
+  created $adff cell `$procdff$508' with positive edge clock and positive level reset.
+Creating register for signal `\year_counter.\thou_y' using process `\year_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:14$25'.
+  created $adff cell `$procdff$513' with positive edge clock and positive level reset.
+Creating register for signal `\year_counter.\hun_y' using process `\year_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:14$25'.
+  created $adff cell `$procdff$518' with positive edge clock and positive level reset.
+Creating register for signal `\year_counter.\ten_y' using process `\year_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:14$25'.
+  created $adff cell `$procdff$523' with positive edge clock and positive level reset.
+Creating register for signal `\year_counter.\unit_y' using process `\year_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:14$25'.
+  created $adff cell `$procdff$528' with positive edge clock and positive level reset.
+Creating register for signal `\second_counter.\ten_s' using process `\second_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v:12$178'.
+  created $adff cell `$procdff$533' with positive edge clock and positive level reset.
+Creating register for signal `\second_counter.\unit_s' using process `\second_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v:12$178'.
+  created $adff cell `$procdff$538' with positive edge clock and positive level reset.
+
+25. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+26. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Removing empty process `min_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter.v:176$163'.
+Found and cleaned up 6 empty switches in `\hour_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:13$101'.
+Removing empty process `hour_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:13$101'.
+Found and cleaned up 6 empty switches in `\day_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v:15$79'.
+Removing empty process `day_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v:15$79'.
+Found and cleaned up 6 empty switches in `\month_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:13$57'.
+Removing empty process `month_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:13$57'.
+Found and cleaned up 8 empty switches in `\year_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:14$25'.
+Removing empty process `year_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:14$25'.
+Found and cleaned up 2 empty switches in `\day_in_month_decode.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_in_month_decode.v:10$1'.
+Removing empty process `day_in_month_decode.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_in_month_decode.v:10$1'.
+Found and cleaned up 6 empty switches in `\second_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v:12$178'.
+Removing empty process `second_counter.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v:12$178'.
+Cleaned up 34 empty switches.
+
+27. Executing CHECK pass (checking for obvious problems).
+Checking module top_counter...
+Checking module min_counter...
+Checking module hour_counter...
+Checking module day_counter...
+Checking module month_counter...
+Checking module year_counter...
+Checking module leap_year_check...
+Checking module day_in_month_decode...
+Checking module second_counter...
+Found and reported 0 problems.
+
+28. Executing OPT_EXPR pass (perform const folding).
+Optimizing module top_counter.
+Optimizing module min_counter.
+<suppressed ~14 debug messages>
+Optimizing module hour_counter.
+<suppressed ~6 debug messages>
+Optimizing module day_counter.
+<suppressed ~6 debug messages>
+Optimizing module month_counter.
+<suppressed ~6 debug messages>
+Optimizing module year_counter.
+<suppressed ~13 debug messages>
+Optimizing module leap_year_check.
+<suppressed ~12 debug messages>
+Optimizing module day_in_month_decode.
+Optimizing module second_counter.
+<suppressed ~7 debug messages>
+
+29. Executing FLATTEN pass (flatten design).
+Deleting now unused module min_counter.
+Deleting now unused module hour_counter.
+Deleting now unused module day_counter.
+Deleting now unused module month_counter.
+Deleting now unused module year_counter.
+Deleting now unused module leap_year_check.
+Deleting now unused module day_in_month_decode.
+Deleting now unused module second_counter.
+<suppressed ~8 debug messages>
+
+30. Executing OPT_EXPR pass (perform const folding).
+Optimizing module top_counter.
+
+31. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \top_counter..
+Removed 25 unused cells and 217 unused wires.
+<suppressed ~26 debug messages>
+
+32. Executing OPT_EXPR pass (perform const folding).
+Optimizing module top_counter.
+
+33. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\top_counter'.
+<suppressed ~147 debug messages>
+Removed a total of 49 cells.
+
+34. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \top_counter..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+    dead port 2/2 on $mux $flatten\day_in_month_decode.$procmux$398.
+    dead port 2/2 on $mux $flatten\day_in_month_decode.$procmux$403.
+Removed 2 multiplexer ports.
+<suppressed ~18 debug messages>
+
+35. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \top_counter.
+    New ctrl vector for $pmux cell $flatten\day_in_month_decode.$procmux$410: { $auto$opt_reduce.cc:134:opt_pmux$548 $flatten\day_in_month_decode.$procmux$399_CMP }
+    New input vector for $reduce_or cell $auto$opt_reduce.cc:128:opt_pmux$547: { $flatten\day_in_month_decode.$procmux$408_CMP $flatten\day_in_month_decode.$procmux$412_CMP }
+  Optimizing cells in module \top_counter.
+Performed a total of 2 changes.
+
+36. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\top_counter'.
+<suppressed ~72 debug messages>
+Removed a total of 24 cells.
+
+37. Executing OPT_DFF pass (perform DFF optimizations).
+
+38. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \top_counter..
+Removed 1 unused cells and 70 unused wires.
+<suppressed ~2 debug messages>
+
+39. Executing OPT_EXPR pass (perform const folding).
+Optimizing module top_counter.
+
+40. Rerunning OPT passes. (Maybe there is more to do…)
+
+41. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \top_counter..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~30 debug messages>
+
+42. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \top_counter.
+Performed a total of 0 changes.
+
+43. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\top_counter'.
+Removed a total of 0 cells.
+
+44. Executing OPT_DFF pass (perform DFF optimizations).
+
+45. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \top_counter..
+
+46. Executing OPT_EXPR pass (perform const folding).
+Optimizing module top_counter.
+
+47. Executing FSM pass (extract and optimize FSM).
+
+47.1. Executing FSM_DETECT pass (finding FSMs in design).
+Not marking top_counter.year_counter.thou_y as FSM state register:
+    Register is connected to module port.
+    Users of register don't seem to benefit from recoding.
+
+47.2. Executing FSM_EXTRACT pass (extracting FSM from design).
+
+47.3. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+47.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \top_counter..
+
+47.5. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+47.6. Executing FSM_RECODE pass (re-assigning FSM state encoding).
+
+47.7. Executing FSM_INFO pass (dumping all available information on FSM cells).
+
+47.8. Executing FSM_MAP pass (mapping FSMs to basic logic).
+
+48. Executing OPT_EXPR pass (perform const folding).
+Optimizing module top_counter.
+
+49. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\top_counter'.
+Removed a total of 0 cells.
+
+50. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \top_counter..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~30 debug messages>
+
+51. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \top_counter.
+Performed a total of 0 changes.
+
+52. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\top_counter'.
+Removed a total of 0 cells.
+
+53. Executing OPT_DFF pass (perform DFF optimizations).
+Adding EN signal on $flatten\year_counter.$procdff$528 ($adff) from module top_counter (D = $flatten\year_counter.$0\unit_y[3:0], Q = \year_counter.unit_y).
+Adding EN signal on $flatten\year_counter.$procdff$523 ($adff) from module top_counter (D = $flatten\year_counter.$0\ten_y[3:0], Q = \year_counter.ten_y).
+Adding EN signal on $flatten\year_counter.$procdff$518 ($adff) from module top_counter (D = $flatten\year_counter.$0\hun_y[3:0], Q = \year_counter.hun_y).
+Adding EN signal on $flatten\year_counter.$procdff$513 ($adff) from module top_counter (D = $flatten\year_counter.$0\thou_y[3:0], Q = \year_counter.thou_y).
+Adding EN signal on $flatten\second_counter.$procdff$538 ($adff) from module top_counter (D = $flatten\second_counter.$0\unit_s[3:0], Q = \second_counter.unit_s).
+Adding EN signal on $flatten\second_counter.$procdff$533 ($adff) from module top_counter (D = $flatten\second_counter.$0\ten_s[3:0], Q = \second_counter.ten_s).
+Adding EN signal on $flatten\month_counter.$procdff$508 ($adff) from module top_counter (D = $flatten\month_counter.$0\unit_mo[3:0], Q = \month_counter.unit_mo).
+Adding EN signal on $flatten\month_counter.$procdff$503 ($adff) from module top_counter (D = $flatten\month_counter.$0\ten_mo[3:0], Q = \month_counter.ten_mo).
+Adding EN signal on $flatten\hour_counter.$procdff$488 ($adff) from module top_counter (D = $flatten\hour_counter.$0\unit_h[3:0], Q = \hour_counter.unit_h).
+Adding EN signal on $flatten\hour_counter.$procdff$483 ($adff) from module top_counter (D = $flatten\hour_counter.$0\ten_h[3:0], Q = \hour_counter.ten_h).
+Adding EN signal on $flatten\day_counter.$procdff$498 ($adff) from module top_counter (D = $flatten\day_counter.$0\unit_d[3:0], Q = \day_counter.unit_d).
+Adding EN signal on $flatten\day_counter.$procdff$493 ($adff) from module top_counter (D = $flatten\day_counter.$0\ten_d[3:0], Q = \day_counter.ten_d).
+
+54. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \top_counter..
+
+55. Executing OPT_EXPR pass (perform const folding).
+Optimizing module top_counter.
+<suppressed ~10 debug messages>
+
+56. Rerunning OPT passes. (Maybe there is more to do…)
+
+57. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \top_counter..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~30 debug messages>
+
+58. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \top_counter.
+Performed a total of 0 changes.
+
+59. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\top_counter'.
+<suppressed ~21 debug messages>
+Removed a total of 7 cells.
+
+60. Executing OPT_DFF pass (perform DFF optimizations).
+
+61. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \top_counter..
+Removed 0 unused cells and 7 unused wires.
+<suppressed ~1 debug messages>
+
+62. Executing OPT_EXPR pass (perform const folding).
+Optimizing module top_counter.
+
+63. Rerunning OPT passes. (Maybe there is more to do…)
+
+64. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \top_counter..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~30 debug messages>
+
+65. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \top_counter.
+Performed a total of 0 changes.
+
+66. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\top_counter'.
+Removed a total of 0 cells.
+
+67. Executing OPT_DFF pass (perform DFF optimizations).
+
+68. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \top_counter..
+
+69. Executing OPT_EXPR pass (perform const folding).
+Optimizing module top_counter.
+
+70. Executing WREDUCE pass (reducing word size of cells).
+Removed top 31 bits (of 32) from mux cell top_counter.$flatten\second_counter.$ternary$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v:57$195 ($mux).
+Removed top 31 bits (of 32) from port A of cell top_counter.$flatten\second_counter.$and$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v:57$194 ($and).
+Removed top 31 bits (of 32) from port B of cell top_counter.$flatten\second_counter.$and$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v:57$194 ($and).
+Removed top 31 bits (of 32) from port Y of cell top_counter.$flatten\second_counter.$and$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v:57$194 ($and).
+Removed top 1 bits (of 4) from port B of cell top_counter.$flatten\second_counter.$eq$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v:57$193 ($eq).
+Removed top 31 bits (of 32) from port B of cell top_counter.$flatten\second_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v:30$186 ($add).
+Removed top 28 bits (of 32) from port Y of cell top_counter.$flatten\second_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v:30$186 ($add).
+Removed top 31 bits (of 32) from port B of cell top_counter.$flatten\second_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v:26$185 ($add).
+Removed top 28 bits (of 32) from port Y of cell top_counter.$flatten\second_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v:26$185 ($add).
+Removed top 1 bits (of 4) from port B of cell top_counter.$flatten\second_counter.$eq$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v:22$184 ($eq).
+Removed top 31 bits (of 32) from mux cell top_counter.$flatten\hour_counter.$ternary$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:54$122 ($mux).
+Removed top 31 bits (of 32) from port Y of cell top_counter.$flatten\hour_counter.$and$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:54$121 ($and).
+Removed top 31 bits (of 32) from port A of cell top_counter.$flatten\hour_counter.$and$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:54$121 ($and).
+Removed top 31 bits (of 32) from port A of cell top_counter.$flatten\hour_counter.$and$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:54$120 ($and).
+Removed top 31 bits (of 32) from port B of cell top_counter.$flatten\hour_counter.$and$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:54$120 ($and).
+Removed top 31 bits (of 32) from port Y of cell top_counter.$flatten\hour_counter.$and$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:54$120 ($and).
+Removed top 2 bits (of 4) from port B of cell top_counter.$flatten\hour_counter.$eq$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:54$119 ($eq).
+Removed top 2 bits (of 4) from port B of cell top_counter.$flatten\hour_counter.$eq$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:54$118 ($eq).
+Removed top 31 bits (of 32) from port B of cell top_counter.$flatten\hour_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:29$110 ($add).
+Removed top 28 bits (of 32) from port Y of cell top_counter.$flatten\hour_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:29$110 ($add).
+Removed top 31 bits (of 32) from port B of cell top_counter.$flatten\hour_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:26$109 ($add).
+Removed top 28 bits (of 32) from port Y of cell top_counter.$flatten\hour_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:26$109 ($add).
+Removed top 2 bits (of 4) from port B of cell top_counter.$flatten\hour_counter.$eq$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:20$106 ($eq).
+Removed top 2 bits (of 4) from port B of cell top_counter.$flatten\hour_counter.$eq$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:20$105 ($eq).
+Removed top 31 bits (of 32) from mux cell top_counter.$flatten\day_counter.$ternary$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v:56$100 ($mux).
+Removed top 31 bits (of 32) from port Y of cell top_counter.$flatten\day_counter.$and$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v:56$99 ($and).
+Removed top 31 bits (of 32) from port A of cell top_counter.$flatten\day_counter.$and$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v:56$99 ($and).
+Removed top 31 bits (of 32) from port A of cell top_counter.$flatten\day_counter.$and$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v:56$98 ($and).
+Removed top 31 bits (of 32) from port B of cell top_counter.$flatten\day_counter.$and$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v:56$98 ($and).
+Removed top 31 bits (of 32) from port Y of cell top_counter.$flatten\day_counter.$and$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v:56$98 ($and).
+Removed top 31 bits (of 32) from port B of cell top_counter.$flatten\day_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v:31$88 ($add).
+Removed top 28 bits (of 32) from port Y of cell top_counter.$flatten\day_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v:31$88 ($add).
+Removed top 31 bits (of 32) from port B of cell top_counter.$flatten\day_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v:28$87 ($add).
+Removed top 28 bits (of 32) from port Y of cell top_counter.$flatten\day_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v:28$87 ($add).
+Removed top 31 bits (of 32) from mux cell top_counter.$flatten\month_counter.$ternary$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:54$78 ($mux).
+Removed top 31 bits (of 32) from port Y of cell top_counter.$flatten\month_counter.$and$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:54$77 ($and).
+Removed top 31 bits (of 32) from port A of cell top_counter.$flatten\month_counter.$and$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:54$77 ($and).
+Removed top 31 bits (of 32) from port A of cell top_counter.$flatten\month_counter.$and$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:54$76 ($and).
+Removed top 31 bits (of 32) from port B of cell top_counter.$flatten\month_counter.$and$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:54$76 ($and).
+Removed top 31 bits (of 32) from port Y of cell top_counter.$flatten\month_counter.$and$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:54$76 ($and).
+Removed top 3 bits (of 4) from port B of cell top_counter.$flatten\month_counter.$eq$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:54$75 ($eq).
+Removed top 2 bits (of 4) from port B of cell top_counter.$flatten\month_counter.$eq$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:54$74 ($eq).
+Removed top 31 bits (of 32) from port B of cell top_counter.$flatten\month_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:29$66 ($add).
+Removed top 28 bits (of 32) from port Y of cell top_counter.$flatten\month_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:29$66 ($add).
+Removed top 31 bits (of 32) from port B of cell top_counter.$flatten\month_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:26$65 ($add).
+Removed top 28 bits (of 32) from port Y of cell top_counter.$flatten\month_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:26$65 ($add).
+Removed top 3 bits (of 4) from port B of cell top_counter.$flatten\month_counter.$eq$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:20$62 ($eq).
+Removed top 2 bits (of 4) from port B of cell top_counter.$flatten\month_counter.$eq$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:20$61 ($eq).
+Removed top 31 bits (of 32) from port B of cell top_counter.$flatten\year_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:42$42 ($add).
+Removed top 28 bits (of 32) from port Y of cell top_counter.$flatten\year_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:42$42 ($add).
+Removed top 31 bits (of 32) from port B of cell top_counter.$flatten\year_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:37$41 ($add).
+Removed top 28 bits (of 32) from port Y of cell top_counter.$flatten\year_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:37$41 ($add).
+Removed top 31 bits (of 32) from port B of cell top_counter.$flatten\year_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:32$39 ($add).
+Removed top 28 bits (of 32) from port Y of cell top_counter.$flatten\year_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:32$39 ($add).
+Removed top 2 bits (of 4) from port B of cell top_counter.$flatten\year_counter.$eq$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:23$34 ($eq).
+Removed top 3 bits (of 4) from port B of cell top_counter.$flatten\year_counter.$eq$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:23$32 ($eq).
+Removed top 4 bits (of 14) from port A of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:22$15 ($add).
+Removed top 5 bits (of 14) from port B of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:22$15 ($add).
+Removed top 3 bits (of 14) from port Y of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:22$15 ($add).
+Removed top 7 bits (of 14) from port B of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:15$12 ($add).
+Removed top 3 bits (of 14) from port A of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:22$17 ($add).
+Removed top 8 bits (of 14) from port B of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:22$17 ($add).
+Removed top 2 bits (of 14) from port Y of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:22$17 ($add).
+Removed top 5 bits (of 14) from port B of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:15$10 ($add).
+Removed top 7 bits (of 14) from port A of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:26$20 ($add).
+Removed top 9 bits (of 14) from port B of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:26$20 ($add).
+Removed top 6 bits (of 14) from port Y of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:26$20 ($add).
+Removed top 4 bits (of 14) from port B of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:15$8 ($add).
+Removed top 2 bits (of 14) from port B of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:29$21 ($add).
+Removed top 3 bits (of 14) from port B of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:15$6 ($add).
+Removed top 6 bits (of 14) from port B of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:29$22 ($add).
+Removed top 1 bits (of 14) from port A of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:15$4 ($add).
+Removed top 2 bits (of 14) from port B of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:15$4 ($add).
+Removed top 10 bits (of 14) from port B of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:29$23 ($add).
+Removed top 12 bits (of 14) from port Y of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:29$23 ($add).
+Removed top 12 bits (of 14) from port A of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:29$23 ($add).
+Removed top 2 bits (of 4) from port B of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:29$23 ($add).
+Removed top 1 bits (of 2) from port B of cell top_counter.$auto$opt_dff.cc:195:make_patterns_logic$563 ($ne).
+Removed top 3 bits (of 8) from port B of cell top_counter.$flatten\day_in_month_decode.$procmux$412_CMP3 ($eq).
+Removed top 4 bits (of 8) from port B of cell top_counter.$flatten\day_in_month_decode.$procmux$412_CMP2 ($eq).
+Removed top 5 bits (of 8) from port B of cell top_counter.$flatten\day_in_month_decode.$procmux$412_CMP1 ($eq).
+Removed top 5 bits (of 8) from port B of cell top_counter.$flatten\day_in_month_decode.$procmux$412_CMP0 ($eq).
+Removed top 2 bits (of 4) from mux cell top_counter.$flatten\day_in_month_decode.$procmux$410 ($pmux).
+Removed top 3 bits (of 8) from port B of cell top_counter.$flatten\day_in_month_decode.$procmux$408_CMP6 ($eq).
+Removed top 3 bits (of 8) from port B of cell top_counter.$flatten\day_in_month_decode.$procmux$408_CMP5 ($eq).
+Removed top 4 bits (of 8) from port B of cell top_counter.$flatten\day_in_month_decode.$procmux$408_CMP4 ($eq).
+Removed top 5 bits (of 8) from port B of cell top_counter.$flatten\day_in_month_decode.$procmux$408_CMP3 ($eq).
+Removed top 5 bits (of 8) from port B of cell top_counter.$flatten\day_in_month_decode.$procmux$408_CMP2 ($eq).
+Removed top 6 bits (of 8) from port B of cell top_counter.$flatten\day_in_month_decode.$procmux$408_CMP1 ($eq).
+Removed top 7 bits (of 8) from port B of cell top_counter.$flatten\day_in_month_decode.$procmux$408_CMP0 ($eq).
+Removed top 6 bits (of 8) from port B of cell top_counter.$flatten\day_in_month_decode.$procmux$399_CMP0 ($eq).
+Removed top 3 bits (of 4) from mux cell top_counter.$flatten\day_in_month_decode.$procmux$396 ($mux).
+Removed top 12 bits (of 14) from port Y of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:29$22 ($add).
+Removed top 12 bits (of 14) from port A of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:29$22 ($add).
+Removed top 6 bits (of 8) from port B of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:29$22 ($add).
+Removed top 6 bits (of 8) from port Y of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:26$20 ($add).
+Removed top 6 bits (of 7) from port A of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:26$20 ($add).
+Removed top 3 bits (of 5) from port B of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:26$20 ($add).
+Removed top 12 bits (of 14) from port Y of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:29$21 ($add).
+Removed top 12 bits (of 14) from port A of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:29$21 ($add).
+Removed top 10 bits (of 12) from port B of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:29$21 ($add).
+Removed top 12 bits (of 14) from port Y of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:15$12 ($add).
+Removed top 12 bits (of 14) from port A of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:15$12 ($add).
+Removed top 6 bits (of 7) from port B of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:15$12 ($add).
+Removed top 10 bits (of 12) from port Y of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:22$17 ($add).
+Removed top 9 bits (of 11) from port A of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:22$17 ($add).
+Removed top 5 bits (of 6) from port B of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:22$17 ($add).
+Removed top 9 bits (of 11) from port Y of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:22$15 ($add).
+Removed top 9 bits (of 10) from port A of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:22$15 ($add).
+Removed top 8 bits (of 9) from port B of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:22$15 ($add).
+Removed top 12 bits (of 14) from port Y of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:15$10 ($add).
+Removed top 12 bits (of 14) from port A of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:15$10 ($add).
+Removed top 8 bits (of 9) from port B of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:15$10 ($add).
+Removed top 12 bits (of 14) from port Y of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:15$8 ($add).
+Removed top 12 bits (of 14) from port A of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:15$8 ($add).
+Removed top 9 bits (of 10) from port B of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:15$8 ($add).
+Removed top 12 bits (of 14) from port Y of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:15$6 ($add).
+Removed top 12 bits (of 14) from port A of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:15$6 ($add).
+Removed top 10 bits (of 11) from port B of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:15$6 ($add).
+Removed top 12 bits (of 14) from port Y of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:15$4 ($add).
+Removed top 12 bits (of 13) from port A of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:15$4 ($add).
+Removed top 11 bits (of 12) from port B of cell top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:15$4 ($add).
+Removed top 28 bits (of 32) from wire top_counter.$flatten\day_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v:28$87_Y.
+Removed top 28 bits (of 32) from wire top_counter.$flatten\day_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v:31$88_Y.
+Removed top 31 bits (of 32) from wire top_counter.$flatten\day_counter.$and$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v:56$98_Y.
+Removed top 31 bits (of 32) from wire top_counter.$flatten\day_counter.$and$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v:56$99_Y.
+Removed top 31 bits (of 32) from wire top_counter.$flatten\day_counter.$eq$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v:56$96_Y.
+Removed top 3 bits (of 4) from wire top_counter.$flatten\day_in_month_decode.$2\unit_day_in_month[3:0].
+Removed top 28 bits (of 32) from wire top_counter.$flatten\hour_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:26$109_Y.
+Removed top 31 bits (of 32) from wire top_counter.$flatten\hour_counter.$and$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:54$120_Y.
+Removed top 31 bits (of 32) from wire top_counter.$flatten\hour_counter.$eq$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:54$118_Y.
+Removed top 31 bits (of 32) from wire top_counter.$flatten\hour_counter.$eq$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:54$119_Y.
+Removed top 12 bits (of 14) from wire top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:15$10_Y.
+Removed top 12 bits (of 14) from wire top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:15$4_Y.
+Removed top 12 bits (of 14) from wire top_counter.$flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:22$15_Y.
+Removed top 28 bits (of 32) from wire top_counter.$flatten\month_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:26$65_Y.
+Removed top 31 bits (of 32) from wire top_counter.$flatten\month_counter.$and$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:54$76_Y.
+Removed top 28 bits (of 32) from wire top_counter.$flatten\second_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v:26$185_Y.
+Removed top 31 bits (of 32) from wire top_counter.$flatten\second_counter.$and$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v:57$194_Y.
+Removed top 31 bits (of 32) from wire top_counter.$flatten\second_counter.$eq$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v:57$193_Y.
+Removed top 28 bits (of 32) from wire top_counter.$flatten\year_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:32$39_Y.
+Removed top 2 bits (of 4) from wire top_counter.ten_day_in_month.
+
+71. Executing PEEPOPT pass (run peephole optimizers).
+
+72. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \top_counter..
+Removed 0 unused cells and 24 unused wires.
+<suppressed ~1 debug messages>
+
+73. Executing ALUMACC pass (create $alu and $macc cells).
+Extracting $alu and $macc cells in module top_counter:
+  creating $macc model for $flatten\day_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v:28$87 ($add).
+  creating $macc model for $flatten\day_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v:31$88 ($add).
+  creating $macc model for $flatten\hour_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:26$109 ($add).
+  creating $macc model for $flatten\hour_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:29$110 ($add).
+  creating $macc model for $flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:15$10 ($add).
+  creating $macc model for $flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:15$12 ($add).
+  creating $macc model for $flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:15$4 ($add).
+  creating $macc model for $flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:15$6 ($add).
+  creating $macc model for $flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:15$8 ($add).
+  creating $macc model for $flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:22$15 ($add).
+  creating $macc model for $flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:22$17 ($add).
+  creating $macc model for $flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:26$20 ($add).
+  creating $macc model for $flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:29$21 ($add).
+  creating $macc model for $flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:29$22 ($add).
+  creating $macc model for $flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:29$23 ($add).
+  creating $macc model for $flatten\month_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:26$65 ($add).
+  creating $macc model for $flatten\month_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:29$66 ($add).
+  creating $macc model for $flatten\second_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v:26$185 ($add).
+  creating $macc model for $flatten\second_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v:30$186 ($add).
+  creating $macc model for $flatten\year_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:32$39 ($add).
+  creating $macc model for $flatten\year_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:37$41 ($add).
+  creating $macc model for $flatten\year_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:42$42 ($add).
+  merging $macc model for $flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:29$22 into $flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:29$23.
+  merging $macc model for $flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:29$21 into $flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:29$23.
+  merging $macc model for $flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:15$12 into $flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:29$23.
+  merging $macc model for $flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:15$10 into $flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:29$23.
+  merging $macc model for $flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:15$8 into $flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:29$23.
+  merging $macc model for $flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:15$6 into $flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:29$23.
+  merging $macc model for $flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:15$4 into $flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:29$23.
+  merging $macc model for $flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:26$20 into $flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:29$23.
+  merging $macc model for $flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:22$17 into $flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:29$23.
+  merging $macc model for $flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:22$15 into $flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:29$23.
+  creating $alu model for $macc $flatten\year_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:32$39.
+  creating $alu model for $macc $flatten\year_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:37$41.
+  creating $alu model for $macc $flatten\year_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:42$42.
+  creating $alu model for $macc $flatten\month_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:29$66.
+  creating $alu model for $macc $flatten\second_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v:26$185.
+  creating $alu model for $macc $flatten\second_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v:30$186.
+  creating $alu model for $macc $flatten\month_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:26$65.
+  creating $alu model for $macc $flatten\hour_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:29$110.
+  creating $alu model for $macc $flatten\hour_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:26$109.
+  creating $alu model for $macc $flatten\day_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v:31$88.
+  creating $alu model for $macc $flatten\day_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v:28$87.
+  creating $macc cell for $flatten\leap_year_check.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/leap_year_check.v:29$23: $auto$alumacc.cc:365:replace_macc$605
+  creating $alu cell for $flatten\day_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v:28$87: $auto$alumacc.cc:485:replace_alu$606
+  creating $alu cell for $flatten\day_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/day_counter.v:31$88: $auto$alumacc.cc:485:replace_alu$609
+  creating $alu cell for $flatten\hour_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:26$109: $auto$alumacc.cc:485:replace_alu$612
+  creating $alu cell for $flatten\hour_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter.v:29$110: $auto$alumacc.cc:485:replace_alu$615
+  creating $alu cell for $flatten\month_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:26$65: $auto$alumacc.cc:485:replace_alu$618
+  creating $alu cell for $flatten\second_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v:30$186: $auto$alumacc.cc:485:replace_alu$621
+  creating $alu cell for $flatten\second_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/second_counter.v:26$185: $auto$alumacc.cc:485:replace_alu$624
+  creating $alu cell for $flatten\month_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/month_counter.v:29$66: $auto$alumacc.cc:485:replace_alu$627
+  creating $alu cell for $flatten\year_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:42$42: $auto$alumacc.cc:485:replace_alu$630
+  creating $alu cell for $flatten\year_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:37$41: $auto$alumacc.cc:485:replace_alu$633
+  creating $alu cell for $flatten\year_counter.$add$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/year_counter.v:32$39: $auto$alumacc.cc:485:replace_alu$636
+  created 11 $alu and 1 $macc cells.
+
+74. Executing SHARE pass (SAT-based resource sharing).
+
+75. Executing OPT_EXPR pass (perform const folding).
+Optimizing module top_counter.
+<suppressed ~10 debug messages>
+
+76. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\top_counter'.
+<suppressed ~24 debug messages>
+Removed a total of 8 cells.
+
+77. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \top_counter..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~30 debug messages>
+
+78. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \top_counter.
+Performed a total of 0 changes.
+
+79. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\top_counter'.
+Removed a total of 0 cells.
+
+80. Executing OPT_DFF pass (perform DFF optimizations).
+
+81. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \top_counter..
+Removed 0 unused cells and 15 unused wires.
+<suppressed ~3 debug messages>
+
+82. Executing OPT_EXPR pass (perform const folding).
+Optimizing module top_counter.
+
+83. Rerunning OPT passes. (Maybe there is more to do…)
+
+84. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \top_counter..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~30 debug messages>
+
+85. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \top_counter.
+Performed a total of 0 changes.
+
+86. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\top_counter'.
+Removed a total of 0 cells.
+
+87. Executing OPT_DFF pass (perform DFF optimizations).
+
+88. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \top_counter..
+
+89. Executing OPT_EXPR pass (perform const folding).
+Optimizing module top_counter.
+
+90. Executing MEMORY pass.
+
+90.1. Executing OPT_MEM pass (optimize memories).
+Performed a total of 0 transformations.
+
+90.2. Executing OPT_MEM_PRIORITY pass (removing unnecessary memory write priority relations).
+Performed a total of 0 transformations.
+
+90.3. Executing OPT_MEM_FEEDBACK pass (finding memory read-to-write feedback paths).
+
+90.4. Executing MEMORY_BMUX2ROM pass (converting muxes to ROMs).
+
+90.5. Executing MEMORY_DFF pass (merging $dff cells to $memrd).
+
+90.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \top_counter..
+
+90.7. Executing MEMORY_SHARE pass (consolidating $memrd/$memwr cells).
+
+90.8. Executing OPT_MEM_WIDEN pass (optimize memories where all ports are wide).
+Performed a total of 0 transformations.
+
+90.9. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \top_counter..
+
+90.10. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+91. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \top_counter..
+
+92. Executing OPT_EXPR pass (perform const folding).
+Optimizing module top_counter.
+<suppressed ~50 debug messages>
+
+93. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\top_counter'.
+Removed a total of 0 cells.
+
+94. Executing OPT_DFF pass (perform DFF optimizations).
+
+95. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \top_counter..
+Removed 0 unused cells and 25 unused wires.
+<suppressed ~1 debug messages>
+
+96. Executing MEMORY_MAP pass (converting memories to logic and flip-flops).
+
+97. Executing OPT_EXPR pass (perform const folding).
+Optimizing module top_counter.
+
+98. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\top_counter'.
+Removed a total of 0 cells.
+
+99. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \top_counter..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~18 debug messages>
+
+100. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \top_counter.
+    Consolidated identical input bits for $pmux cell $flatten\day_in_month_decode.$procmux$406:
+      Old ports: A=4'0000, B={ 7'0001100 \day_in_month_decode.is_leap_year }, Y=\day_counter.unit_day_in_month
+      New ports: A=2'00, B={ 3'011 \day_in_month_decode.is_leap_year }, Y={ \day_counter.unit_day_in_month [3] \day_counter.unit_day_in_month [0] }
+      New connections: \day_counter.unit_day_in_month [2:1] = 2'00
+  Optimizing cells in module \top_counter.
+Performed a total of 1 changes.
+
+101. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\top_counter'.
+Removed a total of 0 cells.
+
+102. Executing OPT_SHARE pass.
+
+103. Executing OPT_DFF pass (perform DFF optimizations).
+Adding EN signal on $auto$ff.cc:266:slice$582 ($adffe) from module top_counter (D = $flatten\day_counter.$0\ten_d[3:0], Q = \day_counter.ten_d).
+Adding EN signal on $auto$ff.cc:266:slice$576 ($adffe) from module top_counter (D = $flatten\hour_counter.$0\ten_h[3:0], Q = \hour_counter.ten_h).
+Adding EN signal on $auto$ff.cc:266:slice$570 ($adffe) from module top_counter (D = $flatten\month_counter.$0\ten_mo[3:0], Q = \month_counter.ten_mo).
+Adding EN signal on $auto$ff.cc:266:slice$564 ($adffe) from module top_counter (D = $flatten\second_counter.$procmux$416_Y, Q = \second_counter.ten_s).
+Adding EN signal on $auto$ff.cc:266:slice$558 ($adffe) from module top_counter (D = 4'0010, Q = \year_counter.thou_y).
+Adding EN signal on $auto$ff.cc:266:slice$555 ($adffe) from module top_counter (D = $flatten\year_counter.$0\hun_y[3:0], Q = \year_counter.hun_y).
+Adding EN signal on $auto$ff.cc:266:slice$552 ($adffe) from module top_counter (D = $flatten\year_counter.$0\ten_y[3:0], Q = \year_counter.ten_y).
+Setting constant 0-bit at position 0 on $auto$ff.cc:266:slice$657 ($adffe) from module top_counter.
+Setting constant 1-bit at position 1 on $auto$ff.cc:266:slice$657 ($adffe) from module top_counter.
+Setting constant 0-bit at position 2 on $auto$ff.cc:266:slice$657 ($adffe) from module top_counter.
+Setting constant 0-bit at position 3 on $auto$ff.cc:266:slice$657 ($adffe) from module top_counter.
+
+104. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \top_counter..
+Removed 3 unused cells and 3 unused wires.
+<suppressed ~4 debug messages>
+
+105. Executing OPT_EXPR pass (perform const folding).
+Optimizing module top_counter.
+<suppressed ~12 debug messages>
+
+106. Rerunning OPT passes. (Maybe there is more to do…)
+
+107. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \top_counter..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~17 debug messages>
+
+108. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \top_counter.
+Performed a total of 0 changes.
+
+109. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\top_counter'.
+Removed a total of 0 cells.
+
+110. Executing OPT_SHARE pass.
+
+111. Executing OPT_DFF pass (perform DFF optimizations).
+
+112. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \top_counter..
+Removed 0 unused cells and 7 unused wires.
+<suppressed ~1 debug messages>
+
+113. Executing OPT_EXPR pass (perform const folding).
+Optimizing module top_counter.
+
+114. Rerunning OPT passes. (Maybe there is more to do…)
+
+115. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \top_counter..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~17 debug messages>
+
+116. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \top_counter.
+Performed a total of 0 changes.
+
+117. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\top_counter'.
+Removed a total of 0 cells.
+
+118. Executing OPT_SHARE pass.
+
+119. Executing OPT_DFF pass (perform DFF optimizations).
+
+120. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \top_counter..
+
+121. Executing OPT_EXPR pass (perform const folding).
+Optimizing module top_counter.
+
+122. Executing TECHMAP pass (map to technology primitives).
+
+122.1. Executing Verilog-2005 frontend: /nix/store/9r0bh7sp051dpm8km8bqlb028anpd3v3-yosys/bin/../share/yosys/techmap.v
+Parsing Verilog input from `/nix/store/9r0bh7sp051dpm8km8bqlb028anpd3v3-yosys/bin/../share/yosys/techmap.v' to AST representation.
+Generating RTLIL representation for module `\_90_simplemap_bool_ops'.
+Generating RTLIL representation for module `\_90_simplemap_reduce_ops'.
+Generating RTLIL representation for module `\_90_simplemap_logic_ops'.
+Generating RTLIL representation for module `\_90_simplemap_compare_ops'.
+Generating RTLIL representation for module `\_90_simplemap_various'.
+Generating RTLIL representation for module `\_90_simplemap_registers'.
+Generating RTLIL representation for module `\_90_shift_ops_shr_shl_sshl_sshr'.
+Generating RTLIL representation for module `\_90_shift_shiftx'.
+Generating RTLIL representation for module `\_90_fa'.
+Generating RTLIL representation for module `\_90_lcu_brent_kung'.
+Generating RTLIL representation for module `\_90_alu'.
+Generating RTLIL representation for module `\_90_macc'.
+Generating RTLIL representation for module `\_90_alumacc'.
+Generating RTLIL representation for module `\$__div_mod_u'.
+Generating RTLIL representation for module `\$__div_mod_trunc'.
+Generating RTLIL representation for module `\_90_div'.
+Generating RTLIL representation for module `\_90_mod'.
+Generating RTLIL representation for module `\$__div_mod_floor'.
+Generating RTLIL representation for module `\_90_divfloor'.
+Generating RTLIL representation for module `\_90_modfloor'.
+Generating RTLIL representation for module `\_90_pow'.
+Generating RTLIL representation for module `\_90_pmux'.
+Generating RTLIL representation for module `\_90_demux'.
+Generating RTLIL representation for module `\_90_lut'.
+Successfully finished Verilog frontend.
+
+122.2. Continuing TECHMAP pass.
+Using extmapper simplemap for cells of type $reduce_and.
+Using extmapper simplemap for cells of type $mux.
+Using extmapper simplemap for cells of type $and.
+Using extmapper simplemap for cells of type $adffe.
+Using template $paramod$32a7b7b86c07519b7537abc18e96f0331f97914d\_90_alu for cells of type $alu.
+Using extmapper simplemap for cells of type $eq.
+Using extmapper simplemap for cells of type $logic_and.
+Using extmapper simplemap for cells of type $reduce_bool.
+Using extmapper simplemap for cells of type $adff.
+Using extmapper simplemap for cells of type $not.
+Using extmapper simplemap for cells of type $or.
+Using extmapper simplemap for cells of type $xor.
+Using extmapper maccmap for cells of type $macc.
+  add \year_counter.unit_y [1:0] (2 bits, unsigned)
+  add { \year_counter.ten_y [0] 1'0 } (2 bits, unsigned)
+Using extmapper simplemap for cells of type $logic_not.
+Using extmapper simplemap for cells of type $ne.
+Using extmapper simplemap for cells of type $reduce_or.
+Using template $paramod$521ce43182eecb9f60c72393a788160d2c356bf5\_90_pmux for cells of type $pmux.
+Using extmapper simplemap for cells of type $pos.
+Using template $paramod\_90_lcu_brent_kung\WIDTH=32'00000000000000000000000000000100 for cells of type $lcu.
+Using template $paramod$7e708ae28ab761f11d0fb59d3ffc72f6a4baf5d9\_90_alu for cells of type $alu.
+Using template $paramod\_90_lcu_brent_kung\WIDTH=32'00000000000000000000000000000010 for cells of type $lcu.
+No more expansions possible.
+<suppressed ~745 debug messages>
+
+123. Executing OPT_EXPR pass (perform const folding).
+Optimizing module top_counter.
+<suppressed ~426 debug messages>
+
+124. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\top_counter'.
+<suppressed ~360 debug messages>
+Removed a total of 120 cells.
+
+125. Executing OPT_DFF pass (perform DFF optimizations).
+
+126. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \top_counter..
+Removed 45 unused cells and 540 unused wires.
+<suppressed ~46 debug messages>
+
+127. Executing OPT_EXPR pass (perform const folding).
+Optimizing module top_counter.
+
+128. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\top_counter'.
+Removed a total of 0 cells.
+
+129. Executing OPT_DFF pass (perform DFF optimizations).
+
+130. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \top_counter..
+
+131. Executing ABC pass (technology mapping using ABC).
+
+131.1. Extracting gate netlist of module `\top_counter' to `<abc-temp-dir>/input.blif'..
+Extracted 366 gates and 426 wires to a netlist network with 58 inputs and 62 outputs.
+
+131.1.1. Executing ABC.
+Running ABC command: "/nix/store/6l3aj1gi4lja8z5s4lan2k2cfz9mqkrz-yosys-abc/bin/abc" -s -f <abc-temp-dir>/abc.script 2>&1
+ABC: ABC command line: "source <abc-temp-dir>/abc.script".
+ABC: 
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library <abc-temp-dir>/stdcells.genlib 
+ABC: Entered genlib library with 13 gates from file "<abc-temp-dir>/stdcells.genlib".
+ABC: + strash 
+ABC: + dretime 
+ABC: + map 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+131.1.2. Re-integrating ABC results.
+ABC RESULTS:             ORNOT cells:       22
+ABC RESULTS:               NOR cells:       18
+ABC RESULTS:              NAND cells:       20
+ABC RESULTS:               NOT cells:        9
+ABC RESULTS:               AND cells:       16
+ABC RESULTS:               XOR cells:       21
+ABC RESULTS:              XNOR cells:       19
+ABC RESULTS:            ANDNOT cells:       97
+ABC RESULTS:                OR cells:       73
+ABC RESULTS:               MUX cells:        6
+ABC RESULTS:        internal signals:      306
+ABC RESULTS:           input signals:       58
+ABC RESULTS:          output signals:       62
+Removing temp directory.
+
+132. Executing OPT pass (performing simple optimizations).
+
+132.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module top_counter.
+
+132.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\top_counter'.
+Removed a total of 0 cells.
+
+132.3. Executing OPT_DFF pass (perform DFF optimizations).
+
+132.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \top_counter..
+Removed 0 unused cells and 311 unused wires.
+<suppressed ~60 debug messages>
+
+132.5. Finished fast OPT passes.
+
+133. Executing HIERARCHY pass (managing design hierarchy).
+
+133.1. Analyzing design hierarchy..
+Top module:  \top_counter
+
+133.2. Analyzing design hierarchy..
+Top module:  \top_counter
+Removed 0 unused modules.
+
+134. Executing CHECK pass (checking for obvious problems).
+Checking module top_counter...
+Found and reported 0 problems.
+
+135. Printing statistics.
+
+=== top_counter ===
+
+   Number of wires:                387
+   Number of wire bits:            644
+   Number of public wires:          93
+   Number of public wire bits:     350
+   Number of ports:                 18
+   Number of port bits:             65
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                360
+     $_ANDNOT_                      97
+     $_AND_                         16
+     $_DFFE_PN0P_                   39
+     $_DFFE_PN1P_                    5
+     $_DFF_PN0_                      7
+     $_MUX_                          6
+     $_NAND_                        20
+     $_NOR_                         18
+     $_NOT_                          9
+     $_ORNOT_                       22
+     $_OR_                          73
+     $_XNOR_                        19
+     $_XOR_                         21
+     $scopeinfo                      8
+
+136. Generating Graphviz representation of design.
+Writing dot description to `/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-24_03-32-58/06-yosys-synthesis/primitive_techmap.dot'.
+Dumping module top_counter to page 1.
+
+137. Executing OPT pass (performing simple optimizations).
+
+137.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module top_counter.
+
+137.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\top_counter'.
+Removed a total of 0 cells.
+
+137.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \top_counter..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+137.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \top_counter.
+Performed a total of 0 changes.
+
+137.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\top_counter'.
+Removed a total of 0 cells.
+
+137.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+137.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \top_counter..
+
+137.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module top_counter.
+
+137.9. Finished OPT passes. (There is nothing left to do.)
+
+138. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \top_counter..
+Removed 8 unused cells and 61 unused wires.
+<suppressed ~69 debug messages>
+{
+   "creator": "Yosys 0.46 (git sha1 e97731b9dda91fa5fa53ed87df7c34163ba59a41, clang++ 17.0.6 -fPIC -O3)",
+   "invocation": "stat -json -liberty /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-24_03-32-58/tmp/22bca256d78440708ccd2ff78802956b.lib ",
+   "modules": {
+      "\\top_counter": {
+         "num_wires":         326,
+         "num_wire_bits":     373,
+         "num_pub_wires":     32,
+         "num_pub_wire_bits": 79,
+         "num_ports":         18,
+         "num_port_bits":     65,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         352,
+         "num_cells_by_type": {
+            "$_ANDNOT_": 97,
+            "$_AND_": 16,
+            "$_DFFE_PN0P_": 39,
+            "$_DFFE_PN1P_": 5,
+            "$_DFF_PN0_": 7,
+            "$_MUX_": 6,
+            "$_NAND_": 20,
+            "$_NOR_": 18,
+            "$_NOT_": 9,
+            "$_ORNOT_": 22,
+            "$_OR_": 73,
+            "$_XNOR_": 19,
+            "$_XOR_": 21
+         }
+      }
+   },
+      "design": {
+         "num_wires":         326,
+         "num_wire_bits":     373,
+         "num_pub_wires":     32,
+         "num_pub_wire_bits": 79,
+         "num_ports":         18,
+         "num_port_bits":     65,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         352,
+         "num_cells_by_type": {
+            "$_ANDNOT_": 97,
+            "$_AND_": 16,
+            "$_DFFE_PN0P_": 39,
+            "$_DFFE_PN1P_": 5,
+            "$_DFF_PN0_": 7,
+            "$_MUX_": 6,
+            "$_NAND_": 20,
+            "$_NOR_": 18,
+            "$_NOT_": 9,
+            "$_ORNOT_": 22,
+            "$_OR_": 73,
+            "$_XNOR_": 19,
+            "$_XOR_": 21
+         }
+      }
+}
+
+139. Printing statistics.
+
+=== top_counter ===
+
+   Number of wires:                326
+   Number of wire bits:            373
+   Number of public wires:          32
+   Number of public wire bits:      79
+   Number of ports:                 18
+   Number of port bits:             65
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                352
+     $_ANDNOT_                      97
+     $_AND_                         16
+     $_DFFE_PN0P_                   39
+     $_DFFE_PN1P_                    5
+     $_DFF_PN0_                      7
+     $_MUX_                          6
+     $_NAND_                        20
+     $_NOR_                         18
+     $_NOT_                          9
+     $_ORNOT_                       22
+     $_OR_                          73
+     $_XNOR_                        19
+     $_XOR_                         21
+
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_OR_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_ORNOT_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_DFF_PN0_ is unknown!
+   Area for cell type $_DFFE_PN0P_ is unknown!
+   Area for cell type $_DFFE_PN1P_ is unknown!
+
+[INFO] Applying tri-state buffer mapping from '/home/lroot/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.tech/openlane/sky130_fd_sc_hd/tribuff_map.v'…
+
+140. Executing TECHMAP pass (map to technology primitives).
+
+140.1. Executing Verilog-2005 frontend: /home/lroot/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.tech/openlane/sky130_fd_sc_hd/tribuff_map.v
+Parsing Verilog input from `/home/lroot/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.tech/openlane/sky130_fd_sc_hd/tribuff_map.v' to AST representation.
+Generating RTLIL representation for module `\$_TBUF_'.
+Successfully finished Verilog frontend.
+
+140.2. Continuing TECHMAP pass.
+No more expansions possible.
+<suppressed ~3 debug messages>
+
+141. Executing SIMPLEMAP pass (map simple cells to gate primitives).
+[INFO] Applying latch mapping from '/home/lroot/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.tech/openlane/sky130_fd_sc_hd/latch_map.v'…
+
+142. Executing TECHMAP pass (map to technology primitives).
+
+142.1. Executing Verilog-2005 frontend: /home/lroot/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.tech/openlane/sky130_fd_sc_hd/latch_map.v
+Parsing Verilog input from `/home/lroot/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.tech/openlane/sky130_fd_sc_hd/latch_map.v' to AST representation.
+Generating RTLIL representation for module `\$_DLATCH_P_'.
+Generating RTLIL representation for module `\$_DLATCH_N_'.
+Successfully finished Verilog frontend.
+
+142.2. Continuing TECHMAP pass.
+No more expansions possible.
+<suppressed ~4 debug messages>
+
+143. Executing SIMPLEMAP pass (map simple cells to gate primitives).
+
+144. Executing DFFLIBMAP pass (mapping DFF cells to sequential cells from liberty file).
+  cell sky130_fd_sc_hd__dfxtp_2 (noninv, pins=3, area=21.27) is a direct match for cell type $_DFF_P_.
+  cell sky130_fd_sc_hd__dfrtp_2 (noninv, pins=4, area=26.28) is a direct match for cell type $_DFF_PN0_.
+  cell sky130_fd_sc_hd__dfstp_2 (noninv, pins=4, area=26.28) is a direct match for cell type $_DFF_PN1_.
+  cell sky130_fd_sc_hd__dfbbn_2 (noninv, pins=6, area=35.03) is a direct match for cell type $_DFFSR_NNN_.
+  final dff cell mappings:
+    unmapped dff cell: $_DFF_N_
+    \sky130_fd_sc_hd__dfxtp_2 _DFF_P_ (.CLK( C), .D( D), .Q( Q));
+    unmapped dff cell: $_DFF_NN0_
+    unmapped dff cell: $_DFF_NN1_
+    unmapped dff cell: $_DFF_NP0_
+    unmapped dff cell: $_DFF_NP1_
+    \sky130_fd_sc_hd__dfrtp_2 _DFF_PN0_ (.CLK( C), .D( D), .Q( Q), .RESET_B( R));
+    \sky130_fd_sc_hd__dfstp_2 _DFF_PN1_ (.CLK( C), .D( D), .Q( Q), .SET_B( R));
+    unmapped dff cell: $_DFF_PP0_
+    unmapped dff cell: $_DFF_PP1_
+    \sky130_fd_sc_hd__dfbbn_2 _DFFSR_NNN_ (.CLK_N( C), .D( D), .Q( Q), .Q_N(~Q), .RESET_B( R), .SET_B( S));
+    unmapped dff cell: $_DFFSR_NNP_
+    unmapped dff cell: $_DFFSR_NPN_
+    unmapped dff cell: $_DFFSR_NPP_
+    unmapped dff cell: $_DFFSR_PNN_
+    unmapped dff cell: $_DFFSR_PNP_
+    unmapped dff cell: $_DFFSR_PPN_
+    unmapped dff cell: $_DFFSR_PPP_
+
+144.1. Executing DFFLEGALIZE pass (convert FFs to types supported by the target).
+Mapping DFF cells in module `\top_counter':
+  mapped 46 $_DFF_PN0_ cells to \sky130_fd_sc_hd__dfrtp_2 cells.
+  mapped 5 $_DFF_PN1_ cells to \sky130_fd_sc_hd__dfstp_2 cells.
+{
+   "creator": "Yosys 0.46 (git sha1 e97731b9dda91fa5fa53ed87df7c34163ba59a41, clang++ 17.0.6 -fPIC -O3)",
+   "invocation": "stat -json -liberty /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-24_03-32-58/tmp/22bca256d78440708ccd2ff78802956b.lib ",
+   "modules": {
+      "\\top_counter": {
+         "num_wires":         370,
+         "num_wire_bits":     417,
+         "num_pub_wires":     32,
+         "num_pub_wire_bits": 79,
+         "num_ports":         18,
+         "num_port_bits":     65,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         396,
+         "area":              1340.035200,
+         "num_cells_by_type": {
+            "$_ANDNOT_": 97,
+            "$_AND_": 16,
+            "$_MUX_": 50,
+            "$_NAND_": 20,
+            "$_NOR_": 18,
+            "$_NOT_": 9,
+            "$_ORNOT_": 22,
+            "$_OR_": 73,
+            "$_XNOR_": 19,
+            "$_XOR_": 21,
+            "sky130_fd_sc_hd__dfrtp_2": 46,
+            "sky130_fd_sc_hd__dfstp_2": 5
+         }
+      }
+   },
+      "design": {
+         "num_wires":         370,
+         "num_wire_bits":     417,
+         "num_pub_wires":     32,
+         "num_pub_wire_bits": 79,
+         "num_ports":         18,
+         "num_port_bits":     65,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         396,
+         "area":              1340.035200,
+         "num_cells_by_type": {
+            "$_ANDNOT_": 97,
+            "$_AND_": 16,
+            "$_MUX_": 50,
+            "$_NAND_": 20,
+            "$_NOR_": 18,
+            "$_NOT_": 9,
+            "$_ORNOT_": 22,
+            "$_OR_": 73,
+            "$_XNOR_": 19,
+            "$_XOR_": 21,
+            "sky130_fd_sc_hd__dfrtp_2": 46,
+            "sky130_fd_sc_hd__dfstp_2": 5
+         }
+      }
+}
+
+145. Printing statistics.
+
+=== top_counter ===
+
+   Number of wires:                370
+   Number of wire bits:            417
+   Number of public wires:          32
+   Number of public wire bits:      79
+   Number of ports:                 18
+   Number of port bits:             65
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                396
+     $_ANDNOT_                      97
+     $_AND_                         16
+     $_MUX_                         50
+     $_NAND_                        20
+     $_NOR_                         18
+     $_NOT_                          9
+     $_ORNOT_                       22
+     $_OR_                          73
+     $_XNOR_                        19
+     $_XOR_                         21
+     sky130_fd_sc_hd__dfrtp_2       46
+     sky130_fd_sc_hd__dfstp_2        5
+
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_OR_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_ORNOT_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+
+   Chip area for module '\top_counter': 1340.035200
+     of which used for sequential elements: 1340.035200 (100.00%)
+
+[INFO] Using generated ABC script '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-24_03-32-58/06-yosys-synthesis/AREA_0.abc'…
+
+146. Executing ABC pass (technology mapping using ABC).
+
+146.1. Extracting gate netlist of module `\top_counter' to `/tmp/yosys-abc-UxPUJg/input.blif'..
+Extracted 345 gates and 403 wires to a netlist network with 58 inputs and 51 outputs.
+
+146.1.1. Executing ABC.
+Running ABC command: "/nix/store/6l3aj1gi4lja8z5s4lan2k2cfz9mqkrz-yosys-abc/bin/abc" -s -f /tmp/yosys-abc-UxPUJg/abc.script 2>&1
+ABC: ABC command line: "source /tmp/yosys-abc-UxPUJg/abc.script".
+ABC: 
+ABC: + read_blif /tmp/yosys-abc-UxPUJg/input.blif 
+ABC: + read_lib -w /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-24_03-32-58/tmp/22bca256d78440708ccd2ff78802956b.lib 
+ABC: Parsing finished successfully.  Parsing time =     0.08 sec
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfbbn_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfrbp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfrtp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfrtp_4".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfsbp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfstp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfstp_4".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfxbp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfxtp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfxtp_4".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlxtn_1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlxtn_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlxtn_4".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dlxtp_1".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "sky130_fd_sc_hd__ebufn_2".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "sky130_fd_sc_hd__ebufn_4".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "sky130_fd_sc_hd__ebufn_8".
+ABC: Library "sky130_fd_sc_hd__tt_025C_1v80" from "/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-24_03-32-58/tmp/22bca256d78440708ccd2ff78802956b.lib" has 175 cells (17 skipped: 14 seq; 3 tri-state; 0 no func; 0 dont_use).  Time =     0.11 sec
+ABC: Memory =    9.54 MB. Time =     0.11 sec
+ABC: Warning: Detected 2 multi-output gates (for example, "sky130_fd_sc_hd__fa_1").
+ABC: + read_constr -v /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-24_03-32-58/06-yosys-synthesis/synthesis.abc.sdc 
+ABC: Setting driving cell to be "sky130_fd_sc_hd__inv_2/Y".
+ABC: Setting output load to be 33.442001.
+ABC: + source /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-24_03-32-58/06-yosys-synthesis/AREA_0.abc 
+ABC: Error: The network is combinational.
+ABC: Cannot find the default PI driving cell (sky130_fd_sc_hd__inv_2/Y) in the library.
+ABC: WireLoad = "none"  Gates =    193 (  5.7 %)   Cap = 13.5 ff (  1.6 %)   Area =     1825.50 ( 91.2 %)   Delay =  4069.86 ps  ( 10.4 %)               
+ABC: Path  0 --      31 : 0    3 pi                         A =   0.00  Df =   0.0   -0.0 ps  S =   0.0 ps  Cin =  0.0 ff  Cout =   5.6 ff  Cmax =   0.0 ff  G =    0  
+ABC: Path  1 --     117 : 4    2 sky130_fd_sc_hd__or4bb_2   A =  12.51  Df = 610.3 -449.7 ps  S =  93.6 ps  Cin =  1.5 ff  Cout =   3.2 ff  Cmax = 312.2 ff  G =  201  
+ABC: Path  2 --     119 : 4    2 sky130_fd_sc_hd__or4_2     A =   8.76  Df =1243.3 -971.7 ps  S = 112.2 ps  Cin =  1.5 ff  Cout =   6.0 ff  Cmax = 310.4 ff  G =  375  
+ABC: Path  3 --     140 : 4    3 sky130_fd_sc_hd__nor4_2    A =  12.51  Df =1557.1-1237.3 ps  S = 310.6 ps  Cin =  4.3 ff  Cout =   8.8 ff  Cmax =  64.1 ff  G =  189  
+ABC: Path  4 --     205 : 4    2 sky130_fd_sc_hd__or4b_2    A =  10.01  Df =2165.8-1658.7 ps  S =  98.0 ps  Cin =  1.5 ff  Cout =   2.8 ff  Cmax = 265.5 ff  G =  182  
+ABC: Path  5 --     206 : 4    3 sky130_fd_sc_hd__or4_2     A =   8.76  Df =2781.1-1297.8 ps  S = 145.2 ps  Cin =  1.5 ff  Cout =  14.2 ff  Cmax = 310.4 ff  G =  905  
+ABC: Path  6 --     207 : 4   14 sky130_fd_sc_hd__o2bb2ai_2 A =  15.01  Df =3314.7-1642.1 ps  S = 625.6 ps  Cin =  4.6 ff  Cout =  54.0 ff  Cmax = 134.6 ff  G = 1126  
+ABC: Path  7 --     221 : 4    2 sky130_fd_sc_hd__and4_2    A =  10.01  Df =3691.2-1697.6 ps  S = 108.0 ps  Cin =  1.5 ff  Cout =  13.2 ff  Cmax = 300.3 ff  G =  822  
+ABC: Path  8 --     225 : 2    1 sky130_fd_sc_hd__xor2_2    A =  16.27  Df =4069.9-1863.4 ps  S = 428.3 ps  Cin =  8.6 ff  Cout =  33.4 ff  Cmax = 130.0 ff  G =  390  
+ABC: Start-point = pi30 (\unit_s [1]).  End-point = po21 ($auto$rtlil.cc:2739:MuxGate$2391).
+ABC: netlist                       : i/o =   58/   51  lat =    0  nd =   193  edge =    548  area =1825.76  delay = 8.00  lev = 8
+ABC: + write_blif /tmp/yosys-abc-UxPUJg/output.blif 
+
+146.1.2. Re-integrating ABC results.
+ABC RESULTS:   sky130_fd_sc_hd__nor3_2 cells:        2
+ABC RESULTS:   sky130_fd_sc_hd__nor3b_2 cells:        2
+ABC RESULTS:   sky130_fd_sc_hd__o22a_2 cells:        2
+ABC RESULTS:   sky130_fd_sc_hd__nor4_2 cells:        4
+ABC RESULTS:   sky130_fd_sc_hd__o221a_2 cells:        1
+ABC RESULTS:   sky130_fd_sc_hd__o31a_2 cells:        3
+ABC RESULTS:   sky130_fd_sc_hd__o2bb2ai_2 cells:        1
+ABC RESULTS:   sky130_fd_sc_hd__or4bb_2 cells:        5
+ABC RESULTS:   sky130_fd_sc_hd__or4b_2 cells:        7
+ABC RESULTS:   sky130_fd_sc_hd__or4_2 cells:        9
+ABC RESULTS:   sky130_fd_sc_hd__nand4_2 cells:        1
+ABC RESULTS:   sky130_fd_sc_hd__inv_2 cells:       11
+ABC RESULTS:   sky130_fd_sc_hd__a311oi_2 cells:        1
+ABC RESULTS:   sky130_fd_sc_hd__or3_2 cells:        2
+ABC RESULTS:   sky130_fd_sc_hd__and2b_2 cells:        4
+ABC RESULTS:   sky130_fd_sc_hd__nand3b_2 cells:        1
+ABC RESULTS:   sky130_fd_sc_hd__a31o_2 cells:        2
+ABC RESULTS:   sky130_fd_sc_hd__a21boi_2 cells:        2
+ABC RESULTS:   sky130_fd_sc_hd__a2bb2oi_2 cells:        1
+ABC RESULTS:   sky130_fd_sc_hd__xnor2_2 cells:        8
+ABC RESULTS:   sky130_fd_sc_hd__o211a_2 cells:        4
+ABC RESULTS:   sky130_fd_sc_hd__o21ba_2 cells:        4
+ABC RESULTS:   sky130_fd_sc_hd__a21bo_2 cells:        2
+ABC RESULTS:   sky130_fd_sc_hd__and2_2 cells:        9
+ABC RESULTS:   sky130_fd_sc_hd__nand2b_2 cells:        1
+ABC RESULTS:   sky130_fd_sc_hd__and4bb_2 cells:        4
+ABC RESULTS:   sky130_fd_sc_hd__and3b_2 cells:        3
+ABC RESULTS:   sky130_fd_sc_hd__or2_2 cells:        4
+ABC RESULTS:   sky130_fd_sc_hd__or3b_2 cells:        2
+ABC RESULTS:   sky130_fd_sc_hd__a32o_2 cells:        2
+ABC RESULTS:   sky130_fd_sc_hd__o21ai_2 cells:        2
+ABC RESULTS:   sky130_fd_sc_hd__nor2_2 cells:       16
+ABC RESULTS:   sky130_fd_sc_hd__a21o_2 cells:        3
+ABC RESULTS:   sky130_fd_sc_hd__nand3_2 cells:        2
+ABC RESULTS:   sky130_fd_sc_hd__a211oi_2 cells:        2
+ABC RESULTS:   sky130_fd_sc_hd__and4_2 cells:        3
+ABC RESULTS:   sky130_fd_sc_hd__xor2_2 cells:       11
+ABC RESULTS:   sky130_fd_sc_hd__nand2_2 cells:       15
+ABC RESULTS:   sky130_fd_sc_hd__mux2_1 cells:        5
+ABC RESULTS:   sky130_fd_sc_hd__and3_2 cells:       12
+ABC RESULTS:   sky130_fd_sc_hd__o21a_2 cells:        9
+ABC RESULTS:   sky130_fd_sc_hd__o2bb2a_2 cells:        1
+ABC RESULTS:   sky130_fd_sc_hd__a21oi_2 cells:        6
+ABC RESULTS:   sky130_fd_sc_hd__a31oi_2 cells:        2
+ABC RESULTS:        internal signals:      294
+ABC RESULTS:           input signals:       58
+ABC RESULTS:          output signals:       51
+Removing temp directory.
+
+147. Executing SETUNDEF pass (replace undef values with defined constants).
+
+148. Executing HILOMAP pass (mapping to constant drivers).
+
+149. Executing SPLITNETS pass (splitting up multi-bit signals).
+
+150. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \top_counter..
+Removed 0 unused cells and 408 unused wires.
+<suppressed ~1 debug messages>
+
+151. Executing INSBUF pass (insert buffer cells for connected wires).
+Add top_counter/$auto$insbuf.cc:97:execute$2654: \min_counter.ct0 -> \ten_m [0]
+Add top_counter/$auto$insbuf.cc:97:execute$2655: \min_counter.t1 -> \ten_m [1]
+Add top_counter/$auto$insbuf.cc:97:execute$2656: \min_counter.t2 -> \ten_m [2]
+Add top_counter/$auto$insbuf.cc:97:execute$2657: \min_counter.c0 -> \unit_m [0]
+Add top_counter/$auto$insbuf.cc:97:execute$2658: \min_counter.u1 -> \unit_m [1]
+Add top_counter/$auto$insbuf.cc:97:execute$2659: \min_counter.u2 -> \unit_m [2]
+Add top_counter/$auto$insbuf.cc:97:execute$2660: \min_counter.u3 -> \unit_m [3]
+
+152. Executing CHECK pass (checking for obvious problems).
+Checking module top_counter...
+Found and reported 0 problems.
+{
+   "creator": "Yosys 0.46 (git sha1 e97731b9dda91fa5fa53ed87df7c34163ba59a41, clang++ 17.0.6 -fPIC -O3)",
+   "invocation": "stat -json -liberty /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-24_03-32-58/tmp/22bca256d78440708ccd2ff78802956b.lib ",
+   "modules": {
+      "\\top_counter": {
+         "num_wires":         218,
+         "num_wire_bits":     265,
+         "num_pub_wires":     32,
+         "num_pub_wire_bits": 79,
+         "num_ports":         18,
+         "num_port_bits":     65,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         256,
+         "area":              3219.337600,
+         "num_cells_by_type": {
+            "sky130_fd_sc_hd__a211oi_2": 2,
+            "sky130_fd_sc_hd__a21bo_2": 2,
+            "sky130_fd_sc_hd__a21boi_2": 2,
+            "sky130_fd_sc_hd__a21o_2": 3,
+            "sky130_fd_sc_hd__a21oi_2": 6,
+            "sky130_fd_sc_hd__a2bb2oi_2": 1,
+            "sky130_fd_sc_hd__a311oi_2": 1,
+            "sky130_fd_sc_hd__a31o_2": 2,
+            "sky130_fd_sc_hd__a31oi_2": 2,
+            "sky130_fd_sc_hd__a32o_2": 2,
+            "sky130_fd_sc_hd__and2_2": 9,
+            "sky130_fd_sc_hd__and2b_2": 4,
+            "sky130_fd_sc_hd__and3_2": 12,
+            "sky130_fd_sc_hd__and3b_2": 3,
+            "sky130_fd_sc_hd__and4_2": 3,
+            "sky130_fd_sc_hd__and4bb_2": 4,
+            "sky130_fd_sc_hd__buf_2": 7,
+            "sky130_fd_sc_hd__conb_1": 5,
+            "sky130_fd_sc_hd__dfrtp_2": 46,
+            "sky130_fd_sc_hd__dfstp_2": 5,
+            "sky130_fd_sc_hd__inv_2": 11,
+            "sky130_fd_sc_hd__mux2_1": 5,
+            "sky130_fd_sc_hd__nand2_2": 15,
+            "sky130_fd_sc_hd__nand2b_2": 1,
+            "sky130_fd_sc_hd__nand3_2": 2,
+            "sky130_fd_sc_hd__nand3b_2": 1,
+            "sky130_fd_sc_hd__nand4_2": 1,
+            "sky130_fd_sc_hd__nor2_2": 16,
+            "sky130_fd_sc_hd__nor3_2": 2,
+            "sky130_fd_sc_hd__nor3b_2": 2,
+            "sky130_fd_sc_hd__nor4_2": 4,
+            "sky130_fd_sc_hd__o211a_2": 4,
+            "sky130_fd_sc_hd__o21a_2": 9,
+            "sky130_fd_sc_hd__o21ai_2": 2,
+            "sky130_fd_sc_hd__o21ba_2": 4,
+            "sky130_fd_sc_hd__o221a_2": 1,
+            "sky130_fd_sc_hd__o22a_2": 2,
+            "sky130_fd_sc_hd__o2bb2a_2": 1,
+            "sky130_fd_sc_hd__o2bb2ai_2": 1,
+            "sky130_fd_sc_hd__o31a_2": 3,
+            "sky130_fd_sc_hd__or2_2": 4,
+            "sky130_fd_sc_hd__or3_2": 2,
+            "sky130_fd_sc_hd__or3b_2": 2,
+            "sky130_fd_sc_hd__or4_2": 9,
+            "sky130_fd_sc_hd__or4b_2": 7,
+            "sky130_fd_sc_hd__or4bb_2": 5,
+            "sky130_fd_sc_hd__xnor2_2": 8,
+            "sky130_fd_sc_hd__xor2_2": 11
+         }
+      }
+   },
+      "design": {
+         "num_wires":         218,
+         "num_wire_bits":     265,
+         "num_pub_wires":     32,
+         "num_pub_wire_bits": 79,
+         "num_ports":         18,
+         "num_port_bits":     65,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         256,
+         "area":              3219.337600,
+         "num_cells_by_type": {
+            "sky130_fd_sc_hd__a211oi_2": 2,
+            "sky130_fd_sc_hd__a21bo_2": 2,
+            "sky130_fd_sc_hd__a21boi_2": 2,
+            "sky130_fd_sc_hd__a21o_2": 3,
+            "sky130_fd_sc_hd__a21oi_2": 6,
+            "sky130_fd_sc_hd__a2bb2oi_2": 1,
+            "sky130_fd_sc_hd__a311oi_2": 1,
+            "sky130_fd_sc_hd__a31o_2": 2,
+            "sky130_fd_sc_hd__a31oi_2": 2,
+            "sky130_fd_sc_hd__a32o_2": 2,
+            "sky130_fd_sc_hd__and2_2": 9,
+            "sky130_fd_sc_hd__and2b_2": 4,
+            "sky130_fd_sc_hd__and3_2": 12,
+            "sky130_fd_sc_hd__and3b_2": 3,
+            "sky130_fd_sc_hd__and4_2": 3,
+            "sky130_fd_sc_hd__and4bb_2": 4,
+            "sky130_fd_sc_hd__buf_2": 7,
+            "sky130_fd_sc_hd__conb_1": 5,
+            "sky130_fd_sc_hd__dfrtp_2": 46,
+            "sky130_fd_sc_hd__dfstp_2": 5,
+            "sky130_fd_sc_hd__inv_2": 11,
+            "sky130_fd_sc_hd__mux2_1": 5,
+            "sky130_fd_sc_hd__nand2_2": 15,
+            "sky130_fd_sc_hd__nand2b_2": 1,
+            "sky130_fd_sc_hd__nand3_2": 2,
+            "sky130_fd_sc_hd__nand3b_2": 1,
+            "sky130_fd_sc_hd__nand4_2": 1,
+            "sky130_fd_sc_hd__nor2_2": 16,
+            "sky130_fd_sc_hd__nor3_2": 2,
+            "sky130_fd_sc_hd__nor3b_2": 2,
+            "sky130_fd_sc_hd__nor4_2": 4,
+            "sky130_fd_sc_hd__o211a_2": 4,
+            "sky130_fd_sc_hd__o21a_2": 9,
+            "sky130_fd_sc_hd__o21ai_2": 2,
+            "sky130_fd_sc_hd__o21ba_2": 4,
+            "sky130_fd_sc_hd__o221a_2": 1,
+            "sky130_fd_sc_hd__o22a_2": 2,
+            "sky130_fd_sc_hd__o2bb2a_2": 1,
+            "sky130_fd_sc_hd__o2bb2ai_2": 1,
+            "sky130_fd_sc_hd__o31a_2": 3,
+            "sky130_fd_sc_hd__or2_2": 4,
+            "sky130_fd_sc_hd__or3_2": 2,
+            "sky130_fd_sc_hd__or3b_2": 2,
+            "sky130_fd_sc_hd__or4_2": 9,
+            "sky130_fd_sc_hd__or4b_2": 7,
+            "sky130_fd_sc_hd__or4bb_2": 5,
+            "sky130_fd_sc_hd__xnor2_2": 8,
+            "sky130_fd_sc_hd__xor2_2": 11
+         }
+      }
+}
+
+153. Printing statistics.
+
+=== top_counter ===
+
+   Number of wires:                218
+   Number of wire bits:            265
+   Number of public wires:          32
+   Number of public wire bits:      79
+   Number of ports:                 18
+   Number of port bits:             65
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                256
+     sky130_fd_sc_hd__a211oi_2       2
+     sky130_fd_sc_hd__a21bo_2        2
+     sky130_fd_sc_hd__a21boi_2       2
+     sky130_fd_sc_hd__a21o_2         3
+     sky130_fd_sc_hd__a21oi_2        6
+     sky130_fd_sc_hd__a2bb2oi_2      1
+     sky130_fd_sc_hd__a311oi_2       1
+     sky130_fd_sc_hd__a31o_2         2
+     sky130_fd_sc_hd__a31oi_2        2
+     sky130_fd_sc_hd__a32o_2         2
+     sky130_fd_sc_hd__and2_2         9
+     sky130_fd_sc_hd__and2b_2        4
+     sky130_fd_sc_hd__and3_2        12
+     sky130_fd_sc_hd__and3b_2        3
+     sky130_fd_sc_hd__and4_2         3
+     sky130_fd_sc_hd__and4bb_2       4
+     sky130_fd_sc_hd__buf_2          7
+     sky130_fd_sc_hd__conb_1         5
+     sky130_fd_sc_hd__dfrtp_2       46
+     sky130_fd_sc_hd__dfstp_2        5
+     sky130_fd_sc_hd__inv_2         11
+     sky130_fd_sc_hd__mux2_1         5
+     sky130_fd_sc_hd__nand2_2       15
+     sky130_fd_sc_hd__nand2b_2       1
+     sky130_fd_sc_hd__nand3_2        2
+     sky130_fd_sc_hd__nand3b_2       1
+     sky130_fd_sc_hd__nand4_2        1
+     sky130_fd_sc_hd__nor2_2        16
+     sky130_fd_sc_hd__nor3_2         2
+     sky130_fd_sc_hd__nor3b_2        2
+     sky130_fd_sc_hd__nor4_2         4
+     sky130_fd_sc_hd__o211a_2        4
+     sky130_fd_sc_hd__o21a_2         9
+     sky130_fd_sc_hd__o21ai_2        2
+     sky130_fd_sc_hd__o21ba_2        4
+     sky130_fd_sc_hd__o221a_2        1
+     sky130_fd_sc_hd__o22a_2         2
+     sky130_fd_sc_hd__o2bb2a_2       1
+     sky130_fd_sc_hd__o2bb2ai_2      1
+     sky130_fd_sc_hd__o31a_2         3
+     sky130_fd_sc_hd__or2_2          4
+     sky130_fd_sc_hd__or3_2          2
+     sky130_fd_sc_hd__or3b_2         2
+     sky130_fd_sc_hd__or4_2          9
+     sky130_fd_sc_hd__or4b_2         7
+     sky130_fd_sc_hd__or4bb_2        5
+     sky130_fd_sc_hd__xnor2_2        8
+     sky130_fd_sc_hd__xor2_2        11
+
+   Chip area for module '\top_counter': 3219.337600
+     of which used for sequential elements: 1340.035200 (41.62%)
+
+154. Executing Verilog backend.
+Dumping module `\top_counter'.
+
+155. Executing JSON backend.

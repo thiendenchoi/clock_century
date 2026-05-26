@@ -1,0 +1,9 @@
+- cell: top_counter
+  inout: []
+  input: []
+  output:
+  - ten_m[3]
+  - thou_y[0]
+  - thou_y[1]
+  - thou_y[2]
+  - thou_y[3]

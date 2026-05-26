@@ -1,0 +1,3 @@
+
+21. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\top_century_clock.\over' from process `\top_century_clock.$proc$/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:52$1'.

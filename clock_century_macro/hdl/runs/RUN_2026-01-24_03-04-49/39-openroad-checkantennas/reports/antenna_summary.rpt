@@ -1,0 +1,46 @@
+┏━━━━━━━┳━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━┓
+┃ P / R ┃ Partial ┃ Required ┃ Net              ┃ Pin                         ┃ Layer ┃
+┡━━━━━━━╇━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━┩
+│ 9.15  │ 3658.92 │ 400.00   │ ten_m_alarm[0\]  │ top_display/ten_m_alarm[0]  │ met3  │
+│ 9.13  │ 3651.87 │ 400.00   │ unit_h_alarm[3\] │ top_display/unit_h_alarm[3] │ met3  │
+│ 8.74  │ 3496.05 │ 400.00   │ ten_h_alarm[2\]  │ top_display/ten_h_alarm[2]  │ met3  │
+│ 7.37  │ 2948.03 │ 400.00   │ mode_display[1\] │ top_display/mode_display[1] │ met3  │
+│ 6.83  │ 2732.66 │ 400.00   │ unit_m_alarm[1\] │ top_display/unit_m_alarm[1] │ met3  │
+│ 6.82  │ 2726.69 │ 400.00   │ unit_m_alarm[0\] │ top_display/unit_m_alarm[0] │ met3  │
+│ 6.81  │ 2725.30 │ 400.00   │ ten_h_alarm[0\]  │ top_display/ten_h_alarm[0]  │ met3  │
+│ 5.64  │ 2254.24 │ 400.00   │ ten_h_alarm[1\]  │ top_display/ten_h_alarm[1]  │ met3  │
+│ 5.62  │ 2249.92 │ 400.00   │ unit_h_alarm[2\] │ top_display/unit_h_alarm[2] │ met3  │
+│ 5.44  │ 2175.80 │ 400.00   │ ten_h_alarm[3\]  │ top_display/ten_h_alarm[3]  │ met3  │
+│ 4.64  │ 1856.03 │ 400.00   │ net5             │ output5/A                   │ met2  │
+│ 2.69  │ 1077.94 │ 400.00   │ unit_m_alarm[2\] │ top_display/unit_m_alarm[2] │ met3  │
+│ 2.51  │ 1003.27 │ 400.00   │ thou_y[0\]       │ top_display/thou_y[0]       │ met3  │
+│ 2.49  │ 995.22  │ 400.00   │ ten_y[0\]        │ top_display/ten_y[0]        │ met3  │
+│ 2.46  │ 984.15  │ 400.00   │ unit_mo[1\]      │ top_display/unit_mo[1]      │ met3  │
+│ 2.45  │ 980.33  │ 400.00   │ unit_d[2\]       │ top_display/unit_d[2]       │ met3  │
+│ 2.45  │ 980.13  │ 400.00   │ ten_h[0\]        │ top_display/ten_h[0]        │ met3  │
+│ 2.35  │ 941.48  │ 400.00   │ ten_h[2\]        │ top_display/ten_h[2]        │ met3  │
+│ 2.13  │ 853.48  │ 400.00   │ ten_m_alarm[2\]  │ top_display/ten_m_alarm[2]  │ met3  │
+│ 1.99  │ 794.87  │ 400.00   │ ten_m[3\]        │ top_display/ten_m[3]        │ met3  │
+│ 1.88  │ 750.42  │ 400.00   │ thou_y[2\]       │ top_display/thou_y[2]       │ met3  │
+│ 1.87  │ 748.88  │ 400.00   │ ten_y[1\]        │ top_display/ten_y[1]        │ met3  │
+│ 1.86  │ 745.88  │ 400.00   │ unit_y[1\]       │ top_display/unit_y[1]       │ met3  │
+│ 1.85  │ 740.06  │ 400.00   │ ten_s[2\]        │ top_display/ten_s[2]        │ met3  │
+│ 1.84  │ 734.80  │ 400.00   │ ten_m[1\]        │ top_display/ten_m[1]        │ met3  │
+│ 1.76  │ 703.60  │ 400.00   │ unit_h[0\]       │ top_display/unit_h[0]       │ met3  │
+│ 1.76  │ 702.80  │ 400.00   │ unit_d[0\]       │ top_display/unit_d[0]       │ met3  │
+│ 1.75  │ 699.34  │ 400.00   │ thou_y[3\]       │ top_display/thou_y[3]       │ met3  │
+│ 1.63  │ 650.97  │ 400.00   │ ten_h[3\]        │ top_display/ten_h[3]        │ met3  │
+│ 1.41  │ 562.42  │ 400.00   │ thou_y[0\]       │ top_display/thou_y[0]       │ met4  │
+│ 1.21  │ 483.00  │ 400.00   │ unit_y[3\]       │ top_display/unit_y[3]       │ met3  │
+│ 1.18  │ 472.64  │ 400.00   │ unit_h[1\]       │ top_display/unit_h[1]       │ met3  │
+│ 1.13  │ 3138.42 │ 2778.20  │ ten_h_alarm[3\]  │ top_display/ten_h_alarm[3]  │ met4  │
+│ 1.13  │ 3131.47 │ 2778.20  │ ten_h_alarm[2\]  │ top_display/ten_h_alarm[2]  │ met4  │
+│ 1.09  │ 437.94  │ 400.00   │ ten_s[0\]        │ top_display/ten_s[0]        │ met3  │
+│ 1.08  │ 430.69  │ 400.00   │ unit_mo[3\]      │ top_display/unit_mo[3]      │ met3  │
+│ 1.06  │ 425.01  │ 400.00   │ thou_y[1\]       │ top_display/thou_y[1]       │ met4  │
+│ 1.06  │ 2948.72 │ 2778.20  │ mode_display[0\] │ top_display/mode_display[0] │ met3  │
+│ 1.06  │ 423.85  │ 400.00   │ unit_d[3\]       │ top_display/unit_d[3]       │ met3  │
+│ 1.05  │ 419.83  │ 400.00   │ thou_y[2\]       │ top_display/thou_y[2]       │ met4  │
+│ 1.05  │ 419.83  │ 400.00   │ thou_y[3\]       │ top_display/thou_y[3]       │ met4  │
+│ 1.02  │ 2834.93 │ 2778.20  │ ten_m_alarm[2\]  │ top_display/ten_m_alarm[2]  │ met5  │
+└───────┴─────────┴──────────┴──────────────────┴─────────────────────────────┴───────┘

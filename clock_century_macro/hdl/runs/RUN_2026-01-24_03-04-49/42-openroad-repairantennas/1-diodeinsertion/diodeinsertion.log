@@ -1,0 +1,167 @@
+Reading OpenROAD database at '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-24_03-04-49/41-odb-heuristicdiodeinsertion/3-openroad-globalrouting/top_century_clock.odb'…
+Reading library file at '/home/lroot/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading library file at '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/control_unit_macro/lib/max_ss_100C_1v60/control_unit__max_ss_100C_1v60.lib'…
+Reading library file at '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_counter_macro/lib/max_ss_100C_1v60/top_counter__max_ss_100C_1v60.lib'…
+Reading library file at '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_display_macro/lib/max_ss_100C_1v60/top_display__max_ss_100C_1v60.lib'…
+Reading library file at '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter_alarm_macro/lib/max_ss_100C_1v60/min_counter_alarm__max_ss_100C_1v60.lib'…
+Reading library file at '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter_alarm_macro/lib/max_ss_100C_1v60/hour_counter_alarm__max_ss_100C_1v60.lib'…
+Reading macro library file at '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/control_unit_macro/lib/max_ss_100C_1v60/control_unit__max_ss_100C_1v60.lib'…
+[WARNING STA-1140] /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/control_unit_macro/lib/max_ss_100C_1v60/control_unit__max_ss_100C_1v60.lib line 1, library control_unit already exists.
+Reading macro library file at '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_counter_macro/lib/max_ss_100C_1v60/top_counter__max_ss_100C_1v60.lib'…
+[WARNING STA-1140] /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_counter_macro/lib/max_ss_100C_1v60/top_counter__max_ss_100C_1v60.lib line 1, library top_counter already exists.
+Reading macro library file at '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_display_macro/lib/max_ss_100C_1v60/top_display__max_ss_100C_1v60.lib'…
+[WARNING STA-1140] /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_display_macro/lib/max_ss_100C_1v60/top_display__max_ss_100C_1v60.lib line 1, library top_display already exists.
+Reading macro library file at '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter_alarm_macro/lib/max_ss_100C_1v60/min_counter_alarm__max_ss_100C_1v60.lib'…
+[WARNING STA-1140] /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/min_counter_alarm_macro/lib/max_ss_100C_1v60/min_counter_alarm__max_ss_100C_1v60.lib line 1, library min_counter_alarm already exists.
+Reading macro library file at '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter_alarm_macro/lib/max_ss_100C_1v60/hour_counter_alarm__max_ss_100C_1v60.lib'…
+[WARNING STA-1140] /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/hour_counter_alarm_macro/lib/max_ss_100C_1v60/hour_counter_alarm__max_ss_100C_1v60.lib line 1, library hour_counter_alarm already exists.
+Reading design constraints file at '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/pnr_clock.sdc'…
+[INFO] Setting signal min routing layer to: met1 and clock min routing layer to met1. 
+[INFO] Setting signal max routing layer to: met5 and clock max routing layer to met5. 
+-congestion_iterations 50 -verbose
+[INFO GRT-0020] Min routing layer: met1
+[INFO GRT-0021] Max routing layer: met5
+[INFO GRT-0022] Global adjustment: 30%
+[INFO GRT-0023] Grid origin: (0, 0)
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0088] Layer li1     Track-Pitch = 0.4600  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met1    Track-Pitch = 0.3400  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met2    Track-Pitch = 0.4600  line-2-Via Pitch: 0.3500
+[INFO GRT-0088] Layer met3    Track-Pitch = 0.6800  line-2-Via Pitch: 0.6150
+[INFO GRT-0088] Layer met4    Track-Pitch = 0.9200  line-2-Via Pitch: 1.0400
+[INFO GRT-0088] Layer met5    Track-Pitch = 3.4000  line-2-Via Pitch: 3.1100
+[INFO GRT-0019] Found 7 clock nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 12
+[INFO GRT-0003] Macros: 5
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0004] Blockages: 554
+
+[INFO GRT-0053] Routing resources analysis:
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+li1        Vertical            0             0          0.00%
+met1       Horizontal     248424        103857          58.19%
+met2       Vertical       187413         99009          47.17%
+met3       Horizontal     124212         68335          44.99%
+met4       Vertical        75162         32292          57.04%
+met5       Horizontal      24802          9742          60.72%
+---------------------------------------------------------------
+
+[INFO GRT-0101] Running extra iterations to remove overflow.
+[INFO GRT-0197] Via related to pin nodes: 1084
+[INFO GRT-0198] Via related Steiner nodes: 20
+[INFO GRT-0199] Via filling finished.
+[INFO GRT-0111] Final number of vias: 1721
+[INFO GRT-0112] Final usage 3D: 10032
+
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+---------------------------------------------------------------------------------------
+li1                  0             0            0.00%             0 /  0 /  0
+met1            103857          1957            1.88%             0 /  0 /  0
+met2             99009          1506            1.52%             0 /  0 /  0
+met3             68335          1039            1.52%             0 /  0 /  0
+met4             32292           131            0.41%             0 /  0 /  0
+met5              9742           236            2.42%             0 /  0 /  0
+---------------------------------------------------------------------------------------
+Total           313235          4869            1.55%             0 /  0 /  0
+
+[INFO GRT-0018] Total wirelength: 38653 um
+[INFO GRT-0014] Routed nets: 311
+[INFO GRT-0006] Repairing antennas, iteration 1.
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0012] Found 1 antenna violations.
+[INFO GRT-0015] Inserted 1 diodes.
+[INFO GRT-0009] rerouting 3 nets.
+[INFO GRT-0001] Minimum degree: 5
+[INFO GRT-0002] Maximum degree: 13
+[INFO GRT-0006] Repairing antennas, iteration 2.
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0012] Found 0 antenna violations.
+Placement Analysis
+---------------------------------
+total displacement          0.0 u
+average displacement        0.0 u
+max displacement            0.0 u
+original HPWL           32377.2 u
+legalized HPWL          32377.2 u
+delta HPWL                    0 %
+
+[INFO DPL-0020] Mirrored 217 instances
+[INFO DPL-0021] HPWL before           32377.2 u
+[INFO DPL-0022] HPWL after            32363.1 u
+[INFO DPL-0023] HPWL delta               -0.0 %
+-congestion_iterations 50 -verbose
+[INFO GRT-0020] Min routing layer: met1
+[INFO GRT-0021] Max routing layer: met5
+[INFO GRT-0022] Global adjustment: 30%
+[INFO GRT-0023] Grid origin: (0, 0)
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0088] Layer li1     Track-Pitch = 0.4600  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met1    Track-Pitch = 0.3400  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met2    Track-Pitch = 0.4600  line-2-Via Pitch: 0.3500
+[INFO GRT-0088] Layer met3    Track-Pitch = 0.6800  line-2-Via Pitch: 0.6150
+[INFO GRT-0088] Layer met4    Track-Pitch = 0.9200  line-2-Via Pitch: 1.0400
+[INFO GRT-0088] Layer met5    Track-Pitch = 3.4000  line-2-Via Pitch: 3.1100
+[INFO GRT-0019] Found 7 clock nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 13
+[INFO GRT-0003] Macros: 5
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0004] Blockages: 554
+
+[INFO GRT-0053] Routing resources analysis:
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+li1        Vertical            0             0          0.00%
+met1       Horizontal     248424        103857          58.19%
+met2       Vertical       187413         99009          47.17%
+met3       Horizontal     124212         68335          44.99%
+met4       Vertical        75162         32292          57.04%
+met5       Horizontal      24802          9742          60.72%
+---------------------------------------------------------------
+
+[INFO GRT-0101] Running extra iterations to remove overflow.
+[INFO GRT-0197] Via related to pin nodes: 1082
+[INFO GRT-0198] Via related Steiner nodes: 19
+[INFO GRT-0199] Via filling finished.
+[INFO GRT-0111] Final number of vias: 1720
+[INFO GRT-0112] Final usage 3D: 10033
+
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+---------------------------------------------------------------------------------------
+li1                  0             0            0.00%             0 /  0 /  0
+met1            103857          1966            1.89%             0 /  0 /  0
+met2             99009          1532            1.55%             0 /  0 /  0
+met3             68335          1041            1.52%             0 /  0 /  0
+met4             32292           106            0.33%             0 /  0 /  0
+met5              9742           228            2.34%             0 /  0 /  0
+---------------------------------------------------------------------------------------
+Total           313235          4873            1.56%             0 /  0 /  0
+
+[INFO GRT-0018] Total wirelength: 38702 um
+[INFO GRT-0014] Routed nets: 311
+[INFO] Setting RC values…
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+control_unit matched with control_unit
+top_counter matched with top_counter
+top_display matched with top_display
+min_counter_alarm matched with min_counter_alarm
+hour_counter_alarm matched with hour_counter_alarm
+Updating metrics…
+Cell type report:                       Count       Area
+  Macro                                     5  125000.00
+  Fill cell                              1648    6185.93
+  Tap cell                               5752    7196.90
+  Antenna cell                            311     778.25
+  Clock buffer                              6     150.14
+  Timing Repair Buffer                    112     569.30
+  Clock inverter                            1      20.02
+  Total                                  7835  139900.54
+Writing OpenROAD database to '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-24_03-04-49/42-openroad-repairantennas/1-diodeinsertion/top_century_clock.odb'…
+Writing layout to '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-24_03-04-49/42-openroad-repairantennas/1-diodeinsertion/top_century_clock.def'…

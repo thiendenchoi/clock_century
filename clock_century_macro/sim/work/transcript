@@ -1,0 +1,139 @@
+# //  Questa Sim-64
+# //  Version 10.7c linux_x86_64 Aug 17 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim.wlf opened as dataset "vsim"
+# do wave.do
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/clk'.
+# Executing ONERROR command at macro ./wave.do line 3
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/reset_n'.
+# Executing ONERROR command at macro ./wave.do line 4
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/mode'.
+# Executing ONERROR command at macro ./wave.do line 5
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/sel'.
+# Executing ONERROR command at macro ./wave.do line 6
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/inc'.
+# Executing ONERROR command at macro ./wave.do line 7
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/led_unit_s'.
+# Executing ONERROR command at macro ./wave.do line 8
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/led_ten_s'.
+# Executing ONERROR command at macro ./wave.do line 9
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/led_unit_m'.
+# Executing ONERROR command at macro ./wave.do line 10
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/led_ten_m'.
+# Executing ONERROR command at macro ./wave.do line 11
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/led_unit_h'.
+# Executing ONERROR command at macro ./wave.do line 12
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/led_ten_h'.
+# Executing ONERROR command at macro ./wave.do line 13
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/led_unit_d'.
+# Executing ONERROR command at macro ./wave.do line 14
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/led_ten_d'.
+# Executing ONERROR command at macro ./wave.do line 15
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/led_unit_mo'.
+# Executing ONERROR command at macro ./wave.do line 16
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/led_ten_mo'.
+# Executing ONERROR command at macro ./wave.do line 17
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/led_unit_y'.
+# Executing ONERROR command at macro ./wave.do line 18
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/led_ten_y'.
+# Executing ONERROR command at macro ./wave.do line 19
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/led_hun_y'.
+# Executing ONERROR command at macro ./wave.do line 20
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/led_thou_y'.
+# Executing ONERROR command at macro ./wave.do line 21
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/led_am_pm'.
+# Executing ONERROR command at macro ./wave.do line 22
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/alarm'.
+# Executing ONERROR command at macro ./wave.do line 23
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/mode_display'.
+# Executing ONERROR command at macro ./wave.do line 24
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/mode_alarm'.
+# Executing ONERROR command at macro ./wave.do line 25
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/select_time'.
+# Executing ONERROR command at macro ./wave.do line 26
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/is_leap_year'.
+# Executing ONERROR command at macro ./wave.do line 27
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/unit_s'.
+# Executing ONERROR command at macro ./wave.do line 28
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/ten_s'.
+# Executing ONERROR command at macro ./wave.do line 29
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/unit_m'.
+# Executing ONERROR command at macro ./wave.do line 30
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/ten_m'.
+# Executing ONERROR command at macro ./wave.do line 31
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/unit_h'.
+# Executing ONERROR command at macro ./wave.do line 32
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/ten_h'.
+# Executing ONERROR command at macro ./wave.do line 33
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/unit_d'.
+# Executing ONERROR command at macro ./wave.do line 34
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/ten_d'.
+# Executing ONERROR command at macro ./wave.do line 35
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/unit_mo'.
+# Executing ONERROR command at macro ./wave.do line 36
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/ten_mo'.
+# Executing ONERROR command at macro ./wave.do line 37
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/unit_y'.
+# Executing ONERROR command at macro ./wave.do line 38
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/ten_y'.
+# Executing ONERROR command at macro ./wave.do line 39
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/hun_y'.
+# Executing ONERROR command at macro ./wave.do line 40
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/thou_y'.
+# Executing ONERROR command at macro ./wave.do line 41
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/unit_m_alarm'.
+# Executing ONERROR command at macro ./wave.do line 42
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/ten_m_alarm'.
+# Executing ONERROR command at macro ./wave.do line 43
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/unit_h_alarm'.
+# Executing ONERROR command at macro ./wave.do line 44
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/ten_h_alarm'.
+# Executing ONERROR command at macro ./wave.do line 45
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/unit_day_in_month'.
+# Executing ONERROR command at macro ./wave.do line 46
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/ten_day_in_month'.
+# Executing ONERROR command at macro ./wave.do line 47
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/carry_s'.
+# Executing ONERROR command at macro ./wave.do line 48
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/carry_m'.
+# Executing ONERROR command at macro ./wave.do line 49
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/carry_h'.
+# Executing ONERROR command at macro ./wave.do line 50
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/carry_d'.
+# Executing ONERROR command at macro ./wave.do line 51
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/carry_mo'.
+# Executing ONERROR command at macro ./wave.do line 52
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/over'.
+# Executing ONERROR command at macro ./wave.do line 53
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/control_unit/clk'.
+# Executing ONERROR command at macro ./wave.do line 54
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/control_unit/reset_n'.
+# Executing ONERROR command at macro ./wave.do line 55
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/control_unit/mode'.
+# Executing ONERROR command at macro ./wave.do line 56
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/control_unit/sel'.
+# Executing ONERROR command at macro ./wave.do line 57
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/control_unit/select_time'.
+# Executing ONERROR command at macro ./wave.do line 58
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/control_unit/mode_alarm'.
+# Executing ONERROR command at macro ./wave.do line 59
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/control_unit/mode_display'.
+# Executing ONERROR command at macro ./wave.do line 60
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/control_unit/current_state'.
+# Executing ONERROR command at macro ./wave.do line 61
+# ** Error: (vish-4014) No objects found matching '/test_leap_year/dut/control_unit/next_state'.
+# Executing ONERROR command at macro ./wave.do line 62
+add wave -position insertpoint vsim:/top_century_clock_demo_tb/dut/*
+dataset reload -f
+# vsim:/top_century_clock_demo_tb/dut

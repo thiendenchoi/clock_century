@@ -1,0 +1,62 @@
+Reading timing models for corner nom_tt_025C_1v80…
+Reading timing library for the 'nom_tt_025C_1v80' corner at '/home/lroot/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading timing models for corner nom_ff_n40C_1v95…
+Reading timing library for the 'nom_ff_n40C_1v95' corner at '/home/lroot/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib'…
+Reading timing models for corner nom_ss_100C_1v60…
+Reading timing library for the 'nom_ss_100C_1v60' corner at '/home/lroot/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib'…
+Reading OpenROAD database at '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-23_12-59-42/27-openroad-globalplacement/top_century_clock.odb'…
+Reading design constraints file at '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/pnr_clock.sdc'…
+[INFO] Setting RC values…
+[INFO RSZ-0027] Inserted 4 input buffers.
+[INFO RSZ-0028] Inserted 97 output buffers.
+[INFO RSZ-0058] Using max wire length 6335um.
+Iteration | Resized | Buffers | Nets repaired | Remaining
+---------------------------------------------------------
+        0 |       0 |       0 |             0 |       823
+      100 |      91 |       0 |             0 |       723
+      200 |     182 |       1 |             1 |       623
+      300 |     275 |       2 |             2 |       523
+      400 |     369 |       8 |             4 |       423
+      500 |     464 |       8 |             4 |       323
+      600 |     557 |       8 |             4 |       223
+      700 |     645 |      10 |             5 |       123
+      800 |     737 |      44 |            29 |        23
+    final |     738 |      44 |            29 |         0
+---------------------------------------------------------
+[INFO RSZ-0034] Found 3 slew violations.
+[INFO RSZ-0035] Found 26 fanout violations.
+[INFO RSZ-0038] Inserted 44 buffers in 29 nets.
+[INFO RSZ-0039] Resized 738 instances.
+[INFO RSZ-0042] Inserted 5 tie sky130_fd_sc_hd__conb_1 instances.
+[INFO RSZ-0042] Inserted 4 tie sky130_fd_sc_hd__conb_1 instances.
+Placement Analysis
+---------------------------------
+total displacement       2130.2 u
+average displacement        1.8 u
+max displacement           10.2 u
+original HPWL           12344.2 u
+legalized HPWL          14135.1 u
+delta HPWL                   15 %
+
+[INFO DPL-0020] Mirrored 374 instances
+[INFO DPL-0021] HPWL before           14135.1 u
+[INFO DPL-0022] HPWL after            13607.0 u
+[INFO DPL-0023] HPWL delta               -3.7 %
+[INFO] Setting RC values…
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+Updating metrics…
+Cell type report:                       Count       Area
+  Fill cell                               100     375.36
+  Tap cell                                260     325.31
+  Buffer                                    5      20.02
+  Timing Repair Buffer                    145     726.95
+  Inverter                                 37     138.88
+  Sequential cell                          79    2060.73
+  Multi-Input combinational cell          589    4205.28
+  Total                                  1215    7852.53
+Writing OpenROAD database to '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-23_12-59-42/31-openroad-repairdesignpostgpl/top_century_clock.odb'…
+Writing netlist to '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-23_12-59-42/31-openroad-repairdesignpostgpl/top_century_clock.nl.v'…
+Writing powered netlist to '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-23_12-59-42/31-openroad-repairdesignpostgpl/top_century_clock.pnl.v'…
+Writing layout to '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-23_12-59-42/31-openroad-repairdesignpostgpl/top_century_clock.def'…
+Writing timing constraints to '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-23_12-59-42/31-openroad-repairdesignpostgpl/top_century_clock.sdc'…

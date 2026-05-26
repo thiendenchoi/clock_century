@@ -1,0 +1,318 @@
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:29:12: Signal is not driven, nor used: 'is_leap_year'
+                                                                                                                         : ... note: In instance 'top_century_clock'
+   29 | wire       is_leap_year;
+      |            ^~~~~~~~~~~~
+                       ... For warning description see https://verilator.org/warn/UNUSEDSIGNAL?v=5.018
+                       ... Use "/* verilator lint_off UNUSEDSIGNAL */" and lint_on around source to disable this message.
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/top_century_clock.v:50:6: Signal is not used: 'over'
+                                                                                                                        : ... note: In instance 'top_century_clock'
+   50 | reg  over;
+      |      ^~~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:4:22: Signal is not used: 'clk'
+                                                                                                                   : ... note: In instance 'top_century_clock.control_unit'
+    4 |     input            clk, 
+      |                      ^~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:5:22: Signal is not used: 'reset_n'
+                                                                                                                   : ... note: In instance 'top_century_clock.control_unit'
+    5 |     input            reset_n,
+      |                      ^~~~~~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:6:22: Signal is not used: 'mode'
+                                                                                                                   : ... note: In instance 'top_century_clock.control_unit'
+    6 |     input            mode,
+      |                      ^~~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:7:22: Signal is not used: 'sel'
+                                                                                                                   : ... note: In instance 'top_century_clock.control_unit'
+    7 |     input            sel,
+      |                      ^~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:8:22: Signal is not driven: 'select_time'
+                                                                                                               : ... note: In instance 'top_century_clock.control_unit'
+    8 |     output     [5:0] select_time,
+      |                      ^~~~~~~~~~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:9:22: Signal is not driven: 'mode_alarm'
+                                                                                                               : ... note: In instance 'top_century_clock.control_unit'
+    9 |     output     [1:0] mode_alarm,
+      |                      ^~~~~~~~~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:10:22: Signal is not driven: 'mode_display'
+                                                                                                                : ... note: In instance 'top_century_clock.control_unit'
+   10 |     output     [1:0] mode_display
+      |                      ^~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:16:18: Signal is not used: 'clk'
+                                                                                                                    : ... note: In instance 'top_century_clock.top_counter'
+   16 |     input        clk,
+      |                  ^~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:17:18: Signal is not used: 'reset_n'
+                                                                                                                    : ... note: In instance 'top_century_clock.top_counter'
+   17 |     input        reset_n,
+      |                  ^~~~~~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:18:18: Signal is not used: 'inc'
+                                                                                                                    : ... note: In instance 'top_century_clock.top_counter'
+   18 |     input        inc,
+      |                  ^~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:19:18: Signal is not used: 'select_time'
+                                                                                                                    : ... note: In instance 'top_century_clock.top_counter'
+   19 |     input  [5:0] select_time,
+      |                  ^~~~~~~~~~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:20:18: Signal is not driven: 'ten_s'
+                                                                                                                : ... note: In instance 'top_century_clock.top_counter'
+   20 |     output [3:0] ten_s,
+      |                  ^~~~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:21:18: Signal is not driven: 'unit_s'
+                                                                                                                : ... note: In instance 'top_century_clock.top_counter'
+   21 |     output [3:0] unit_s,    
+      |                  ^~~~~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:22:18: Signal is not driven: 'ten_m'
+                                                                                                                : ... note: In instance 'top_century_clock.top_counter'
+   22 |     output [3:0] ten_m,
+      |                  ^~~~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:23:18: Signal is not driven: 'unit_m'
+                                                                                                                : ... note: In instance 'top_century_clock.top_counter'
+   23 |     output [3:0] unit_m, 
+      |                  ^~~~~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:24:18: Signal is not driven: 'ten_h'
+                                                                                                                : ... note: In instance 'top_century_clock.top_counter'
+   24 |     output [3:0] ten_h,
+      |                  ^~~~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:25:18: Signal is not driven: 'unit_h'
+                                                                                                                : ... note: In instance 'top_century_clock.top_counter'
+   25 |     output [3:0] unit_h,
+      |                  ^~~~~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:26:18: Signal is not driven: 'ten_d'
+                                                                                                                : ... note: In instance 'top_century_clock.top_counter'
+   26 |     output [3:0] ten_d,
+      |                  ^~~~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:27:18: Signal is not driven: 'unit_d'
+                                                                                                                : ... note: In instance 'top_century_clock.top_counter'
+   27 |     output [3:0] unit_d,
+      |                  ^~~~~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:28:18: Signal is not driven: 'ten_mo'
+                                                                                                                : ... note: In instance 'top_century_clock.top_counter'
+   28 |     output [3:0] ten_mo,
+      |                  ^~~~~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:29:18: Signal is not driven: 'unit_mo'
+                                                                                                                : ... note: In instance 'top_century_clock.top_counter'
+   29 |     output [3:0] unit_mo,   
+      |                  ^~~~~~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:30:18: Signal is not driven: 'thou_y'
+                                                                                                                : ... note: In instance 'top_century_clock.top_counter'
+   30 |     output [3:0] thou_y,
+      |                  ^~~~~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:31:18: Signal is not driven: 'hun_y'
+                                                                                                                : ... note: In instance 'top_century_clock.top_counter'
+   31 |     output [3:0] hun_y, 
+      |                  ^~~~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:32:18: Signal is not driven: 'ten_y'
+                                                                                                                : ... note: In instance 'top_century_clock.top_counter'
+   32 |     output [3:0] ten_y,
+      |                  ^~~~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:33:18: Signal is not driven: 'unit_y'
+                                                                                                                : ... note: In instance 'top_century_clock.top_counter'
+   33 |     output [3:0] unit_y
+      |                  ^~~~~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:39:18: Signal is not used: 'clk'
+                                                                                                                    : ... note: In instance 'top_century_clock.top_display'
+   39 |     input        clk,
+      |                  ^~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:40:18: Signal is not used: 'reset_n'
+                                                                                                                    : ... note: In instance 'top_century_clock.top_display'
+   40 |     input        reset_n,
+      |                  ^~~~~~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:41:18: Signal is not used: 'unit_s'
+                                                                                                                    : ... note: In instance 'top_century_clock.top_display'
+   41 |     input  [3:0] unit_s,
+      |                  ^~~~~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:42:18: Signal is not used: 'ten_s'
+                                                                                                                    : ... note: In instance 'top_century_clock.top_display'
+   42 |     input  [3:0] ten_s,
+      |                  ^~~~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:43:18: Signal is not used: 'unit_m'
+                                                                                                                    : ... note: In instance 'top_century_clock.top_display'
+   43 |     input  [3:0] unit_m,
+      |                  ^~~~~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:44:18: Signal is not used: 'ten_m'
+                                                                                                                    : ... note: In instance 'top_century_clock.top_display'
+   44 |     input  [3:0] ten_m,
+      |                  ^~~~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:45:18: Signal is not used: 'unit_h'
+                                                                                                                    : ... note: In instance 'top_century_clock.top_display'
+   45 |     input  [3:0] unit_h,
+      |                  ^~~~~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:46:18: Signal is not used: 'ten_h'
+                                                                                                                    : ... note: In instance 'top_century_clock.top_display'
+   46 |     input  [3:0] ten_h,
+      |                  ^~~~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:47:18: Signal is not used: 'unit_d'
+                                                                                                                    : ... note: In instance 'top_century_clock.top_display'
+   47 |     input  [3:0] unit_d,
+      |                  ^~~~~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:48:18: Signal is not used: 'ten_d'
+                                                                                                                    : ... note: In instance 'top_century_clock.top_display'
+   48 |     input  [3:0] ten_d,
+      |                  ^~~~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:49:18: Signal is not used: 'unit_mo'
+                                                                                                                    : ... note: In instance 'top_century_clock.top_display'
+   49 |     input  [3:0] unit_mo,
+      |                  ^~~~~~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:50:18: Signal is not used: 'ten_mo'
+                                                                                                                    : ... note: In instance 'top_century_clock.top_display'
+   50 |     input  [3:0] ten_mo,
+      |                  ^~~~~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:51:18: Signal is not used: 'unit_y'
+                                                                                                                    : ... note: In instance 'top_century_clock.top_display'
+   51 |     input  [3:0] unit_y,
+      |                  ^~~~~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:52:18: Signal is not used: 'ten_y'
+                                                                                                                    : ... note: In instance 'top_century_clock.top_display'
+   52 |     input  [3:0] ten_y,
+      |                  ^~~~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:53:18: Signal is not used: 'hun_y'
+                                                                                                                    : ... note: In instance 'top_century_clock.top_display'
+   53 |     input  [3:0] hun_y,
+      |                  ^~~~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:54:18: Signal is not used: 'thou_y'
+                                                                                                                    : ... note: In instance 'top_century_clock.top_display'
+   54 |     input  [3:0] thou_y,
+      |                  ^~~~~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:55:18: Signal is not used: 'unit_m_alarm'
+                                                                                                                    : ... note: In instance 'top_century_clock.top_display'
+   55 |     input  [3:0] unit_m_alarm,
+      |                  ^~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:56:18: Signal is not used: 'ten_m_alarm'
+                                                                                                                    : ... note: In instance 'top_century_clock.top_display'
+   56 |     input  [3:0] ten_m_alarm,
+      |                  ^~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:57:18: Signal is not used: 'unit_h_alarm'
+                                                                                                                    : ... note: In instance 'top_century_clock.top_display'
+   57 |     input  [3:0] unit_h_alarm,
+      |                  ^~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:58:18: Signal is not used: 'ten_h_alarm'
+                                                                                                                    : ... note: In instance 'top_century_clock.top_display'
+   58 |     input  [3:0] ten_h_alarm,
+      |                  ^~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:59:18: Signal is not used: 'mode_alarm'
+                                                                                                                    : ... note: In instance 'top_century_clock.top_display'
+   59 |     input  [1:0] mode_alarm,
+      |                  ^~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:60:18: Signal is not used: 'mode_display'
+                                                                                                                    : ... note: In instance 'top_century_clock.top_display'
+   60 |     input  [1:0] mode_display,
+      |                  ^~~~~~~~~~~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:61:18: Signal is not driven: 'led_unit_s'
+                                                                                                                : ... note: In instance 'top_century_clock.top_display'
+   61 |     output [6:0] led_unit_s,
+      |                  ^~~~~~~~~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:62:18: Signal is not driven: 'led_ten_s'
+                                                                                                                : ... note: In instance 'top_century_clock.top_display'
+   62 |     output [6:0] led_ten_s,
+      |                  ^~~~~~~~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:63:18: Signal is not driven: 'led_unit_m'
+                                                                                                                : ... note: In instance 'top_century_clock.top_display'
+   63 |     output [6:0] led_unit_m,
+      |                  ^~~~~~~~~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:64:18: Signal is not driven: 'led_ten_m'
+                                                                                                                : ... note: In instance 'top_century_clock.top_display'
+   64 |     output [6:0] led_ten_m,
+      |                  ^~~~~~~~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:65:18: Signal is not driven: 'led_unit_h'
+                                                                                                                : ... note: In instance 'top_century_clock.top_display'
+   65 |     output [6:0] led_unit_h,
+      |                  ^~~~~~~~~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:66:18: Signal is not driven: 'led_ten_h'
+                                                                                                                : ... note: In instance 'top_century_clock.top_display'
+   66 |     output [6:0] led_ten_h,
+      |                  ^~~~~~~~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:67:18: Signal is not driven: 'led_unit_d'
+                                                                                                                : ... note: In instance 'top_century_clock.top_display'
+   67 |     output [6:0] led_unit_d,
+      |                  ^~~~~~~~~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:68:18: Signal is not driven: 'led_ten_d'
+                                                                                                                : ... note: In instance 'top_century_clock.top_display'
+   68 |     output [6:0] led_ten_d,
+      |                  ^~~~~~~~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:69:18: Signal is not driven: 'led_unit_mo'
+                                                                                                                : ... note: In instance 'top_century_clock.top_display'
+   69 |     output [6:0] led_unit_mo,
+      |                  ^~~~~~~~~~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:70:18: Signal is not driven: 'led_ten_mo'
+                                                                                                                : ... note: In instance 'top_century_clock.top_display'
+   70 |     output [6:0] led_ten_mo,
+      |                  ^~~~~~~~~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:71:18: Signal is not driven: 'led_unit_y'
+                                                                                                                : ... note: In instance 'top_century_clock.top_display'
+   71 |     output [6:0] led_unit_y,
+      |                  ^~~~~~~~~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:72:18: Signal is not driven: 'led_ten_y'
+                                                                                                                : ... note: In instance 'top_century_clock.top_display'
+   72 |     output [6:0] led_ten_y,
+      |                  ^~~~~~~~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:73:18: Signal is not driven: 'led_hun_y'
+                                                                                                                : ... note: In instance 'top_century_clock.top_display'
+   73 |     output [6:0] led_hun_y,
+      |                  ^~~~~~~~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:74:18: Signal is not driven: 'led_thou_y'
+                                                                                                                : ... note: In instance 'top_century_clock.top_display'
+   74 |     output [6:0] led_thou_y,
+      |                  ^~~~~~~~~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:75:18: Signal is not driven: 'led_am_pm'
+                                                                                                                : ... note: In instance 'top_century_clock.top_display'
+   75 |     output [6:0] led_am_pm,
+      |                  ^~~~~~~~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:76:18: Signal is not driven: 'alarm'
+                                                                                                                : ... note: In instance 'top_century_clock.top_display'
+   76 |     output       alarm
+      |                  ^~~~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:83:22: Signal is not used: 'clk'
+                                                                                                                    : ... note: In instance 'top_century_clock.hour_counter_alarm'
+   83 |     input            clk,
+      |                      ^~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:84:22: Signal is not used: 'reset_n'
+                                                                                                                    : ... note: In instance 'top_century_clock.hour_counter_alarm'
+   84 |     input            reset_n,
+      |                      ^~~~~~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:85:22: Signal is not used: 'inc'
+                                                                                                                    : ... note: In instance 'top_century_clock.hour_counter_alarm'
+   85 |     input            inc,
+      |                      ^~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:86:22: Signal is not used: 'mode_alarm'
+                                                                                                                    : ... note: In instance 'top_century_clock.hour_counter_alarm'
+   86 |     input      [1:0] mode_alarm,
+      |                      ^~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:87:22: Signal is not used: 'alarm'
+                                                                                                                    : ... note: In instance 'top_century_clock.hour_counter_alarm'
+   87 |     input            alarm,
+      |                      ^~~~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:88:22: Signal is not driven: 'ten_h_alarm'
+                                                                                                                : ... note: In instance 'top_century_clock.hour_counter_alarm'
+   88 |     output     [3:0] ten_h_alarm,
+      |                      ^~~~~~~~~~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:89:22: Signal is not driven: 'unit_h_alarm'
+                                                                                                                : ... note: In instance 'top_century_clock.hour_counter_alarm'
+   89 |     output     [3:0] unit_h_alarm      
+      |                      ^~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:96:22: Signal is not used: 'clk'
+                                                                                                                    : ... note: In instance 'top_century_clock.min_counter_alarm'
+   96 |     input            clk,
+      |                      ^~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:97:22: Signal is not used: 'reset_n'
+                                                                                                                    : ... note: In instance 'top_century_clock.min_counter_alarm'
+   97 |     input            reset_n,
+      |                      ^~~~~~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:98:22: Signal is not used: 'inc'
+                                                                                                                    : ... note: In instance 'top_century_clock.min_counter_alarm'
+   98 |     input            inc,
+      |                      ^~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:99:22: Signal is not used: 'mode_alarm'
+                                                                                                                    : ... note: In instance 'top_century_clock.min_counter_alarm'
+   99 |     input      [1:0] mode_alarm,
+      |                      ^~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:100:22: Signal is not used: 'alarm'
+                                                                                                                     : ... note: In instance 'top_century_clock.min_counter_alarm'
+  100 |     input            alarm,
+      |                      ^~~~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:101:22: Signal is not driven: 'ten_m_alarm'
+                                                                                                                 : ... note: In instance 'top_century_clock.min_counter_alarm'
+  101 |     output     [3:0] ten_m_alarm,
+      |                      ^~~~~~~~~~~
+%Warning-UNDRIVEN: /mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/all_marco_bb.v:102:22: Signal is not driven: 'unit_m_alarm'
+                                                                                                                 : ... note: In instance 'top_century_clock.min_counter_alarm'
+  102 |     output     [3:0] unit_m_alarm      
+      |                      ^~~~~~~~~~~~

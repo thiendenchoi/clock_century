@@ -1,0 +1,24 @@
+{
+  "DESIGN_NAME": "top_counter",
+  "VERILOG_FILES": [
+    "dir::top_counter.v",
+    "dir::min_counter.v",
+    "dir::hour_counter.v",
+    "dir::month_counter.v",
+    "dir::year_counter.v",
+    "dir::second_counter.v",
+    "dir::day_counter.v",
+    "dir::leap_year_check.v",
+    "dir::day_in_month_decode.v"
+  ],
+  "CLOCK_PORT": "clk",
+  "CLOCK_PERIOD": 1000000000,
+  "FP_SIZING": "absolute",
+  "DIE_AREA": [0, 0, 100, 500], 
+  "FP_PDN_VPITCH": 25,
+  "FP_PDN_HPITCH": 25,
+  "FP_PDN_VOFFSET": 5,
+  "FP_PDN_HOFFSET": 5,
+  "FP_PIN_ORDER_CFG": "dir::pin-counter.cfg",
+  "FP_CORE_UTIL": 40
+}

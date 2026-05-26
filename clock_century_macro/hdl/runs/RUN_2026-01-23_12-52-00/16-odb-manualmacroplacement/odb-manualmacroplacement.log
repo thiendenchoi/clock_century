@@ -1,0 +1,10 @@
+[WARNING ORD-0039] .openroad ignored with -python
+Placing the following macros:
+{'control_unit': ['control_unit', 100000, 100000, 'N'], 'top_counter': ['top_counter', 350000, 100000, 'N'], 'min_counter_alarm': ['min_counter_alarm', 150000, 400000, 'N'], 'top_display': ['top_display', 550000, 100000, 'N'], 'hour_counter_alarm': ['hour_counter_alarm', 150000, 300000, 'N']}
+Design name: top_century_clock
+Placing control_unit
+Placing hour_counter_alarm
+Placing min_counter_alarm
+Placing top_counter
+Placing top_display
+Successfully placed 5 instances.

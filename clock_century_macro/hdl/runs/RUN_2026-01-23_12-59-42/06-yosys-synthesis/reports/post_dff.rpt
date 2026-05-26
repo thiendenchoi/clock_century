@@ -1,0 +1,41 @@
+165. Printing statistics.
+
+=== top_century_clock ===
+
+   Number of wires:                892
+   Number of wire bits:           1046
+   Number of public wires:          56
+   Number of public wire bits:     210
+   Number of ports:                 21
+   Number of port bits:            111
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               1018
+     $_ANDNOT_                     198
+     $_AND_                         28
+     $_MUX_                        257
+     $_NAND_                        23
+     $_NOR_                         68
+     $_NOT_                         61
+     $_ORNOT_                       48
+     $_OR_                         189
+     $_XNOR_                         9
+     $_XOR_                         58
+     sky130_fd_sc_hd__dfrtp_2       74
+     sky130_fd_sc_hd__dfstp_2        5
+
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_OR_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_ORNOT_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+
+   Chip area for module '\top_century_clock': 2075.740800
+     of which used for sequential elements: 2075.740800 (100.00%)
+

@@ -1,0 +1,93 @@
+Reading timing models for corner nom_tt_025C_1v80…
+Reading timing library for the 'nom_tt_025C_1v80' corner at '/home/lroot/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading timing models for corner nom_ff_n40C_1v95…
+Reading timing library for the 'nom_ff_n40C_1v95' corner at '/home/lroot/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib'…
+Reading timing models for corner nom_ss_100C_1v60…
+Reading timing library for the 'nom_ss_100C_1v60' corner at '/home/lroot/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib'…
+Reading OpenROAD database at '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-24_03-32-58/27-openroad-globalplacement/top_counter.odb'…
+Reading design constraints file at '/nix/store/ss2cw3sxbrwwx9jl0rrppbw4kgcmgi2n-python3-3.11.9-env/lib/python3.11/site-packages/openlane/scripts/base.sdc'…
+[INFO] Using clock clk…
+[INFO] Setting output delay to: 200000000
+[INFO] Setting input delay to: 200000000
+[INFO] Setting load to: 0.033442
+[INFO] Setting clock uncertainty to: 0.25
+[INFO] Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+[INFO] Setting timing derate to: 5%
+[INFO] Setting RC values…
+[INFO RSZ-0027] Inserted 8 input buffers.
+[INFO RSZ-0028] Inserted 51 output buffers.
+[INFO RSZ-0058] Using max wire length 6335um.
+Iteration | Resized | Buffers | Nets repaired | Remaining
+---------------------------------------------------------
+        0 |       0 |       0 |             0 |       329
+       10 |       9 |       0 |             0 |       319
+       20 |      18 |       0 |             0 |       309
+       30 |      27 |       0 |             0 |       299
+       40 |      36 |       0 |             0 |       289
+       50 |      46 |       0 |             0 |       279
+       60 |      56 |       0 |             0 |       269
+       70 |      63 |       1 |             1 |       259
+       80 |      72 |       1 |             1 |       249
+       90 |      82 |       1 |             1 |       239
+      100 |      91 |       1 |             1 |       229
+      110 |      99 |       1 |             1 |       219
+      120 |     108 |       1 |             1 |       209
+      130 |     115 |       2 |             2 |       199
+      140 |     124 |       2 |             2 |       189
+      150 |     133 |       3 |             3 |       179
+      160 |     143 |       3 |             3 |       169
+      170 |     153 |       3 |             3 |       159
+      180 |     163 |       3 |             3 |       149
+      190 |     173 |       4 |             4 |       139
+      200 |     178 |       4 |             4 |       129
+      210 |     184 |       4 |             4 |       119
+      220 |     194 |       4 |             4 |       109
+      230 |     204 |       4 |             4 |        99
+      240 |     214 |       4 |             4 |        89
+      250 |     224 |       4 |             4 |        79
+      260 |     229 |       4 |             4 |        69
+      270 |     239 |       4 |             4 |        59
+      280 |     248 |       5 |             5 |        49
+      290 |     257 |       5 |             5 |        39
+      300 |     267 |       5 |             5 |        29
+      310 |     281 |      12 |             6 |        19
+      320 |     282 |      12 |             6 |         9
+    final |     282 |      12 |             6 |         0
+---------------------------------------------------------
+[INFO RSZ-0034] Found 3 slew violations.
+[INFO RSZ-0035] Found 3 fanout violations.
+[INFO RSZ-0038] Inserted 12 buffers in 6 nets.
+[INFO RSZ-0039] Resized 282 instances.
+[INFO RSZ-0042] Inserted 4 tie sky130_fd_sc_hd__conb_1 instances.
+[INFO RSZ-0042] Inserted 1 tie sky130_fd_sc_hd__conb_1 instances.
+Placement Analysis
+---------------------------------
+total displacement        670.7 u
+average displacement        0.6 u
+max displacement            9.4 u
+original HPWL            8509.7 u
+legalized HPWL           8847.6 u
+delta HPWL                    4 %
+
+[INFO DPL-0020] Mirrored 111 instances
+[INFO DPL-0021] HPWL before            8847.6 u
+[INFO DPL-0022] HPWL after             8672.3 u
+[INFO DPL-0023] HPWL delta               -2.0 %
+[INFO] Setting RC values…
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+Updating metrics…
+Cell type report:                       Count       Area
+  Fill cell                               350    1313.76
+  Tap cell                                531     664.39
+  Buffer                                    7      26.28
+  Timing Repair Buffer                     71     387.87
+  Inverter                                 11      41.29
+  Sequential cell                          51    1313.76
+  Multi-Input combinational cell          187    1392.59
+  Total                                  1208    5139.93
+Writing OpenROAD database to '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-24_03-32-58/31-openroad-repairdesignpostgpl/top_counter.odb'…
+Writing netlist to '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-24_03-32-58/31-openroad-repairdesignpostgpl/top_counter.nl.v'…
+Writing powered netlist to '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-24_03-32-58/31-openroad-repairdesignpostgpl/top_counter.pnl.v'…
+Writing layout to '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-24_03-32-58/31-openroad-repairdesignpostgpl/top_counter.def'…
+Writing timing constraints to '/mnt/c/Users/ADMIN/Documents/clock_century_macro/clock_century_macro/hdl/runs/RUN_2026-01-24_03-32-58/31-openroad-repairdesignpostgpl/top_counter.sdc'…
